@@ -47,3 +47,9 @@ For these ends:
 - Spend more time publishing content than organizing it.  
 
 I'll probably still use Apple reminders or Microsoft tasks or Google reminders for day to day list creation, but I want to get away from *any* note-taking outside of the model above.  
+
+## Licensing
+
+Source code is licensed under the MIT license.
+
+Contents of this site are © Copyright 2019 Jason M. James. All rights reserved.
