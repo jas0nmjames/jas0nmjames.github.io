@@ -2,9 +2,8 @@
 
 ## Setup
 - [x] Create Repository
-- [ ] Create Github Pages
 - [ ] Integrate [Jekyll](https://jekyllrb.com/)?
-- [ ] Integrate Gatsby?
+- [ ] Investigate Gatsby or another alternative to Jekyll
 - [ ] Publish to Github Pages
 - [ ] Redirect [jasonmjam.es](https://jasonmjam.es/) to Github pages
 
@@ -16,5 +15,9 @@
 
 ## Code
 - [ ] Accessibility
-- [ ] Copyright? 
+- [x] Copyright?
 - [ ] Utilize CSS Grid
+
+## Content
+- [ ] Convert wordpress site pages to markdown
+- [ ] Convert medium articles to markdown (maybe easier taking from medium than from wordpress?)
