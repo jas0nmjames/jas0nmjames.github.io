@@ -1,4 +1,6 @@
-## Why this project?
+# Why This Project
+
+*[draft] last edit 2019-11-15*
 
 This project allows me to tackle a few goals simultaneously:
 
@@ -29,6 +31,7 @@ I started writing on Medium.  But they built a paywall into their platform and a
 There are a number of note taking applications out there I've played around with, with a varying degree of features.  Google Keep.  Sending yourself an e-mail.  Bookmarks.  
 
 Ultimately here are the goals I'm trying to achieve:
+
 - Lightweight, quick note taking for extemporaneous ideas.
 - Future-proof formatting.  
 - Full ownership and access.  
@@ -38,10 +41,9 @@ Ultimately here are the goals I'm trying to achieve:
 - Blog CMS (if possible)
 
 For these ends:
+
 - Start writing down my observations about the world consistently, in long form.
 - Have one place, once space to think about ideas, questions and the future.  
 - Spend more time publishing content than organizing it.  
 
 I'll probably still use Apple reminders or Microsoft tasks or Google reminders for day to day list creation, but I want to get away from *any* note-taking outside of the model above.  
-
-[draft] last edit 2019-11-15

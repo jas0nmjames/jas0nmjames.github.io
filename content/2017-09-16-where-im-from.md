@@ -1,3 +1,8 @@
+# Where I'm From
+
+*Originally published via Wordpress on September 16, 2017.*
+*Last edit September 16, 2017.*
+
 ![20170810_194359](2017-09-16-where-im-from.assets/20170810_194359.jpg)
 
 Welcome to my little corner of the Internet.
@@ -8,7 +13,7 @@ I was born in and have lived in the Washington, D.C. region all of my life.  You
 
 One of my most poignant memories of high school involved packing up my book bag after the end of - I think it was 10th grade history.  Picture thirty or so odd plywood colored desks, the ones that adults don't really fit in.  And I had this red rolling backpack because at some point in elementary school my Mom wanted to make sure I wasn't developing scoliosis or some other unnecessary suffering from the weight of all that Grade-A education textbook workload.  And I thought the rolling backpack was a good idea and nobody made fun of me for it.  I digress - So I'm packing up my book bag and I notice everyone else literally jumping out of their seats, like in an airplane as soon as the seat belt sign is taken off.  We had a 15 minute break period after the first class so there was nowhere to really rush to.  And I noticed that people - kids - my friends - were in this sort of auto-controlled frenzy of impatience or of 'progress' or of 'success'.  And it was peculiar to me then, as it is now.
 
-As I write this first essay [cough] blog post [cough], I've turned 30, a little less than a month ago.  I'm establishing this personal homepage on the web as I begin a new direction in both my professional and personal life.  Not discarding the past, just building on it.  Moving forward.
+As I write this first ~~essay~~ blog post, I've turned 30, a little less than a month ago.  I'm establishing this personal homepage on the web as I begin a new direction in both my professional and personal life.  Not discarding the past, just building on it.  Moving forward.
 
 Like the picture above, the purpose of this site is to show you how I see the world.  I'm an observer of landscapes.  Landscapes of people, cultures, nature, information, systems.
 
