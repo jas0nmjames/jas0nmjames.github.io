@@ -47,3 +47,10 @@ For these ends:
 - Spend more time publishing content than organizing it.  
 
 I'll probably still use Apple reminders or Microsoft tasks or Google reminders for day to day list creation, but I want to get away from *any* note-taking outside of the model above.  
+
+## Own My Data
+
+- recent privacy issues
+- philophy of open source / open internet / free data
+- Know the tools you use
+
