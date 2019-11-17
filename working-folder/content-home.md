@@ -1,11 +1,11 @@
 # Content
 
 ## Table of Contents
-- [Introduction](##introduction)
-- [Goals](##goals)
-- [Site Content](##site-content)
-  - [Navigation](###navigation)
-  - [About Me](###about me) 
+- [Introduction](#introduction)
+- [Goals](#goals)
+- [Site Content](#site-content)
+  - [Navigation](#navigation)
+  - [About Me](#about-me) 
 
 ## Introduction
 
