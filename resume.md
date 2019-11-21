@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 Product Designer, Project Coordinator
 
 8+ years at the intersection of design, engineering and business creating meaningful products and building community along the way.  
