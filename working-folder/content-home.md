@@ -1,5 +1,12 @@
 # Content
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Goals](#goals)
+- [Site Content](#site-content)
+  - [Navigation](#navigation)
+  - [About Me](#about-me) 
+
 ## Introduction
 
 I am building the outline of the site (essentially information architecture) here before designing in sketch and writing code.
