@@ -11,14 +11,12 @@ I was on the construction team (and when noted also the marketing team) as Assis
 
 Many thanks to my colleagues at [E.E. Reed](https://www.eereedmidatlantic.com/) for making me part of the family. What we accomplished is plain to see.
 
-
 ## GMU Potomac Science Center | Woodbridge, VA | $25,000,000
 
 - Winner of 2017 NAIOP Northern Virginia Award of Excellence.
 - I put together the award submission package as business development manager and helped build the project as Assistant Project and Project Manager.
 
 ![img](before-ux.assets/006_kittner-20170725-26-0802.jpg)
-
 
 ## AOL Steve Case Center Renovation | Sterling, VA | $5,000,000
 
@@ -27,18 +25,15 @@ Many thanks to my colleagues at [E.E. Reed](https://www.eereedmidatlantic.com/) 
 
 ![img](before-ux.assets/img_5866final.jpg)
 
-
 ## Metropolitan Fine Arts Schools | Lorton and Alexandria, VA | $1,000,000
 
 ![img](before-ux.assets/7j9a8647.jpg)
-
 
 ## Newington DVS Maintenance Facility | Newington, VA | $30,000,000
 
 - Winner of 2015 Fairfax County Award of Excellence
 
 ![img](before-ux.assets/20130605_9801-1.jpg)
-
 
 ## Mount Vernon Country Club Renovation | Alexandria, VA | $2,000,000
 

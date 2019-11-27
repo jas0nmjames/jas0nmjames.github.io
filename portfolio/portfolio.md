@@ -1,5 +1,23 @@
 # Portfolio
 
+## Cross.Team: Project Benji
+
+*Case Study Coming January 2020.*
+
+## Thinkrite: Style Guide & Design Systems
+
+I previously wrote about building a Design System in Sketch for my own [BloomBox project](/portfolio/2017-12-28-bloombox.md).
+
+Although I can't take credit for the overall visual design here (a UI designer was on the team), I rebuilt every component within XD and created nested symbols that could accept design changes across multiple components, screens and files.
+
+[![Screen Shot 2019-03-14 at 6.42.48 PM](portfolio.assets/screen-shot-2019-03-14-at-6.42.48-pm.png)](/portfolio/2019-03-14-style-guide.md)
+
+## Thinkrite: Advanced Prototyping
+
+Much of my work in 2018 has been under NDA and I won't be able to walk you through the design process. However, I wanted to share with you an example of the sort of advanced prototyping I've had the opportunity to put together:
+
+[![2018-09-05_old-plan-ad3-time-picker](portfolio.assets/2018-09-05_old-plan-ad3-time-picker.gif)](http://jasonmjam.es/portfolio/advanced-prototyping/)
+
 ## Miami-Dade Schools Performance Data Redesign
 
 Project Awards (December 2017 Ironhack UX/UI Hackshow):
@@ -16,20 +34,6 @@ Improved the Dade Schools site's overall information architecture to reduce cogn
 In other words, the site became much easier to view on mobile phones and users could more easily find what they were looking for without getting overwhelmed. The site was now built for not just school administrators, but parents and community members too!
 
 [![jjames_final-presentation v-3.0](portfolio.assets/jjames_final-presentation-v-3-0.png)](/portfolio/2017-12-28-miami-schools.md)
-
-## Thinkrite: Style Guide & Design Systems
-
-I previously wrote about building a Design System in Sketch for my own [BloomBox project](/portfolio/2017-12-28-bloombox.md).
-
-Although I can't take credit for the overall visual design here (a UI designer was on the team), I rebuilt every component within XD and created nested symbols that could accept design changes across multiple components, screens and files.
-
-[![Screen Shot 2019-03-14 at 6.42.48 PM](portfolio.assets/screen-shot-2019-03-14-at-6.42.48-pm.png)](/portfolio/2019-03-14-style-guide.md)
-
-## Thinkrite: Advanced Prototyping
-
-Much of my work in 2018 has been under NDA and I won't be able to walk you through the design process. However, I wanted to share with you an example of the sort of advanced prototyping I've had the opportunity to put together:
-
-[![2018-09-05_old-plan-ad3-time-picker](portfolio.assets/2018-09-05_old-plan-ad3-time-picker.gif)](http://jasonmjam.es/portfolio/advanced-prototyping/)
 
 ## Bloombox
 
