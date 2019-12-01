@@ -22,20 +22,20 @@ At some point I lost a bunch of notes I had from high school and college.  There
 
 After college I started writing in Evernote.  OneNote seemed so heavy for quick one-off notes, even though it was available across all of my devices.  I started writing quick notes in Evernote that I would plan on copying into OneNote and writing in more depth there.  But they never quite made it to the in-depth writing stage.
 
-After a few years Evernote wasn't quite doing it for me either.  Now I had a Samsung Galaxy Note 4, then a Note 8.  It was super convenient to write quick notes and tasks there, but they didn't sync to any other devices.  (I eventually found a Windows 10 Samsung Notes App.)  
+After a few years Evernote wasn't quite doing it for me either.  Now I had a Samsung Galaxy Note 4, then a Note 8.  It was super convenient to write quick notes and tasks there, but they didn't sync to any other devices.  (I eventually found a Windows 10 Samsung Notes App.)
 
-Then I got deeper into design and simultaneously the Apple ecosystem.  I got an iPad as part of my MBA program then a MacBook Pro when I started designing.  Apple Notes replaced Evernote as my 'quick notes' go-to, but I still had unresolved issues with OneNote and writing across two different platforms.  
+Then I got deeper into design and simultaneously the Apple ecosystem.  I got an iPad as part of my MBA program then a MacBook Pro when I started designing.  Apple Notes replaced Evernote as my 'quick notes' go-to, but I still had unresolved issues with OneNote and writing across two different platforms.
 
 I started writing on Medium.  But they built a paywall into their platform and as others have noted, we don't control that platform.  I became more interested in open source projects and the philosophy of really owning and managing your own content.
 
-There are a number of note taking applications out there I've played around with, with a varying degree of features.  Google Keep.  Sending yourself an e-mail.  Bookmarks.  
+There are a number of note taking applications out there I've played around with, with a varying degree of features.  Google Keep.  Sending yourself an e-mail.  Bookmarks.
 
 Ultimately here are the goals I'm trying to achieve:
 
 - Lightweight, quick note taking for extemporaneous ideas.
 - Future-proof formatting.  
 - Full ownership and access.  
-- Device and platform agnostic.  Sync (or at least access from) an Android phone, an iPad or Surface Pro 3.  Even better if you can access notes within a browser.  
+- Device and platform agnostic.  Sync (or at least access from) an Android phone, an iPad or Surface Pro 3.  Even better if you can access notes within a browser.
 - Search
 - Tagging (not a must have)
 - Blog CMS (if possible)
@@ -51,6 +51,5 @@ I'll probably still use Apple reminders or Microsoft tasks or Google reminders f
 ## Own My Data
 
 - recent privacy issues
-- philophy of open source / open internet / free data
+- philosophy of open source / open internet / free data
 - Know the tools you use
-
