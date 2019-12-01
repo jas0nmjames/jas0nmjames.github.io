@@ -10,9 +10,13 @@ Wide experience across wireless engineering (sales and support), commercial cons
 
 Skilled User Experience (UX) generalist putting users at the center, collaborating with stakeholders and working with developers line by line in code.
 
-Skills: User Research & Testing, Usability Heuristics, Wireframing, Advanced Prototyping, Design Systems, Business Analysis, Project Management
+### Skills
 
-Tools: Sketch, Figma, Adobe XD, Flinto, VS Code, Atom, iTerm2 (Mac CLI), Invision, Zeplin, MindNode, Tableau, Abstract, Github Desktop, Github Projects, Trello, Slack, Atlassian Suite (Jira, Confluence, Bitbucket, Bamboo)
+User Research & Testing, Usability Heuristics, Wireframing, Advanced Prototyping, Design Systems, Business Analysis, Project Management
+
+### Tools
+
+Sketch, Figma, Adobe XD, Flinto, VS Code, Atom, iTerm2 (Mac CLI), Invision, Zeplin, MindNode, Tableau, Abstract, Github Desktop, Github Projects, Trello, Slack, Atlassian Suite (Jira, Confluence, Bitbucket, Bamboo), Wordpress
 
 ### Cross.Team
 
