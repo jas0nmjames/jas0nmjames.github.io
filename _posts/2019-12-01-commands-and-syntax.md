@@ -36,6 +36,7 @@ author: jason
 
 - `bundle exec jekyll serve`
 - `bundle install` & `bundle update`.  reference [https://jekyllrb.com/docs/step-by-step/10-deployment/](https://jekyllrb.com/docs/step-by-step/10-deployment/)
+- `bundle update`
 
 ## Markdown
 
