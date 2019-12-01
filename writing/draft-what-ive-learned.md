@@ -13,3 +13,12 @@
 
 ## Community
 
+## why I enjoy product
+
+- good product design is about process.  I'm all about process.
+- there's always something new to learn.  (I tend to get bored.)  Go deeper in one skill.  Go broader in another.  And bring in an entirely new discipline into your work.
+- good ux is about empathy. And humility.
+- open source as ethos.  Lift as you climb.
+- dont aim for success. Make yourself valuable.  And resourcefulness is the greatest value.
+
+*last edit 2019-11-23*
