@@ -1,3 +1,8 @@
+---
+layout: post
+author: jason
+---
+
 # Commands, Syntax & Shortcuts
 
 *last updated November 19, 2019 by Jason James
@@ -28,6 +33,9 @@
 ### Docker
 
 ### Jekyll
+
+- `bundle exec jekyll serve`
+- `bundle install` & `bundle update`.  reference [https://jekyllrb.com/docs/step-by-step/10-deployment/](https://jekyllrb.com/docs/step-by-step/10-deployment/)
 
 ## Markdown
 

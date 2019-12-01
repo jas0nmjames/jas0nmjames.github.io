@@ -1,3 +1,8 @@
+---
+layout: post
+author: jason
+---
+
 # Where I'm From
 
 *Originally published via Wordpress on September 16, 2017.*

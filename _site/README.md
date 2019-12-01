@@ -1,16 +1,6 @@
 # jas0nmjames
 
-Personal and Portfolio Site written in HTML, CSS and JS from Scratch.  Stopping here with JS before trying to build a site in React.
-
-## about
-
-`#design`, `#systems-thinking` and `#business` for the `#common-good`.
-
-I'm a product design generalist who loves solving problems at the root and building community along the way.
-
-*For you fellow MBAs out there*, I'm a skilled user experience (UX) generalist putting users at the center, collaborating with stakeholders and working with developers line by line in code.
-
-I design and manage projects with cross.team in South Florida, USA.
+Personal and Portfolio Site written in HTML, CSS and Markdown with Jekyll.  Starting from scratch (not with a template) to learn for understanding.  On a journey to learn the JAMstack.  Next stop, design in Framer and build in React.
 
 ## Licensing
 
