@@ -1,8 +1,38 @@
-# Commands & Syntax
+# Commands, Syntax & Shortcuts
 
 *last updated November 19, 2019 by Jason James
 
+## CLI
 
-## Run Localhost
-`python -m SimpleHTTPServer 8000`
+### General
 
+- `cd` - print the name of the current directory
+- `cd ..` - navigate up the directory hierarchy by one
+- `ls` - print list of what's inside the current directory
+
+### Homebrew
+
+- `brew update`
+- `brew outdated`
+- `brew upgrade`
+
+### Localhost: SimpleHTTPServer
+
+- Command: `python -m SimpleHTTPServer 8000`
+- Description: deploys the repository to a local server.  
+
+### Yarn
+
+### NPM
+
+### Docker
+
+### Jekyll
+
+## Markdown
+
+## HTML
+
+## CSS
+
+## Liquid
