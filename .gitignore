@@ -1,3 +1,5 @@
+# ignore mac only DS Store files
 .DS_Store
 writing/.DS_Store
+# ignore jekyll's site pages
 _site/
