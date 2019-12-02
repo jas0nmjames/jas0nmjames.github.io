@@ -9,9 +9,9 @@ Personal and Portfolio Site written in HTML, CSS and Markdown with Jekyll.  Star
 - [x] **Build and deploy a site on my own** rather than through a CMS like Wordpress.  See above.  
 - [x] Experiment with static site generators (**SSGs**).  See [below](#why).
 - [ ] Refresh my **Sketch** chops.  I've been working a lot in Figma recently at work.  In another side project concurrent to this one, I'm refreshing my Adobe XD chops.  
-- [ ] Learn **CSS Grids**.  
+- [ ] Learn **CSS Grids**.  See inspiration from [Ahmad Nassri](https://ahmadnassri.com/) / [Olivia Ng](https://twitter.com/meowlivia_/status/1116784686640979968)
 - [ ] Work on my **UI** chops.
-
+- [ ] Learn the [JAMstack](https://jamstack.org/) a bit better after seeing my dev colleagues working in React and Gatsby.
 
 ## Why
 
@@ -39,7 +39,7 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 - CircleCI
 - Sketch
 - Visual Studio Code, Atom, Typora & iA Writer
-- Git & Github Desktop 
+- Git & Github Desktop
 
 ## Resources
 
@@ -48,6 +48,7 @@ For this project, I found the following links helpful:
 - [Jekyll: Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
 - [Jekyll: Github Pages](https://jekyllrb.com/docs/github-pages/)
 - [Creating and Hosting a Personal Site on Github](http://jmcglone.com/guides/github-pages/) by Jonathan McGlone
+- [How to Deploy to Github Pages Using CircleCI 2.0 + Custom Jekyll Dependencies](https://jasonthai.me/blog/2019/07/22/how-to-deploy-a-github-page-using-circleci-20-custom-jekyll-gems/) by Jason Thai
 
 ## Licensing
 

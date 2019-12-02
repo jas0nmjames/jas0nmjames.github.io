@@ -2,13 +2,6 @@
 
 ## Phase One
 
-### Questions/Problems/Why
-
-- Ownership and control of my content.  Don't get stuck in proprietary silos.  See [indieweb](https://indieweb.org/)
-- Unify how I write.  I used to use lots of apps across lots of different devices for lots of different purposes.  I'm aiming to use markdown as widely as possible: personal note taking, professional note taking, long-form writing, publishing content to the web, and writing documentation.  Writing all with markdown in either VS Code or Atom.  Also exploring iA Writer.  
-- Learn the JAMstack better after exposure to React and Gatsby.  
-- Build resume with css grids like https://ahmadnassri.com/ / https://twitter.com/meowlivia_/status/1116784686640979968
-
 ### Content
 
 - [x] Convert wordpress site pages to markdown
@@ -35,11 +28,14 @@
 - [x] Blog content: [Jekyll](https://jekyllrb.com/)?
 - [ ] Accessibility: implement alt-tags
 
-### Publish
+### Publish / Deploy
 
 - [x] Create Repository
 - [x] Static Site Generator: Jekyll
 - [x] Publish to Github Pages
+- [ ] Setup testing with CircleCI
+  - As of 2019-12-02 I've been running into issues.
+- [ ] Setup autodeployment
 - [ ] Redirect [jasonmjam.es](https://jasonmjam.es/) to Github pages
 
 ## Phase Two
