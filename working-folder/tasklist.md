@@ -32,14 +32,14 @@
 - [x] Investigate CMSs.  Forestry.io, etc.  Conclusion: git/Github is fine for now.  
 - [x] Copyright?
 - [ ] Resume: CSS Grid
-- [ ] Blog content: [Jekyll](https://jekyllrb.com/)?
+- [x] Blog content: [Jekyll](https://jekyllrb.com/)?
 - [ ] Accessibility: implement alt-tags
 
 ### Publish
 
 - [x] Create Repository
-- [ ] Static Site Generator
-- [ ] Publish to Github Pages
+- [x] Static Site Generator: Jekyll
+- [x] Publish to Github Pages
 - [ ] Redirect [jasonmjam.es](https://jasonmjam.es/) to Github pages
 
 ## Phase Two
