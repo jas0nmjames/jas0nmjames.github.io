@@ -9,8 +9,9 @@ Personal and Portfolio Site written in HTML, CSS and Markdown with Jekyll.  Star
 - [x] **Build and deploy a site on my own** rather than through a CMS like Wordpress.  See above.  
 - [x] Experiment with static site generators (**SSGs**).  See [below](#why).
 - [ ] Refresh my **Sketch** chops.  I've been working a lot in Figma recently at work.  In another side project concurrent to this one, I'm refreshing my Adobe XD chops.  
-- [ ] Learn **CSS Grids**.  
+- [ ] Learn **CSS Grids**.  See inspiration from [Ahmad Nassri](https://ahmadnassri.com/) / [Olivia Ng](https://twitter.com/meowlivia_/status/1116784686640979968)
 - [ ] Work on my **UI** chops.
+- [ ] Learn the [JAMstack](https://jamstack.org/) a bit better after seeing my dev colleagues working in React and Gatsby.
 
 ## Why
 

@@ -12,7 +12,6 @@ Personal and Portfolio Site written in HTML, CSS and Markdown with Jekyll.  Star
 - [ ] Learn **CSS Grids**.  
 - [ ] Work on my **UI** chops.
 
-
 ## Why
 
 I've been working (Fall 2019) as a designer / project manager with React developers to build products with a component driven design system (Figma -> Storybook -> React), theming API, and JSON data.  
@@ -39,7 +38,7 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 - CircleCI
 - Sketch
 - Visual Studio Code, Atom, Typora & iA Writer
-- Git & Github Desktop 
+- Git & Github Desktop
 
 ## Resources
 
@@ -48,6 +47,7 @@ For this project, I found the following links helpful:
 - [Jekyll: Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
 - [Jekyll: Github Pages](https://jekyllrb.com/docs/github-pages/)
 - [Creating and Hosting a Personal Site on Github](http://jmcglone.com/guides/github-pages/) by Jonathan McGlone
+- [How to Deploy to Github Pages Using CircleCI 2.0 + Custom Jekyll Dependencies](https://jasonthai.me/blog/2019/07/22/how-to-deploy-a-github-page-using-circleci-20-custom-jekyll-gems/) by Jason Thai
 
 ## Licensing
 
