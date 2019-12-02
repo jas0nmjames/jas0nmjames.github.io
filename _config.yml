@@ -22,5 +22,3 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - github-pages
-  - html-proofer

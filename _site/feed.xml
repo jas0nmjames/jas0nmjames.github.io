@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-12-01T19:54:06-05:00</updated><id>/feed.xml</id><title type="html">jas0nmjames.github.io</title><subtitle>Personal &amp; Portfolio Site written in HTML, CSS &amp; JS from Scratch.  Stopping here with JS before trying to build a site in React.</subtitle><entry><title type="html">Commands And Syntax</title><link href="/2019/12/01/commands-and-syntax.html" rel="alternate" type="text/html" title="Commands And Syntax" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>/2019/12/01/commands-and-syntax</id><content type="html" xml:base="/2019/12/01/commands-and-syntax.html">&lt;h1 id=&quot;commands-syntax--shortcuts&quot;&gt;Commands, Syntax &amp;amp; Shortcuts&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-12-02T07:34:30-05:00</updated><id>/feed.xml</id><entry><title type="html">Commands And Syntax</title><link href="/2019/12/01/commands-and-syntax.html" rel="alternate" type="text/html" title="Commands And Syntax" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>/2019/12/01/commands-and-syntax</id><content type="html" xml:base="/2019/12/01/commands-and-syntax.html">&lt;h1 id=&quot;commands-syntax--shortcuts&quot;&gt;Commands, Syntax &amp;amp; Shortcuts&lt;/h1&gt;
 
 &lt;p&gt;*last updated November 19, 2019 by Jason James&lt;/p&gt;
 
@@ -7,23 +7,23 @@
 &lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; - print the name of the current directory&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; - navigate up the directory hierarchy by one&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt; - print list of what’s inside the current directory&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; - print the name of the current directory&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; - navigate up the directory hierarchy by one&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; - print list of what’s inside the current directory&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;homebrew&quot;&gt;Homebrew&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brew update&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brew outdated&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brew upgrade&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew update&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew outdated&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew upgrade&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;localhost-simplehttpserver&quot;&gt;Localhost: SimpleHTTPServer&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Command: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python -m SimpleHTTPServer 8000&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Command: &lt;code class=&quot;highlighter-rouge&quot;&gt;python -m SimpleHTTPServer 8000&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Description: deploys the repository to a local server.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -36,9 +36,9 @@
 &lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; &amp;amp; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;.  reference &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/10-deployment/&quot;&gt;https://jekyllrb.com/docs/step-by-step/10-deployment/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;.  reference &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/10-deployment/&quot;&gt;https://jekyllrb.com/docs/step-by-step/10-deployment/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;

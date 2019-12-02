@@ -18,9 +18,19 @@ User Research & Testing, Usability Heuristics, Wireframing, Advanced Prototyping
 
 Sketch, Figma, Adobe XD, Flinto, VS Code, Atom, iTerm2 (Mac CLI), Invision, Zeplin, MindNode, Tableau, Abstract, Github Desktop, Github Projects, Trello, Slack, Atlassian Suite (Jira, Confluence, Bitbucket, Bamboo), Wordpress
 
-### Cross.Team
+### Volunteering
 
-## Project Benji
+[Sketch-305](https://www.meetup.com/sketch-305/) Co-Organizer 
+
+## Cross.Team
+
+### Various Projects - Project Management & Product Management
+
+- Help set client expectations.  
+- Set up and maintain kanban board to manage workflow.
+- Mentor others in design research and design system best practices
+
+### Project Benji
 
 Lead product designer. Worked closely with front end and back end developers to implement new presentation layer, built with:
 
@@ -40,3 +50,6 @@ On any given day I might:
 - create and manage github issues in a project board 
 - draw wireframes for a new page layout
 - populate a design with json real data in Sketch
+- provide project updates to the client during client meetings or via weekly summarized correspondence
+- drive internal standup meetings
+- encourage communication across design and development to architect solutions given project constraints.
