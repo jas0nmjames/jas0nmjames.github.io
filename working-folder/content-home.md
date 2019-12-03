@@ -75,3 +75,12 @@ Strava
 Twitter
 Medium
 Goodreads (?)
+
+## inspiration
+
+- https://jonrundle.design/
+- https://ahmadnassri.com/
+- https://lynnandtonic.com/
+- https://mjackson.me/ 
+
+how does this work?  who built it?  connect the dots.  belonging.

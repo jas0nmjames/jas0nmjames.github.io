@@ -50,6 +50,12 @@ For this project, I found the following links helpful:
 - [Creating and Hosting a Personal Site on Github](http://jmcglone.com/guides/github-pages/) by Jonathan McGlone
 - [How to Deploy to Github Pages Using CircleCI 2.0 + Custom Jekyll Dependencies](https://jasonthai.me/blog/2019/07/22/how-to-deploy-a-github-page-using-circleci-20-custom-jekyll-gems/) by Jason Thai
 
+## Principles
+
+[https://sustainableux.com/](https://sustainableux.com/)
+[https://whitehatux.com/](https://whitehatux.com/)
+[https://humanetech.com/](https://humanetech.com/)
+
 ## Licensing
 
 Source code [is licensed](/license.md) under the MIT license.
