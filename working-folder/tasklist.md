@@ -7,15 +7,15 @@
 - [x] Convert wordpress site pages to markdown
 - [x] Convert medium articles to markdown (maybe easier taking from medium than from wordpress?)
 - [ ] Update resume & about me
-  - I'm leaning towards: product management, ux generalist (note toolkit), design systems, and interaction design (which in my case really is a sub-set of design systems).  Don't focus on visual design.  
+  - I'm leaning towards: product management, ux generalist (note toolkit), design systems, and interaction design (which in my case really is a sub-set of design systems).  Don't focus on visual design.  Often at the intersection of many disciplines: why I liked GDS, Arts & Culture class.  Construction PM.  History while teaching computer classes.  Product management, etc.  
   - [ ] F-pattern: list disciplines (design systems, user research, interaction design) with associated tools (figma, xd, sketch).  
   - [ ] F-pattern part 2: connect f-pattern with projects are broader interests
 
 ### Design
 
 - [x] Outline content.  See [content-home.md](content-home.md)
-- [ ] Wireframe: mobile-first responsive
-- [ ] Branding: Typography, Color, Shape
+- [x] Wireframe: mobile-first responsive
+- [x] Branding: Typography, Color, Shape (previously completed)
 - [ ] High Fidelity
 - [ ] ? Add design to Jekyll theme library. (Contribute to open source!) http://jekyllthemes.org/
 
@@ -24,6 +24,7 @@
 - [x] Investigate SSGs: Gatsby vs Jekyll vs Hugo.  Conclusion: go with Jekyll for now; Gatsby after you learn React.  
 - [x] Investigate CMSs.  Forestry.io, etc.  Conclusion: git/Github is fine for now.  
 - [x] Copyright?
+- [ ] Template: CSS Grid (in progress)
 - [ ] Resume: CSS Grid
 - [x] Blog content: [Jekyll](https://jekyllrb.com/)?
 - [ ] Accessibility: implement alt-tags
