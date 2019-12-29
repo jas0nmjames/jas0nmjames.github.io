@@ -11,6 +11,15 @@
   font-size: 100%;
 }
 
+/* Adding some CSS variables for possible use later. */
+
+:root {
+  --light-bg-color: #FFFFFF;
+  --light-color: #000000;
+  --dark-bg-color: #000000;
+  --dark-color: #FFFFFF;
+}
+
 /*----------------------- The Body --------------------------*/
 
 /* The body is the container for the CSS grid. */
