@@ -96,6 +96,14 @@ a:link {
   color: #000000;
 }
 
+a:visited {
+  color: #000000;
+}
+
+a:active {
+  background-image: linear-gradient(0deg,rgba(244,208,111,0.5) 50%,transparent 50%);
+}
+
 header > a:link  {
   text-decoration: none;
 }
