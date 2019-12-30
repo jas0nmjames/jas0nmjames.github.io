@@ -41,30 +41,58 @@ body {
 /* I prefer using html elements as the containers inside of the grid, rather than a bunch of divs with classes, as the html elements are more descriptive without classes or ids. */
 
 header {
-  grid-column: 1 / 13;
+  grid-column: 1 / 12;
   grid-row: 1;
 }
 
 nav {
-  grid-column: 2 / 13;
+  grid-column: 2 / 12;
   grid-row: 2;
 }
 
 main {
-  grid-column: 1 / 13;
+  grid-column: 1 / 12;
   grid-row: 3;
 
   display: grid;
   grid-template-rows: auto;
+  grid-row-gap: 16px;
+  grid-row-gap: 1em;
 }
 
-main > article {
+article {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+#article-title {
+  grid-row: 1;
+}
+
+#article-content {
+  grid-row: 2;
+}
+
+#article-summary {
   grid-row: 2;
 }
 
 footer {
-  grid-column: 1 / 13;
+  grid-column: 1 / 12;
   grid-row: 5;
+
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 16px;
+  grid-row-gap: 1em;
+}
+
+#social {
+  grid-row: 1;
+}
+
+#copyright {
+  grid-row: 2;
 }
 
 footer #icon {
@@ -103,6 +131,11 @@ footer #icon {
 
 a:link {
   color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 a:visited {
@@ -113,20 +146,12 @@ a:active {
   background-image: linear-gradient(0deg,rgba(244,208,111,0.5) 50%,transparent 50%);
 }
 
-header > a:link  {
-  text-decoration: none;
-}
-
-header > a:hover {
+main > a:link {
   text-decoration: underline;
 }
 
-nav > a:link  {
+main > a:hover {
   text-decoration: none;
-}
-
-nav > a:hover {
-  text-decoration: underline;
 }
 
 /*
@@ -181,11 +206,17 @@ mark {
   body {
     font-size: 1.5em;
   }
-  .h1 {
+  #tagline {
     font-size: 3em;
   }
   #icon {
     font-size: 1.5rem;
+  }
+  header, main, footer {
+    grid-column: 2 / 11;
+  }
+  nav {
+    grid-column: 3 / 11;
   }
 }
 
@@ -193,10 +224,22 @@ mark {
   body {
     font-size: 2em;
   }
-  .h1 {
+  #tagline {
     font-size: 3em;
   }
   #icon {
     font-size: 2rem;
   }
+  header, main, footer {
+    grid-column: 2 / 9;
+  }
+  nav {
+    grid-column: 3 / 9;
+  }
+
+  /*
+  #tagline {
+    text-align: center;
+  }
+  */
 }
