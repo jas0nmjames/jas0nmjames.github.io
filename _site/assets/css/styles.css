@@ -62,13 +62,15 @@ a:visited { color: #000000; }
 
 a:active { background-image: linear-gradient(0deg, rgba(244, 208, 111, 0.5) 50%, transparent 50%); }
 
-main > a:link { text-decoration: underline; }
+.current { background-image: linear-gradient(0deg, rgba(244, 208, 111, 0.5) 50%, transparent 50%); }
 
-#tagline > a:link { text-decoration: none; }
+main a:link { text-decoration: underline; }
 
-main > a:hover { text-decoration: none; }
+#tagline a:link { text-decoration: none; }
 
-#tagline > a:hover { text-decoration: underline; }
+main a:hover { text-decoration: none; }
+
+#tagline a:hover { text-decoration: underline; }
 
 /* mark { background-color: rgba(244,208,111,0.5); } */
 /*----------------------- Font awesome icons --------------------------*/

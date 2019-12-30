@@ -1,0 +1,15 @@
+---
+layout: default
+title: writing
+---
+<main>
+    {% for post in site.writing %}
+        <article>
+            <div id="article-title" class="h1">{{ post.title }}</div>
+            <div id="article-date" class="small">{{ page.date | date_to_string }}</div>
+            <div id="article-summary">{{ post.summary }}</div>
+            <div id="article-tags" class="small">{{ post.tags }}</div>
+        </article>
+    {% endfor %}
+    This is a test.
+</main>

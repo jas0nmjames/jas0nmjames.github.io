@@ -177,19 +177,23 @@ a:active {
   background-image: linear-gradient(0deg,rgba(244,208,111,0.5) 50%,transparent 50%);
 }
 
-main > a:link {
+.current {
+  background-image: linear-gradient(0deg,rgba(244,208,111,0.5) 50%,transparent 50%);
+}
+
+main a:link {
   text-decoration: underline;
 }
 
-#tagline > a:link {
+#tagline a:link {
   text-decoration: none;
 }
 
-main > a:hover {
+main a:hover {
   text-decoration: none;
 }
 
-#tagline > a:hover {
+#tagline a:hover {
   text-decoration: underline;
 }
 
