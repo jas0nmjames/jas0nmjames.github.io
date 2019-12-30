@@ -12,3 +12,20 @@
     {{ content }}
   </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto|Lato&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4729109274.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  {% include header.html %}
+  {% include navigation.html %}
+  {{ content }}
+  {% include footer.html %}
+</body>
+</html>
