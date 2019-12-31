@@ -1,7 +1,6 @@
 ---
-layout: entry
+layout: post
 title: Cross Sections
-summary: This is a test summary.
 tags: #tag 1, #tag 2, #tag 3
 ---
 

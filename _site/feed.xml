@@ -1,1 +1,125 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-30T14:28:37-05:00</updated><id>http://localhost:4000/feed.xml</id></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-31T14:17:39-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Commands And Syntax</title><link href="http://localhost:4000/2019/12/01/commands-and-syntax.html" rel="alternate" type="text/html" title="Commands And Syntax" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2019/12/01/commands-and-syntax</id><content type="html" xml:base="http://localhost:4000/2019/12/01/commands-and-syntax.html">&lt;h1 id=&quot;commands-syntax--shortcuts&quot;&gt;Commands, Syntax &amp;amp; Shortcuts&lt;/h1&gt;
+
+&lt;p&gt;*last updated November 19, 2019 by Jason James&lt;/p&gt;
+
+&lt;h2 id=&quot;cli&quot;&gt;CLI&lt;/h2&gt;
+
+&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; - print the name of the current directory&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; - navigate up the directory hierarchy by one&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; - print list of what’s inside the current directory&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;homebrew&quot;&gt;Homebrew&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew update&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew outdated&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew upgrade&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;localhost-simplehttpserver&quot;&gt;Localhost: SimpleHTTPServer&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Command: &lt;code class=&quot;highlighter-rouge&quot;&gt;python -m SimpleHTTPServer 8000&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Description: deploys the repository to a local server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;yarn&quot;&gt;Yarn&lt;/h3&gt;
+
+&lt;h3 id=&quot;npm&quot;&gt;NPM&lt;/h3&gt;
+
+&lt;h3 id=&quot;docker&quot;&gt;Docker&lt;/h3&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;.  reference &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/10-deployment/&quot;&gt;https://jekyllrb.com/docs/step-by-step/10-deployment/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;
+
+&lt;h2 id=&quot;html&quot;&gt;HTML&lt;/h2&gt;
+
+&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
+
+&lt;h2 id=&quot;liquid&quot;&gt;Liquid&lt;/h2&gt;</content><author><name></name></author><summary type="html">Commands, Syntax &amp;amp; Shortcuts</summary></entry><entry><title type="html">Cross Sections</title><link href="http://localhost:4000/2018/01/03/cross-sections.html" rel="alternate" type="text/html" title="Cross Sections" /><published>2018-01-03T00:00:00-05:00</published><updated>2018-01-03T00:00:00-05:00</updated><id>http://localhost:4000/2018/01/03/cross-sections</id><content type="html" xml:base="http://localhost:4000/2018/01/03/cross-sections.html">&lt;h1 id=&quot;cross-sections&quot;&gt;Cross Sections&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published via Wordpress on January 3, 2018.&lt;/em&gt;
+&lt;em&gt;Last updated November 16, 2019.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;2018-01-03-cross-sections.assets/stephenbiesty_bigrescuehelicopter.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.stephenbiesty.co.uk/work.html&quot;&gt;Stephen Biesty&lt;/a&gt; drew the helicopter cross-section above in a book called &lt;a href=&quot;https://www.amazon.com/Stephen-Biestys-Incredible-Cross-Sections-Richard/dp/0679814116&quot;&gt;Incredible Cross Sections&lt;/a&gt; that I loved as a kid. It not only showed the inner workings of buildings and machines, but the purposes of people that used them. I’ve still never ridden in a helicopter, but even as a child I was able to appreciate that although complex, a machine or system that might seem magical is still just made with parts put together. Looking back, I also appreciate that each of Stephen’s drawings were not just about the object, but about the purposes people were able to achieve through them, such as rescuing an injured person in the drawing above.&lt;/p&gt;
+
+&lt;p&gt;I transitioned into UX (User Experience) Design because it brings out so much of what makes me tick:&lt;/p&gt;
+
+&lt;h2 id=&quot;im-curious-about-how-the-world-works&quot;&gt;I’m curious about how the world works.&lt;/h2&gt;
+
+&lt;p&gt;In 2011 I earned a &lt;strong&gt;BA in History&lt;/strong&gt; from the &lt;a href=&quot;http://www.virginia.edu/&quot;&gt;University of Virginia&lt;/a&gt;. Good history tells a captivating story by truthfully piecing together details. I wanted to understand how the world around me came to be what it is today in hopes of making it better and in the process learned to really read, think and write for myself. &lt;em&gt;Good UX is well-researched and my humanities background provides a solid foundation.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2017 I earned a &lt;strong&gt;Master’s Degree in Business&lt;/strong&gt; from &lt;a href=&quot;http://collaborativemba.org/&quot;&gt;Eastern Mennonite University&lt;/a&gt;. Like technology, money is a tool, and to really understand how things work, I’d recommend learning how to read a financial statement. Seriously. I also learned how to increase my capacity to serve others through courses like Leadership and Organizational Behavior and perhaps benefitted most from training in sustainability, which at the root is &lt;a href=&quot;http://wtf.tw/ref/meadows.pdf&quot;&gt;systems thinking&lt;/a&gt;. Experiences in the communities I’m a part of and as a professional taught me that there are ample opportunities to attack root problems through business and why I chose a program that not was not only anchored by the &lt;a href=&quot;http://www.economist.com/node/14301663&quot;&gt;triple bottom line&lt;/a&gt; of people, planet, and profit, but took me &lt;a href=&quot;http://www.coopeatenas.com/&quot;&gt;outside of the United States&lt;/a&gt; to study cooperative business models. &lt;em&gt;Good UX looks at business needs, strategy and information architecture systematically.&lt;/em&gt; I love the fact that design deals with both pixel-perfect detail and grand vision.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-like-connecting-with-and-helping-others-to-connect-with-people&quot;&gt;I like connecting with and helping others to connect with people.&lt;/h2&gt;
+
+&lt;p&gt;You might now be asking, why is this guy not a business analyst or operations manager or maybe even a non-profit program manager?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Right now technology is perhaps the greatest shaper of society, culture, and increasingly, the economy. UX design is an avenue for shaping the tools we create for the better.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Over the past few years I’ve loved working with and &lt;a href=&quot;https://www.greenleaf.org/what-is-servant-leadership/&quot;&gt;helping to lead&lt;/a&gt; my colleagues, but I’ve never wanted to just ‘manage’ or ‘analyze’. What is that anyway? I want to create. I want to change how things are done. I want to leave a legacy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you pair all of the design tools and all of the frameworks away, UX Design is really about empathy. I love that. I can’t believe you can make a living understanding and responding to people’s needs. Sign me up.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;i-dont-want-to-waste-my-time-on-earth-i-want-to-leave-a-positive-legacy-i-want-to-solve-problems&quot;&gt;I don’t want to waste my time on earth. I want to leave a positive legacy. I want to &lt;a href=&quot;https://ssir.org/articles/entry/wicked_problems_problems_worth_solving&quot;&gt;solve problems&lt;/a&gt;.&lt;/h2&gt;
+
+&lt;p&gt;If systems thinking taught me &lt;a href=&quot;https://medium.com/disruptive-design/problem-solving-desperately-needs-systems-thinking-607d34e4fc80&quot;&gt;‘solutions’&lt;/a&gt; you think up can have serious &lt;a href=&quot;https://www.futurelearn.com/courses/systems-thinking-complexity/0/steps/20396&quot;&gt;unintended consequences&lt;/a&gt;, design thinking showed me a path to begin tackling problems big and small in a creative, pragmatic way that responds to reality.&lt;/p&gt;
+
+&lt;p&gt;After working with wireless engineering teams in Spain, Taiwan, and the US as a sales associate and spending four years as project manager &lt;a href=&quot;http://jasonmjam.es/portfolio-2/my-work-before-ux/&quot;&gt;building buildings&lt;/a&gt;, I now build for the web.&lt;/p&gt;
+
+&lt;p&gt;I enjoy spending time with the people I love, riding my bicycle, discovering new music, cooking, wrestling with ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/jas0nmjames/&quot;&gt;Connect with me on LinkedIn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S. Many thanks to &lt;a href=&quot;https://www.linkedin.com/in/steve-nunez/&quot;&gt;Steve Nunez&lt;/a&gt; for the photos of me on this page.&lt;/p&gt;</content><author><name></name></author><summary type="html">Cross Sections</summary></entry><entry><title type="html">Where I’m From</title><link href="http://localhost:4000/2017/09/16/where-im-from.html" rel="alternate" type="text/html" title="Where I'm From" /><published>2017-09-16T00:00:00-04:00</published><updated>2017-09-16T00:00:00-04:00</updated><id>http://localhost:4000/2017/09/16/where-im-from</id><content type="html" xml:base="http://localhost:4000/2017/09/16/where-im-from.html">&lt;p&gt;&lt;em&gt;Originally published via Wordpress on September 16, 2017.&lt;/em&gt;
+&lt;em&gt;Last edit September 16, 2017.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;2017-09-16-where-im-from.assets/20170810_194359.jpg&quot; alt=&quot;20170810_194359&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome to my little corner of the Internet.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;I shot the picture above with my Galaxy Note 4 smartphone on August 10, 2017.  I was in the middle of a Thursday evening run, looking towards the Washington Monument from the foot of the U.S. Capitol.  It’s amazing how well this shot came out; other than being in ‘HDR’ mode, I didn’t edit the image at all.  (Shot: 1/640 sec. f/2.2 4.8mm&lt;/td&gt;
+      &lt;td&gt;ISO: 40)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I was born in and have lived in the Washington, D.C. region all of my life.  You might think politics would play a larger role in the lives of those around here, but government contracting - however separate from politics it can be - is the real king.  To those who ask, I jokingly and irreverently refer to my place of birth as a ‘suburban wasteland’.  My childhood trips to New York City gave me the perspective that D.C. and especially its suburbs were often insulated from the economic fates of the rest of the country.  I’m grateful for the blessings of youth that came from that prosperity; most importantly the experience of daily growing in a world without threat of physical violence.  The cosmopolitan nature of the region also meant that if my friends weren’t white, there was a good chance their parents were first generation immigrants, working in government or technology or research.  But it also meant that there was a sort of rootlessness in how things were held together.  Not by the bonds of community or memory or land, but by status.  And money.  No, not money, that’s not the word I’m looking for.  Success.  Yes, that’s it, ‘success’.&lt;/p&gt;
+
+&lt;p&gt;One of my most poignant memories of high school involved packing up my book bag after the end of - I think it was 10th grade history.  Picture thirty or so odd plywood colored desks, the ones that adults don’t really fit in.  And I had this red rolling backpack because at some point in elementary school my Mom wanted to make sure I wasn’t developing scoliosis or some other unnecessary suffering from the weight of all that Grade-A education textbook workload.  And I thought the rolling backpack was a good idea and nobody made fun of me for it.  I digress - So I’m packing up my book bag and I notice everyone else literally jumping out of their seats, like in an airplane as soon as the seat belt sign is taken off.  We had a 15 minute break period after the first class so there was nowhere to really rush to.  And I noticed that people - kids - my friends - were in this sort of auto-controlled frenzy of impatience or of ‘progress’ or of ‘success’.  And it was peculiar to me then, as it is now.&lt;/p&gt;
+
+&lt;p&gt;As I write this first &lt;del&gt;essay&lt;/del&gt; blog post, I’ve turned 30, a little less than a month ago.  I’m establishing this personal homepage on the web as I begin a new direction in both my professional and personal life.  Not discarding the past, just building on it.  Moving forward.&lt;/p&gt;
+
+&lt;p&gt;Like the picture above, the purpose of this site is to show you how I see the world.  I’m an observer of landscapes.  Landscapes of people, cultures, nature, information, systems.&lt;/p&gt;
+
+&lt;p&gt;While completing my MBA I discovered there was a name for the way I like to process the world: “systems thinking”.  Collecting and organizing information (thanks History degree) in process flows rather than simple if -&amp;gt; then statements that attempt to find root causes and holistic solutions.  I’ll write more about my ‘why’, my purpose, later.&lt;/p&gt;
+
+&lt;p&gt;I will say that if my ‘what’ is systems thinking, my ‘how’ is empathy in the pursuit of community.  I’ve always loved when people get along, and I’ve used authentic leadership towards that end for as long as I can remember.  As I’ve grown older, I’ve grown in clarity that it’s more than just ‘being nice’, but a desire for real peace and understanding between people.  Call it efficient patience.  Something like that.  Maybe that’ll be a book title someday.&lt;/p&gt;
+
+&lt;p&gt;Half-way through my MBA I also discovered User Experience Design or UX Design.  And it appealed to so much of who I am that I had to bring those skills to this craft.  And so I’m learning and growing and hope you’ll walk with me on this journey.&lt;/p&gt;
+
+&lt;p&gt;Until next time,&lt;/p&gt;
+
+&lt;p&gt;Peace&lt;/p&gt;</content><author><name></name></author><summary type="html">Originally published via Wordpress on September 16, 2017. Last edit September 16, 2017.</summary></entry></feed>

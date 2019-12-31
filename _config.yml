@@ -1,18 +1,13 @@
 collections:
-  authors:
-    output: true
+  - portfolio
+  - writing
 
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "pages"
     values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+      layout: "page"
   - scope:
       path: ""
     values:

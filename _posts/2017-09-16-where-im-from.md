@@ -1,9 +1,7 @@
 ---
 layout: post
-author: jason
+title: Where I'm From
 ---
-
-# Where I'm From
 
 *Originally published via Wordpress on September 16, 2017.*
 *Last edit September 16, 2017.*

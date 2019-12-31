@@ -1,6 +1,5 @@
 ---
 layout: post
-author: jason
 ---
 
 # Commands, Syntax & Shortcuts

@@ -1,9 +1,9 @@
 - name: about
-  link: /about.html
+  link: /about/
 - name: portfolio
-  link: /portfolio.html
+  link: /portfolio/
 - name: résumé
-  link: /resume.html
+  link: /résumé/
 - name: writing
-  link: /writing.html
+  link: /writing/
   
