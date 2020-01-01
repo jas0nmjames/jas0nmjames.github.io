@@ -1,6 +1,6 @@
 # jas0nmjames
 
-Personal and Portfolio Site written in HTML, CSS and Markdown with Jekyll.  Starting from scratch (not with a template) to learn for understanding.  On a journey to learn the JAMstack.  Next stop, design in Framer and build in React.
+Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liquid) with Jekyll.  Starting from scratch (not with a template) to learn for understanding.  On a journey to learn the JAMstack.  Next stop, design in Framer and build in React.
 
 ## Project Goals
 
@@ -46,11 +46,14 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 
 For this project, I found the following links helpful:
 
-- [Jekyll: Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
-- [Jekyll: Github Pages](https://jekyllrb.com/docs/github-pages/)
-- [Creating and Hosting a Personal Site on Github](http://jmcglone.com/guides/github-pages/) by Jonathan McGlone
-- [How to Deploy to Github Pages Using CircleCI 2.0 + Custom Jekyll Dependencies](https://jasonthai.me/blog/2019/07/22/how-to-deploy-a-github-page-using-circleci-20-custom-jekyll-gems/) by Jason Thai or [https://www.devdiaries.net/blog/Creating-Jekyll-Automated-Deployment-With-CircleCI/](https://www.devdiaries.net/blog/Creating-Jekyll-Automated-Deployment-With-CircleCI/)
-- [A Complete Guide to (CSS) Grid](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-introduction)
+- [Jekyll: Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) (accessed November 2019)
+- [Jekyll: Github Pages](https://jekyllrb.com/docs/github-pages/) (accessed November 2019)
+- [Creating and Hosting a Personal Site on Github](http://jmcglone.com/guides/github-pages/) by Jonathan McGlone (accessed November 2019)
+- [How to Deploy to Github Pages Using CircleCI 2.0 + Custom Jekyll Dependencies](https://jasonthai.me/blog/2019/07/22/how-to-deploy-a-github-page-using-circleci-20-custom-jekyll-gems/) by Jason Thai or [Creating Jekyll Automated Deployment With CircleCI](https://www.devdiaries.net/blog/Creating-Jekyll-Automated-Deployment-With-CircleCI/) accessed November 2019
+- [A Complete Guide to (CSS) Grid](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-introduction) (accessed November 2019)
+- Inspiration for highlighting link style: [the balance](https://www.thebalance.com/best-personal-finance-software-4171938) (accessed December 2019)
+- Help on understanding hilighting link style: [css gradients](https://css-tricks.com/css3-gradients/) (accessed December 2019)
+- [Jekyll Date Formatting Examples](http://alanwsmith.com/jekyll-liquid-date-formatting-examples) (accessed December 2019)
 
 ## Principles
 

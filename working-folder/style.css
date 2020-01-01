@@ -242,14 +242,11 @@ mark {
 /* I'm designing and coding with a mobile-first approach, which means the baseline styles are for mobile.  (i.e. I scale up for desktop rather than scale down for mobile.)  I wanted to scale certain text a bit larger.  For example, on the desktop, I wanted the body text to be 2x larger than on mobile, but I wanted the tagline to be 3x as large.  Because I'm using em font sizes, changing the body font-size will change font sizes everywhere.  Additional font size changes like "h1" and "icon" below are to scale text differently than the body.*/
 
 @media screen and (min-width: 768px) {
-  body {
+  :root {
     font-size: 1.5em;
   }
   #tagline {
     font-size: 3em;
-  }
-  #icon {
-    font-size: 1.5rem;
   }
   header, main, footer {
     grid-column: 2 / 11;
@@ -258,19 +255,16 @@ mark {
     grid-column: 2 / 12;
   }
   nav {
-    grid-column: 3 / 11;
+    grid-column: 3 / 12;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  body {
-    font-size: 2em;
+  :root {
+    font-size: 1.75em;
   }
   #tagline {
     font-size: 3em;
-  }
-  #icon {
-    font-size: 2rem;
   }
   header, main, footer {
     grid-column: 2 / 9;
@@ -279,7 +273,7 @@ mark {
     grid-column: 2 / 12;
   }
   nav {
-    grid-column: 3 / 9;
+    grid-column: 3 / 12;
   }
 
   /*

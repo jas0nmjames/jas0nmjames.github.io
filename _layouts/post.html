@@ -1,14 +1,27 @@
 ---
-layout: default
+layout:
 ---
-<h1>{{ page.title }}</h1>
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% include header.html %}
+  {% include navigation-post.html %}
 
-<p>
-    {{ page.date | date_to_string }}
-    {% assign author = site.authors | where: 'short_name', page.author | first %}
-    {% if author %}
-        - <a href="{{ author.url }}">{{ author.name }}</a>
-    {% endif %}
-</p>
+    <!-- Using default layout, post layout content starts here. -->
 
-{{ content }}
+    <main>
+        <article>
+            <div id="article-title" class="h1">{{ post.title }}</div>
+            <!-- <div id="article-date" class="small">{{ page.date | date_to_string }}</div> -->
+            <div id="article-content">{{ content }}</div>
+            <div id="article-tags" class="small">{{ post.tags }}</div>
+        </article>
+    </main>
+
+    <!-- Using default layout, post layout content ends here. -->
+  
+  {% include footer.html %}
+</body>
+</html>
+

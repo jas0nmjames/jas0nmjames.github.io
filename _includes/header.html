@@ -1,3 +1,5 @@
 <header class="h2">
-    <a href="#index">jasonmjam.es</a>
+    {% for item in site.data.header %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+    {% endfor %}
 </header>

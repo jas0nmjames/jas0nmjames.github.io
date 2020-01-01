@@ -74,7 +74,7 @@ main {
 article {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 8fr 4fr;
   align-items: center;
 }
 
@@ -124,6 +124,15 @@ footer {
 
 footer #icon {
   padding-right: 0.5em;
+}
+
+/*----------------------- Responsive Images --------------------------*/
+
+/* Images embedded in markdown posts directly - such as ![img](path) - were not being scaled in anyway.  With the tag `img` I can control all images across the site.  In this case, setting images to 100% not only keeps them within the viewport across screen sizes, but within the parent css grid container(s) as applicable.  */
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /*----------------------- Typography classes --------------------------*/
@@ -177,27 +186,25 @@ a:active {
   background-image: linear-gradient(0deg,rgba(244,208,111,0.5) 50%,transparent 50%);
 }
 
-main > a:link {
+.current {
+  background-image: linear-gradient(0deg,rgba(244,208,111,0.5) 50%,transparent 50%);
+}
+
+main a:link {
   text-decoration: underline;
 }
 
-#tagline > a:link {
+#tagline a:link {
   text-decoration: none;
 }
 
-main > a:hover {
+main a:hover {
   text-decoration: none;
 }
 
-#tagline > a:hover {
+#tagline a:hover {
   text-decoration: underline;
 }
-
-/*
-mark {
-  background-color: rgba(244,208,111,0.5);
-}
-*/
 
 /*----------------------- Font awesome icons --------------------------*/
 
@@ -242,14 +249,11 @@ mark {
 /* I'm designing and coding with a mobile-first approach, which means the baseline styles are for mobile.  (i.e. I scale up for desktop rather than scale down for mobile.)  I wanted to scale certain text a bit larger.  For example, on the desktop, I wanted the body text to be 2x larger than on mobile, but I wanted the tagline to be 3x as large.  Because I'm using em font sizes, changing the body font-size will change font sizes everywhere.  Additional font size changes like "h1" and "icon" below are to scale text differently than the body.*/
 
 @media screen and (min-width: 768px) {
-  body {
+  :root {
     font-size: 1.5em;
   }
   #tagline {
     font-size: 3em;
-  }
-  #icon {
-    font-size: 1.5rem;
   }
   header, main, footer {
     grid-column: 2 / 11;
@@ -258,19 +262,16 @@ mark {
     grid-column: 2 / 12;
   }
   nav {
-    grid-column: 3 / 11;
+    grid-column: 3 / 12;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  body {
-    font-size: 2em;
+  :root {
+    font-size: 1.75em;
   }
   #tagline {
     font-size: 3em;
-  }
-  #icon {
-    font-size: 2rem;
   }
   header, main, footer {
     grid-column: 2 / 9;
@@ -279,12 +280,6 @@ mark {
     grid-column: 2 / 12;
   }
   nav {
-    grid-column: 3 / 9;
+    grid-column: 3 / 12;
   }
-
-  /*
-  #tagline {
-    text-align: center;
-  }
-  */
 }
