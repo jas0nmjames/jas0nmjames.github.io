@@ -1,11 +1,27 @@
 ---
-layout: default
+layout:
 ---
-<main>
-    <article>
-        <div id="article-title" class="h1">{{ post.title }}</div>
-        <div id="article-date" class="small">{{ page.date | date_to_string }}</div>
-        <div id="article-content">{{ content }}</div>
-        <div id="article-tags" class="small">{{ post.tags }}</div>
-    </article>
-</main>
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% include header.html %}
+  {% include navigation-post.html %}
+
+    <!-- Using default layout, post layout content starts here. -->
+
+    <main>
+        <article>
+            <div id="article-title" class="h1">{{ post.title }}</div>
+            <!-- <div id="article-date" class="small">{{ page.date | date_to_string }}</div> -->
+            <div id="article-content">{{ content }}</div>
+            <div id="article-tags" class="small">{{ post.tags }}</div>
+        </article>
+    </main>
+
+    <!-- Using default layout, post layout content ends here. -->
+  
+  {% include footer.html %}
+</body>
+</html>
+

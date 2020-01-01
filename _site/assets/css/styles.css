@@ -21,7 +21,7 @@ nav { grid-column: 2 / 12; grid-row: 2; display: grid; grid-template-rows: auto;
 
 main { grid-column: 1 / 12; grid-row: 3; display: grid; grid-template-rows: auto; grid-row-gap: 16px; grid-row-gap: 1em; }
 
-article { display: grid; grid-template-rows: auto; grid-template-columns: 3fr 1fr; align-items: center; }
+article { display: grid; grid-template-rows: auto; grid-template-columns: 8fr 4fr; align-items: center; }
 
 #article-title { grid-row: 1; grid-column: 1; }
 
@@ -41,6 +41,8 @@ footer { grid-column: 1 / 12; grid-row: 5; display: grid; grid-template-rows: au
 
 footer #icon { padding-right: 0.5em; }
 
+/*----------------------- Responsive Images --------------------------*/
+/* Images embedded in markdown posts directly - such as ![img](path) - were not being scaled in anyway.  With the tag `img` I can control all images across the site.  In this case, setting images to 100% not only keeps them within the viewport across screen sizes, but within the parent css grid container(s) as applicable.  */
 img { width: 100%; height: auto; }
 
 /*----------------------- Typography classes --------------------------*/

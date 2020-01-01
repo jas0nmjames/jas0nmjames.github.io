@@ -74,7 +74,7 @@ main {
 article {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 8fr 4fr;
   align-items: center;
 }
 
@@ -125,6 +125,10 @@ footer {
 footer #icon {
   padding-right: 0.5em;
 }
+
+/*----------------------- Responsive Images --------------------------*/
+
+/* Images embedded in markdown posts directly - such as ![img](path) - were not being scaled in anyway.  With the tag `img` I can control all images across the site.  In this case, setting images to 100% not only keeps them within the viewport across screen sizes, but within the parent css grid container(s) as applicable.  */
 
 img {
   width: 100%;

@@ -5,8 +5,8 @@ layout: default
     {% for post in site.posts %}
         <article>
             <div id="article-title" class="h3"><a href="{{ post.url }}">{{ post.title }}</a></div>
-            <div id="article-date" class="small">{{ page.date | date_to_string }}</div>
-            <div id="article-summary">{{ post.excerpt | markdownify }}</div>
+            <div id="article-date" class="small">{{ post.date | date: "%Y-%m-%d" }}</div>
+            <div id="article-summary">{{ post.summary }}</div>
             <div id="article-tags" class="small">{{ post.tags }}</div>
         </article>
     {% endfor %}
