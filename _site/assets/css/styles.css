@@ -41,6 +41,8 @@ footer { grid-column: 1 / 12; grid-row: 5; display: grid; grid-template-rows: au
 
 footer #icon { padding-right: 0.5em; }
 
+img { width: 100%; height: auto; }
+
 /*----------------------- Typography classes --------------------------*/
 /* I use classes to apply styles across elements.  This way, html elements can be used to arrange content across the CSS grid and I can control styling separately. */
 .h1 { font-family: 'Patua One', cursive; font-size: 32px; font-size: 2em; }
@@ -72,7 +74,6 @@ main a:hover { text-decoration: none; }
 
 #tagline a:hover { text-decoration: underline; }
 
-/* mark { background-color: rgba(244,208,111,0.5); } */
 /*----------------------- Font awesome icons --------------------------*/
 .fa-strava { color: #fc4c02; }
 
@@ -93,19 +94,16 @@ main a:hover { text-decoration: none; }
 
 /*----------------------- Responsive typography via media queries. --------------------------*/
 /* I'm designing and coding with a mobile-first approach, which means the baseline styles are for mobile.  (i.e. I scale up for desktop rather than scale down for mobile.)  I wanted to scale certain text a bit larger.  For example, on the desktop, I wanted the body text to be 2x larger than on mobile, but I wanted the tagline to be 3x as large.  Because I'm using em font sizes, changing the body font-size will change font sizes everywhere.  Additional font size changes like "h1" and "icon" below are to scale text differently than the body.*/
-@media screen and (min-width: 768px) { body { font-size: 1.5em; }
+@media screen and (min-width: 768px) { :root { font-size: 1.5em; }
   #tagline { font-size: 3em; }
-  #icon { font-size: 1.5rem; }
   header, main, footer { grid-column: 2 / 11; }
   #tagline { grid-column: 2 / 12; }
-  nav { grid-column: 3 / 11; } }
+  nav { grid-column: 3 / 12; } }
 
-@media screen and (min-width: 1440px) { body { font-size: 2em; }
+@media screen and (min-width: 1440px) { :root { font-size: 1.75em; }
   #tagline { font-size: 3em; }
-  #icon { font-size: 2rem; }
   header, main, footer { grid-column: 2 / 9; }
   #tagline { grid-column: 2 / 12; }
-  nav { grid-column: 3 / 9; }
-  /* #tagline { text-align: center; } */ }
+  nav { grid-column: 3 / 12; } }
 
 /*# sourceMappingURL=styles.css.map */

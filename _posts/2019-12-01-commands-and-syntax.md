@@ -1,10 +1,11 @@
 ---
 layout: post
+title: Commands, Syntax & Shortcuts
+summary: A reference of commands, syntax and shortcuts I've found helpful as I've learned programming.
+updated: Last updated November 19, 2019 by Jason James
+tags: [reference]
 ---
-
 # Commands, Syntax & Shortcuts
-
-*last updated November 19, 2019 by Jason James
 
 ## CLI
 

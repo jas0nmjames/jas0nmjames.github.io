@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Where I'm From
+summary: If my 'what' is systems thinking, my 'how' is empathy in the pursuit of community.
+updated: Originally published via Wordpress on September 16, 2017.  Last edit September 16, 2017.
+tags: [personal]
 ---
 
-*Originally published via Wordpress on September 16, 2017.*
-*Last edit September 16, 2017.*
+# Where I'm From
 
 ![20170810_194359](2017-09-16-where-im-from.assets/20170810_194359.jpg)
 
