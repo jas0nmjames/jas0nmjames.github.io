@@ -17,7 +17,7 @@ Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liqu
 
 I've been working (Fall 2019) as a designer / project manager with React developers to build products with a component driven design system (Figma -> Storybook -> React), theming API, and JSON data.  
 
-As we move into Winter 2019/2020, our team is exploring building SSGs with tools like [React](https://reactjs.org/, [Gatsby](https://www.gatsbyjs.org/), and [Apollo GraphQL](https://www.apollographql.com/).  
+As we move into Winter 2019/2020, our team is exploring building SSGs with tools like [React](https://reactjs.org/), [Gatsby](https://www.gatsbyjs.org/), and [Apollo GraphQL](https://www.apollographql.com/).  
 
 Not only am I interested in design systems, but our small-team, cross-functional project approach at [cross.team](http://cross.team/) means as a designer I'm often thinking about development.  
 
