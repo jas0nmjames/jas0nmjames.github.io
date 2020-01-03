@@ -6,9 +6,8 @@
   background-color: #FFFFFF;
   color: #000000;
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  font-size: 1em;
-  font-size: 100%;
+  font-size: 10px;
+  font-size: 62.5%;
 }
 
 /* Adding some CSS variables for possible use later. */
@@ -34,6 +33,8 @@ body {
   grid-row-gap: 1em;
   padding: 16px;
   padding: 1em;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 /*----------------------- CSS for HTML elements --------------------------*/
@@ -146,25 +147,25 @@ img {
 .h1 {
   font-family: 'Patua One', cursive;
   font-size: 32px;
-  font-size: 2em;
+  font-size: 3.2rem;
 }
 
 .h2 {
   font-family: 'Patua One', cursive;
   font-size: 24px;
-  font-size: 1.5em;
+  font-size: 2.4rem;
 }
 
 .h3 {
   font-family: 'Patua One', cursive;
   font-size: 20px;
-  font-size: 1.25em;
+  font-size: 2rem;
 }
 
 .small {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-  font-size: 0.875em;
+  font-size: 1.4rem;
 }
 
 span {
@@ -244,7 +245,7 @@ main a:hover {
 
 #icon {
   font-size: 20px;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   color: #000000;
 }
 
@@ -254,10 +255,10 @@ main a:hover {
 
 @media screen and (min-width: 768px) {
   :root {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   #tagline {
-    font-size: 3em;
+    font-size: 3rem;
   }
   header, main, footer {
     grid-column: 2 / 11;
@@ -272,10 +273,10 @@ main a:hover {
 
 @media screen and (min-width: 1440px) {
   :root {
-    font-size: 1.75em;
+    font-size: 1.75rem;
   }
   #tagline {
-    font-size: 3em;
+    font-size: 3rem;
   }
   header, main, footer {
     grid-column: 2 / 9;
