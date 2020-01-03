@@ -1,5 +1,9 @@
-version: 2
-jobs: 
-  dependencies:
-    post:
-      - bundle exec jekyll build
+version: 1.0
+
+dependencies:
+  post:
+    - bundle exec jekyll build
+
+test:
+  post:
+    - bundle exec htmlproofer ./_site --check-html --disable-external
