@@ -33,6 +33,8 @@ article { display: grid; grid-template-rows: auto; grid-template-columns: 8fr 4f
 
 #article-tags { grid-row: 3; grid-column: 1 / 3; }
 
+#article-image { grid-row: 4; }
+
 footer { grid-column: 1 / 12; grid-row: 5; display: grid; grid-template-rows: auto; grid-row-gap: 16px; grid-row-gap: 1em; }
 
 #social { grid-row: 1; }

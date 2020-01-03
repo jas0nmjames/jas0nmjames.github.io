@@ -1,0 +1,462 @@
+I"��<h1 id="wellness-cycling-app">Wellness Cycling App</h1>
+
+<p><em>Originally published via Wordpress on December 28, 2017.</em>
+<em>Last edit December, 2017.</em></p>
+
+<p><strong>Processes:</strong> Lean Survey Canvas, User Research, Lean UX Canvas, Competitive Analysis, User Journey Mapping, Prototyping, User Testing, Task Analysis, User Flow Mapping, Information Architecture, Site Mapping
+<strong>Tools:</strong> Sketch, Atom, Github, Github Pages
+<strong>Technologies:</strong> HTML5, CSS
+<strong>Designed For:</strong> Mobile, Web</p>
+
+<p><img src="2017-12-28-wellness.assets/jjames_wellness-cycling-design_public_2017-11-30-20191116233636912.png" alt="img" /></p>
+
+<h2 id="project-role-and-duration">Project Role and Duration</h2>
+
+<p>This is one of two designs I completed over three weeks in November 2017. I coded the landing page during a fourth week.</p>
+
+<h2 id="the-user-centered-design-process">The User Centered Design Process</h2>
+
+<blockquote>
+  <p>If you’re not involving your users, you are not practicing user centered design nor are you a user experience designer. — Instructor <a href="http://maitedalila.com/">Maite Dalila</a></p>
+</blockquote>
+
+<p>It’s as simple as that. You may have heard the story about two blind men arguing over an elephant. Grabbing a tusk, one believes it’s strong, smooth and hard. The other, grabbing an ear, believes it’s soft, flat and hairy. The continue to argue in perpetuity not understand how the other person could possibly be coming up with their description. The implications of this story can be widely applied to living in community, but are particularly important for User Experience design: your users will bring so many more perspectives to your product than you can. Trust them. Remove yourself and your ego from the process:</p>
+
+<p><strong>You are not your user.</strong></p>
+
+<h2 id="the-brief">The Brief</h2>
+
+<p>I am tasked with making an app that is part of a suite of apps a wellness organization is offering. The app needs to fit into a particular category and I choose health and fitness.</p>
+
+<p>I like bicycles; I’m a cyclist, yes it’s true. So I choose to design a cycling app.</p>
+
+<h2 id="lean-survey-canvas">Lean Survey Canvas</h2>
+
+<p>Before digging into user testing that I conduct on my own, I first put down observations and ideas onto a lean survey canvas to help organize and orient my research:</p>
+
+<p><img src="2017-12-28-wellness.assets/0*GzBKipJw7I5DwjZc..jpeg" alt="img" /></p>
+
+<p>The lean survey canvas is such a great tool to get started. A few takeaways:</p>
+
+<ul>
+  <li>What we’re after: What do we need to learn? From whom? What do we already know? How do we reach them?</li>
+  <li>Emphasize with your persona user. What’s their context and how would they approach your app?</li>
+  <li>The lean survey canvas is very similar to my past experiences in data analysis and marketing. With a background in wireless telecom sales, construction project management and marketing, and a recent Master’s Degree in Business Administration, I can really put my experience and knowledge to work during the research phase of UX Design.</li>
+  <li>I’m finding that a structure that incorporates multiple iterations is incredibly helpful in the design process. At it’s base, simply moving information from one format to another often uncovers insight. On top of that, iterating at each transfer of information and ideas moves creativity and possibility forward. Both last week and now, I have combined ideas when transferring from one stage of the process or medium to another.</li>
+</ul>
+
+<h2 id="user-research">User Research</h2>
+
+<h3 id="the-survey">The Survey</h3>
+
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScr0SO-5z2T0jBmbzjKoVWc1Ig6_vdlfkgLt_EjRbA1n9mCiA/viewform?usp=sf_link">Here’s a link to the survey I created.</a> (It’s still live as of November 6, 2017!)</p>
+
+<h3 id="getting-the-word-out">Getting the Word Out</h3>
+
+<p>I used Instagram, Twitter, and Reddit to get the word out about my survey. I combined hashtags and mentions of popular apps in the space with a pithy call to action to garner attention: “Help me design the #cycling app you want.” My experience in marketing came in handy.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*b5C02bgND13G8zi8..png" alt="img" /></p>
+
+<p>One of the most helpful groups was Reddit’s cycling subreddit (with over 50,000 subscribers). As a member of this group myself (and other groups like this), I did not want to be that annoying I’m-only-here-for-your-money spammer. I provided some personal background to my request.</p>
+
+<p>If you’re asking others to take the time to provide their personal thoughts, feelings, and observations, I think it’s important to at least meet them halfway:</p>
+
+<p><img src="2017-12-28-wellness.assets/0*XFEVYhBGClfqwDdV..png" alt="img" /></p>
+
+<p>I think it worked and I’m grateful to the online community. I’m actually going to share progress on my cycling app with the group as it progresses so they can see that their time wasn’t wasted.</p>
+
+<h3 id="survey-analysis">Survey Analysis</h3>
+
+<p><img src="2017-12-28-wellness.assets/0*13U13RPUbw4vaSKk..png" alt="img" /></p>
+
+<p>It was clear that there was a market for the app, with 86% of respondents noting that they bicycled on a road (as opposed to mountain biking) for purposes of exercise and fitness.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*PRhqM5-oyqfd-rQQ..png" alt="img" /></p>
+
+<p>It was also clear that there was a market problem to solve, with 45% of users noting they not only used multiple apps to track data, but used them either simultaneously or sent data from one app to the other.</p>
+
+<h4 id="other-takeaways">Other Takeaways</h4>
+
+<p>Due to time constraints I conducted user interviews and survey responses simultaneously. Looking back, the insight I gained through the user interviews could have helped shape how I wrote the survey. In the future, if time allows I’ll collect interview insight before writing the survey.</p>
+
+<h3 id="user-interview-analysis">User Interview Analysis</h3>
+
+<blockquote>
+  <p>I don’t like carrying a phone because it’s too bulky or it might rain.</p>
+</blockquote>
+
+<blockquote>
+  <p>Mapping that emphasizes ‘safe bicycle routes’ are important to me.</p>
+</blockquote>
+
+<blockquote>
+  <p>I still have a stand-alone cycling computer because I had it from before.</p>
+</blockquote>
+
+<p>The three user statements above exemplify how we can better gain insight into user motivations through one-on-one user interviews.</p>
+
+<p>At a high level I wanted to understand why there might be such a problem in the market with overlapping yet asynchronous apps. Research showed multiple software and hardware platforms spread across a market for fitness-minded road cyclists that was among a broder bicycling market, which was among a still broader ‘fitness’ market. A device that made specifically for a bicycle may be perfect, but not sync with your phone and more yet, not sync with the smartwatch you use to run. So you could buy multiple devices for each activity that might not sync (and come at added expense) or buy a few devices that work better across activities but are not as fitting for any one.</p>
+
+<h4 id="other-interview-takeaways">Other Interview Takeaways</h4>
+
+<h5 id="the-five-whys">The Five Whys</h5>
+
+<p>Often the initial responses an interviewee provide don’t get at the heart of their motivations. By responding ‘why?’ to their verbalized thoughts and feelings — potentially five times — you force them to go deeper and bring out insight at the root.  <em>Why? Why? Why? Why? Why?</em></p>
+
+<h5 id="observe-engage-immerse">Observe, Engage, Immerse</h5>
+
+<p>This is the heart of user interviewing and testing.</p>
+
+<h3 id="lean-ux-canvas">Lean UX Canvas</h3>
+
+<p>I used the <a href="https://medium.com/@jboogie/the-lean-ux-canvas-d4da53263c40">Lean UX Canvas</a> to organize my research:</p>
+
+<p><img src="2017-12-28-wellness.assets/0*S6Xm8cXm6n2GdBMp..jpeg" alt="img" /></p>
+
+<h2 id="competitive-analysis">Competitive Analysis</h2>
+
+<p>I compared direct and indirect markets to find features that I could adopt and improve or opportunities to create something new.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*HB1gzTjkDDoOr7KM..jpeg" alt="img" /></p>
+
+<p>Affinity Mapping of Direct Competitors</p>
+
+<p><img src="2017-12-28-wellness.assets/0*cL4IHwPqQnowKoGZ..jpeg" alt="img" /></p>
+
+<p>Affinity Mapping of Indirect Competitors</p>
+
+<h3 id="market-positioning">Market Positioning</h3>
+
+<p>I then found a place in the market where I thought I could best position the app: a phone-based, portable application that could connect to offline devices:</p>
+
+<p><img src="2017-12-28-wellness.assets/0*bFOVWNLELqrep0cC..jpeg" alt="img" /></p>
+
+<h2 id="user-personas-empathy-mapping">User Personas: Empathy Mapping</h2>
+
+<p>I used an affinity map to organize the user and market research I had gathered so far into groupings that I could shape into personas.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*RXo8rBa53k4sBlKw..jpeg" alt="img" /></p>
+
+<p>An affinity map organized user and market research.</p>
+
+<p>Personas are idealized users that serve as reference points during ideation and prototyping. Based on the collected research, they help ensure the design is user-centered at every step.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*SZJELBtZEBfsOLFn..png" alt="img" /></p>
+
+<p><img src="2017-12-28-wellness.assets/0*UrA1C0B5Bf9VR0cE..png" alt="img" /></p>
+
+<h2 id="problem-hypothesis-statement">Problem-Hypothesis Statement</h2>
+
+<p>I formed a problem-hypothesis statement that ensured moving forward, the design would meet business needs. This is like a persona, but for marketers!:</p>
+
+<p><strong>[Simple Cycle ]</strong> was designed to <strong>[streamline the recording and personal analysis of bicycling exercise data].</strong></p>
+
+<p>We have observed that the product is not providing <strong>[a single point to analyze all data, the most minimal design possible with cycling exercise front and center, nor an intuitive interface to view the best exercise, commuting and safety mapping]</strong> which is <strong>[not generating enough premium subscribers, and thus profitability]</strong> for our business.</p>
+
+<p>How might we improve <strong>[‘Simple Cycle’]</strong> so that our customers are more successful based on <strong>[premium subscriptions]</strong>?</p>
+
+<h2 id="user-journey-mapping">User Journey Mapping</h2>
+
+<p>User journey mapping explores the experience and process of our personas completing a task. It’s a great way of finding opportunities to innovate in the market and center your design around resolving existing user pain points:</p>
+
+<p><img src="2017-12-28-wellness.assets/0*ByhYt9SfWQFikajh..jpeg" alt="img" /></p>
+
+<h2 id="ideation">Ideation</h2>
+
+<p>With opportunities in sight, we can begin <a href="https://www.interaction-design.org/literature/article/what-is-ideation">ideation</a>, or to put it simply, we start coming up with ideas. This is less a process of a mad genius pulling great ideas out of thin air, and more of <a href="https://medium.com/the-mission/5-ways-to-steal-like-an-artist-a505942bf344">adapting</a> already great ideas and designs to a specific context, and perhaps combining something or implementing a feature in a novel way that brings innovation.</p>
+
+<p>I used <a href="https://library.gv.com/the-product-design-sprint-diverge-day-2-c7a5df8e7cd0">Crazy Eights</a> to quickly sketch out ideas. The goal is to generate as many ideas as quickly as possible around a particular problem, and then refine those ideas by repeating the process. I give myself only five minutes to sketch out 8 ideas, and then repeat it. Limiting yourself to sketching each idea in 40 seconds keeps you from getting weighed down by one idea or sketching a full solution from end-to-end that may not be the answer.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*kyzVaS8iynFCpp_W..jpeg" alt="img" /></p>
+
+<h2 id="feature-prioritization">Feature Prioritization</h2>
+
+<p>From my research and crazy eights, I had seven features I could incorporate into the design, however given time constraints and the agile process, I didn’t necessarily want to incorporate all of them at once. What can we <a href="https://medium.freecodecamp.org/what-the-hell-does-minimum-viable-product-actually-mean-anyway-7d8f6a110f38">efficiently develop</a> at the start that meets all user needs and is fully functioning?</p>
+
+<p><img src="2017-12-28-wellness.assets/0*JwzjgKdqRKTl-b2g..jpeg" alt="img" /></p>
+
+<p>Based on pain points discovered during research, it’s clear a minimal design, in-ride voice commands, and simple recording of data well are key to addressing complaints of too complicated and too distracted apps. Users don’t want the app getting in the way of their ride. Social interaction and crowd-sourced traffic information were of secondary importance to users, but I thought I could implement them in this design process. New route generation and two-way open source data sharing (across apps and platforms) would have to wait for the next design period as they would take sizeable design and development effort.</p>
+
+<h2 id="prototyping">Prototyping</h2>
+
+<p>Now we’re getting somewhere! I design the selected features across nine screens by hand:</p>
+
+<p><img src="2017-12-28-wellness.assets/0*zOUwC6GZ8oI_pL8q..png" alt="img" /></p>
+
+<p>The benefit of doing this first low-fidelity prototype by hand is that I could easily make changes on the fly while not getting too married to a particular idea or design. In-fact, there are two other versions of the data screen that I threw out before the design above.</p>
+
+<p>With the <a href="https://marvelapp.com/">Marvel App</a> I was able to upload those designs onto my handheld device (Samsung Galaxy Note 4) and create a clickable prototype that I could test with users.</p>
+
+<h2 id="user-testing">User Testing</h2>
+
+<p>Before the first round of testing, I create a test script that would help ensure the same conditions for each test:</p>
+
+<h3 id="the-script">The Script</h3>
+
+<p><img src="2017-12-28-wellness.assets/0*O70pK3BT6tru097C..png" alt="img" /></p>
+
+<p>I first remind myself the purpose of the user interviews.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*gwS5cEC01W7zOZdc..png" alt="img" /></p>
+
+<p>Introducing myself</p>
+
+<p><img src="2017-12-28-wellness.assets/0*R0mpyuJA7tqP06iB..png" alt="img" /></p>
+
+<p>It’s important to explain to the user what the test is and what you’re expecting. I usually include a quick comment that “even though this looks like it was made by a six year old, paper prototypes help us incorporate your feedback quickly.” I think it helps users, especially those older than myself, take me and the test more seriously. Context helps.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*Ij9FLqo5e8oQUMwT..png" alt="img" /></p>
+
+<p>Warm-up questions are great starting points and often provide additional insight I didn’t get during user interviews. They also confirm how much the user fits the target demographic.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*rIyQu17FNjgWGmQd..png" alt="img" /></p>
+
+<p>Since this is an early prototype, not all functionality is built in, even if it could be incorporated a paper prototype. We give them a task that directs them along a ‘happy path’ that is built out for their feedback. The ‘happy path’ is essentially the minimum viable product of the paper prototype.</p>
+
+<h3 id="testing">Testing</h3>
+
+<p><a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/">Research shows</a> that we only need to test with five users to gain valuable usability insight.</p>
+
+<p>With the tester’s permission, I recorded each session on video to better capture both the user’s observations and even their unconscious movements, such as instinctively moving a thumb to an area of the screen when trying to complete a task. Four are shown below:</p>
+
+<p><img src="2017-12-28-wellness.assets/0*u6b5SwN7SK5SMLy0..png" alt="img" /></p>
+
+<h2 id="task-analysis">Task Analysis</h2>
+
+<p>Before incorporating the usability feedback from my first round of user testing, I do <strong>task analysis, which is breaking down all of the different actions and steps a user takes to reach their goal</strong>. I could’ve done this before creating the first prototype (like in my School Performance Data project), but doing it now allows me to incorporate the first version’s usability feedback.</p>
+
+<p><em>Although we should follow frameworks and carry out testing with objectivity and in a way that would be reproducible, as designers we should adjust how we apply our design tools to the problem at hand.</em></p>
+
+<p><img src="2017-12-28-wellness.assets/0*zyzjm0E_KIxbRUUB..png" alt="img" /></p>
+
+<h2 id="user-flow-mapping">User Flow Mapping</h2>
+
+<p>User flow mapping serves as a base for Information Architecture by organizing tasks (Hey! Task analysis coming in handy!) in the sequential order a user would experience them.</p>
+
+<p>We’re mapping out how the user will navigate across our site from start to reaching their goal. It’s incredibly helpful; I typically find some small intermediate step missing through the process. For example, in the case below, I had originally put a ‘weather’ information screen in the flow before the ‘start riding’ screen, however I realized many users will want to start their ride without necessarily checking the weather. So the user flow let me visually see how I could perhaps place the ‘weather’ screen at two different optional points across the user’s flow.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*7LToqgvPTzSSEs6t..png" alt="img" /></p>
+
+<h3 id="site-mapping">Site Mapping</h3>
+
+<p>Using the screens I made in the first prototype and the user flow generated after task analysis, I created a site map showing all of the screens across the site.</p>
+
+<p>I went back and added color to the site map below based on the style (color and typography) I eventually designed, but initially the site map was just black and white.</p>
+
+<p><img src="2017-12-28-wellness.assets/1*3ZwDW1z7x9hvMY-M0uWRmA.png" alt="img" /></p>
+
+<h3 id="hi-fi-user-flow">Hi-Fi User Flow</h3>
+
+<p>I still haven’t showed you how I got to my final design yet, but here’s a quick preview. This is what the user flow looked like in high-fidelity when mapped across the final site:</p>
+
+<p><img src="2017-12-28-wellness.assets/1*EhstHkhAD0dT3FBj51flag.png" alt="img" /></p>
+
+<h2 id="from-low-to-high-fidelity">From Low to High Fidelity</h2>
+
+<p>So, how did we get there?</p>
+
+<p>I’ve already discussed making the initial hand-drawn prototypes. I’m going to show you how they developed by focusing on progression of a single screen: the data screen.</p>
+
+<p><strong>Here it is in the first version you’ve already seen:</strong></p>
+
+<p><img src="2017-12-28-wellness.assets/1*gRUG6WTDmzV9lWuiHU4nYQ.png" alt="img" /></p>
+
+<p><strong>And here’s the second version after usability testing with five users:</strong></p>
+
+<p><img src="2017-12-28-wellness.assets/1*8lg7l2pqsg5aluSLsBCwUg.png" alt="img" /></p>
+
+<p>So what changed? The biggest thing you might realize is that we’re no longer designing by hand.</p>
+
+<p><strong>I moved to wireframing in <a href="https://www.sketchapp.com/">Sketch</a> and then turned those wireframes into clickable prototypes that I could test with people in <a href="https://www.invisionapp.com/">InVision</a>.</strong></p>
+
+<p>What else? You’ll notice, for example, that the back button has moved from the bottom left-hand corner of the screen to the top left-hand corner. It’s so common for websites and applications to have back buttons in the top left-hand corner of a screen, that users were instinctively looking for it there. As designers we need to remember the larger context we’re designing within, even if it’s not optimal.</p>
+
+<blockquote>
+  <p>It’s the same reason why “save” is often represented with a floppy-disk icon, even though they have been obsolete for almost twenty years. <strong>Design with the user’s context in-mind.</strong></p>
+</blockquote>
+
+<p>It’s commonly believed that the QWERTY keyboard was designed to limit typing speed so that ‘back in the day’ people wouldn’t jamb typewriters by typing so fast. Whether you believe this or not (<a href="http://www.economist.com/node/196071">the economist calls it a myth</a>), the QWERTY keyboard has stuck. If you design a laptop with a Dvorak layout or other alternative, a large percentage of the population will have trouble adapting, even if in the long run it’s a better design. It’s the same reason why “save” is often represented with a floppy-disk icon, even though they have been obsolete for almost twenty years. <strong>Design with the user’s context in-mind.</strong></p>
+
+<p><strong>Now we apply branding and style:</strong></p>
+
+<p><img src="2017-12-28-wellness.assets/1*le0TT482qqIccU0GYDBUuA.png" alt="img" /></p>
+
+<h2 id="applying-style">Applying Style</h2>
+
+<h3 id="branding">Branding</h3>
+
+<p><em>This is where the marketing enthusiasts out there can get excited!</em>  Based on my target demographic, I chose branding of “fit, approachable, geeky.” How?</p>
+
+<p>There’s a great design exercise in which you choose a Car, Spokesperson and Brand that carries the essence of the product you’re designing. I chose:</p>
+
+<ul>
+  <li>Subaru Crosstrek</li>
+  <li>Friendly, nameless French cyclist</li>
+  <li>Livestrong (health, fitness, competition and community)</li>
+</ul>
+
+<p>Which at the end of the day resulted in a brand that was f<em>it,</em> a<em>pproachable and geeky.</em></p>
+
+<p>The selected style and colors were designed to evoke those words, as well as intrinsically represent a few selected <strong>product reaction keywords:</strong></p>
+
+<ul>
+  <li><strong>Blue:</strong> evokes credibility, one of the selected product reaction keywords based on branding, as well as the blue sky that a cyclist so often experiences. <strong>The idea was to — through color — communicate the brand ideals while connecting with the existing environment of the user.</strong></li>
+  <li><strong>Yellow:</strong> evokes cheerfulness as well as nicely represents the yellow marking lines on the road.</li>
+  <li><strong>Black:</strong> evokes strength and represents the ever-present (at least most of the time) asphalt a cyclist calls home.</li>
+</ul>
+
+<h3 id="copywriting-in-scenarios">Copywriting in Scenarios</h3>
+
+<p>As I add greater detail to the design, I’ll need to write text (‘copy’) that would actually be displayed in the app. This copy needs to similarly resonate with my target audience. <strong>Calling users “dude” might be okay in a surfer app, but probably not a good idea to use in enterprise software.</strong></p>
+
+<p><strong>I wrote example copy for three different scenarios in my app:</strong></p>
+
+<ol>
+  <li>Finish a ride — User’s emotion: hard work paid off. Practical humble. Relief: “Ride finished.”</li>
+  <li>Goal setting — “Alright! You’ve added _ more miles this week. You are _ close to your goal.”</li>
+  <li>Unlocking a new route — “Level up! You’ve unlocked a new series of routes to keep you busy. You can tell your friends you’re next level, but don’t rest for long. They’re right behind you…”</li>
+</ol>
+
+<h3 id="mood-board">Mood Board</h3>
+
+<p>We’ve selected colors, but we need to design exactly what shade those colors will be and how the app will look and feel overall. A mood board combines typography (fonts), color, textures, and images to give us some direction:</p>
+
+<p><img src="2017-12-28-wellness.assets/1*0xcvsVUwKUiJfdk3HIkF1g.png" alt="img" /></p>
+
+<h3 id="style-tile--desirability-testing">Style Tile &amp; Desirability Testing</h3>
+
+<p>We then create a <strong>style tile</strong> of how those colors, images, and fonts would be implemented on a page and then test the tile with five users in <strong>desirability testing.</strong></p>
+
+<p>I ask each tester to look at the tile, and then select from a list of product reaction cards the adjectives they feel are most evoked from the design. The hope is for users to pick the same words I had selected above — credibility, cheerfulness, strength.</p>
+
+<p><img src="2017-12-28-wellness.assets/1*I4lRgm4Tjcu5XV9nAePg1w.png" alt="img" /></p>
+
+<p>I received so much negative feedback in my first desirability test that I decided to clean up the style tile a bit before testing more users. The initial feedback all had to do with negativity surrounding busyness; there was too much on the page.</p>
+
+<p><strong>Here’s the style tile, version #2:</strong></p>
+
+<p><img src="2017-12-28-wellness.assets/1*A0YRyNHaHP5OhVxVnIs8_w.png" alt="img" /></p>
+
+<p>This evoked much closer emotion to what I was looking for, however had I more time designing the project, I would’ve spent additional days refining the style further based on better, but not yet excellent feedback.</p>
+
+<h3 id="designing-empty-state-and-404-pages-for-mobile">Designing Empty State and 404 Pages for Mobile</h3>
+
+<p>Before designing the high fidelity screens, I try out the style on empty state and <a href="https://en.wikipedia.org/wiki/HTTP_404">404</a> screens:</p>
+
+<h4 id="styled-empty-state">Styled Empty State</h4>
+
+<p><img src="2017-12-28-wellness.assets/1*_i7P8LavVOx6J_CN7ybTDg.png" alt="img" /></p>
+
+<h4 id="styled-404-screen">Styled 404 Screen</h4>
+
+<p><img src="2017-12-28-wellness.assets/1*GxphKGo8Ike4MdGYB_Z4zw.png" alt="img" /></p>
+
+<h3 id="designing-for-the-responsive-web">Designing for the Responsive Web</h3>
+
+<p>I also needed to consider how the app would function across the responsive web. I was designing mobile-first and up until this point had only been designing for mobile. <a href="https://www.uxpin.com/studio/blog/a-hands-on-guide-to-mobile-first-design/">The idea is that if your design works well on mobile, it will definitely work well on tablet and desktop.</a> Mobile first and responsive design really deserve a case study all by themselves, but I’ll save that for later.</p>
+
+<p><strong>Now I wanted to see how this design would look across mobile, tablet, and desktop to ensure the mobile design was heading in the right direction:</strong></p>
+
+<h4 id="on-mobile">On Mobile</h4>
+
+<p><img src="2017-12-28-wellness.assets/1*5AA4mJyPM81sJk4u5dZn8A.png" alt="img" /></p>
+
+<h4 id="on-tablet">On Tablet</h4>
+
+<p><img src="2017-12-28-wellness.assets/1*STLhT0R7x5Ps2nnUCVGPUQ.png" alt="img" /></p>
+
+<h4 id="on-desktop">On Desktop</h4>
+
+<p><img src="2017-12-28-wellness.assets/1*i-Ab-enlQGL9OLuzKVumbA.png" alt="img" /></p>
+
+<p>These designs are not yet at highest fidelity; they’re missing the pixel perfect details that make great designs pop. But we’re getting there.</p>
+
+<h3 id="a-style-guide-for-high-fidelity-design">A Style Guide for High Fidelity Design</h3>
+
+<p>Before finally designing the highest fidelity screens, I create a style guide, which codifies the style tile into a guide a can actively use during UI (user interface) design. The idea is that I should be able to copy elements from this guide and paste them into my design.</p>
+
+<p><img src="2017-12-28-wellness.assets/1*c_cx-ri6rwND3fvwxrYWGA.png" alt="img" /></p>
+
+<h3 id="arriving-at-high-fidelity">Arriving at High Fidelity</h3>
+
+<p>And finally, here we are!:</p>
+
+<p><img src="2017-12-28-wellness.assets/1*EnXYOhyEXrTiaAMYduwpsA.png" alt="img" /></p>
+
+<p>I ensured that gestalt principles such as spacing and grouping were incorporated to the highest pixel-perfect quality.</p>
+
+<p>After consulting with colleagues, I also removed the “help” button I had had for so long.</p>
+
+<blockquote>
+  <p>They say that User Interface (UI) design is like a joke: if you have to explain it, it’s not that good.</p>
+</blockquote>
+
+<p>If your designs are not intuitive enough so that they require a “help” section, you should take a second look at the design.</p>
+
+<p><img src="2017-12-28-wellness.assets/1*FL_9pm1pB-VzvLF2KnwiSg.png" alt="img" /></p>
+
+<p>I then uploaded the design into InVision and tested the prototype with five users to gain some final feedback for future improvement: <a href="https://www.youtube.com/watch?v=cm6zMngRKEg">https://www.youtube.com/watch?v=cm6zMngRKEg</a></p>
+
+<h2 id="designing--coding-a-landing-page">Designing &amp; Coding a Landing Page</h2>
+
+<p>As I arrived at the end of this project, I had an opportunity to design a landing page that users would arrive to before downloading the app. I designed the page using a layout that was proven to produce clicks and applied the same branding and style as the app:</p>
+
+<p><img src="2017-12-28-wellness.assets/1*seGoOtA3spX13Z7YStA95g.png" alt="img" /></p>
+
+<p><strong>And guess what, I developed it in HTML and CSS too!:</strong></p>
+
+<p><img src="2017-12-28-wellness.assets/1*8PwbvgFJrSDXvjpe4v4GGA.png" alt="img" /></p>
+
+<p>I developed the landing page I designed in HTML and CSS.  The page is live on Github (see <a href="https://jas0nmjames.github.io/wellness-landing-page/">https://jas0nmjames.github.io/wellness-landing-page/</a>) and if you’re interested I’m happy to discuss in more detail the coding process. (It deserves a case study by itself!)</p>
+
+<p>Why did I code it? <strong>As designers, we need to be conscious that what we design works for the developers</strong> who make our high-fidelity mockup prototypes come to life. I’m designing for the web. I better know how to speak its language and communicate at no less than a basic level.</p>
+
+<p>Developing will continue to come in handy and I’m excited to keep my coding skills relatively fresh as I grow as a UX Designer, Product Designer, and perhaps Product Manager.</p>
+
+<h2 id="improvements-and-next-steps">Improvements and Next Steps</h2>
+
+<h3 id="incorporate-gamification">Incorporate Gamification</h3>
+
+<p>I had the privilege of hearing <a href="https://twitter.com/Mindtoggle">Lindsay Grace</a> lecture on <a href="https://techcrunch.com/2012/11/17/everything-youll-ever-need-to-know-about-gamification/">gamification</a> at a local Miami <a href="https://ixda.org/">IxDA</a> meetup in November.</p>
+
+<p>The idea is that you can incorporate ‘play’ into even non-game contexts that help keep users motivated and engaged.</p>
+
+<p>I want to mention here there’s great potential for addiction and harm in not just gamification but design at large and I’m very glad there’s folks like Lindsay Grace showing how to do it right.</p>
+
+<p><img src="2017-12-28-wellness.assets/0*QV7JeNa-ELpRB7YA..png" alt="img" /></p>
+
+<p>I would like to incorporate two gamifying features into the cycling app:</p>
+
+<ul>
+  <li>Unlockable routes — When you progress to a certain level of fitness, new bike routes are unveiled to keep you interested and increase the level of fitness difficulty</li>
+  <li>Track ride and overall progress (via usability testing of navigation) — I want to add a progress bar that will show the cyclist how far they’ve gone and how much remains to be completed when they are following a route.</li>
+</ul>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>Moving forward, I’d also like to:</p>
+
+<ul>
+  <li>Further refine the UI Design by focusing on style, particularly color.</li>
+  <li>Analyse how data functionality I designed in the app would work on the backend by exploring and developing in the <a href="https://developers.strava.com/">Strava API</a>.</li>
+  <li>Add micro interactions in <a href="https://www.flinto.com/">Flinto</a>.</li>
+</ul>
+
+<h3 id="a-final-takeaway">A Final Takeaway</h3>
+
+<p>‘Srum’, ‘Agile’, and ‘Lean’ are not scary words nor are they complicated at least in basic understanding. Iterate (make better) and prioritize. Then iterate and prioritize. Then do it again. It’s essentially “the path is made by walking” in web and software development form. Instead of starting with a completely fleshed out plan at the beginning, you break the work down into little chunks of minimum viable products that can stand alone. The proof is in whether your product includes the features you need to meet user goals and if it’s functional. A check for both means success.</p>
+
+<p>Also, for your further reference:</p>
+
+<ul>
+  <li><a href="https://www.interaction-design.org/literature/article/making-your-ux-life-easier-with-the-moscow">MOSCOW Prioritization</a> — figure out what to work on first</li>
+  <li><a href="https://en.wikipedia.org/wiki/SMART_criteria">S.M.A.R.T. Goals</a> and <a href="https://en.wikipedia.org/wiki/Performance_indicator">KPIs</a> — figure out how to define and measure success</li>
+  <li><a href="https://lifehacker.com/productivity-101-a-primer-to-the-pomodoro-technique-1598992730">Pomodoro</a>! — a great time management technique</li>
+  <li>When giving feedback, be actionable, specific and kind. (Thanks <a href="http://maitedalila.com/">Maite</a>! — My amazing UX/UI Instructor)</li>
+  <li>Inspiration is for amateurs. (Chuck Close) — <a href="https://lifehacker.com/5972825/inspiration-is-for-amateurs--the-rest-of-us-just-show-up-and-get-to-work">Good ideas don’t drop from the sky.</a> They come out of doing a lot of work and <a href="https://vimeo.com/85040589">at first your work probably won’t be as great as you’d like it to be.</a> And that’s okay.</li>
+</ul>
+
+<h2 id="thank-you">Thank You</h2>
+
+<p>Thanks for your time. You can find me at <a href="https://jasonmjam.es/">jasonmjam.es</a> or on <a href="https://www.linkedin.com/in/jas0nmjames/">LinkedIn</a>.</p>
+:ET
