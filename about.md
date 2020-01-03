@@ -1,7 +1,6 @@
 ---
 layout: page
-title: about
-permalink: /about/
+title: About
 ---
 #design, #systems-thinking and #business for the #common good.
 

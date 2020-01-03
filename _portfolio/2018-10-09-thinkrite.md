@@ -1,3 +1,12 @@
+---
+layout: 
+title: Thinkrite - Advanced Prototyping
+summary: Much of my work in 2018 has been under NDA and I won't be able to walk you through the design process. However, I wanted to share with you an example of the sort of advanced prototyping I've had the opportunity to put together.
+updated: 
+tags: 
+image: 2018-09-05_old-plan-ad3-time-picker.gif
+---
+
 # Advanced Prototyping
 
 *Originally published via Wordpress on December 28, 2017.*

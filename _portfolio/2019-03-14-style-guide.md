@@ -1,3 +1,12 @@
+---
+layout: portfolio
+title: Thinkrite - Style Guide & Design Systems
+summary: I previously wrote about building a Design System in Sketch for my own Bloombox project.  Although I can't take credit for the overall visual design here (a UI designer was on the team), I rebuilt every component within XD and created nested symbols that could accept design changes across multiple components, screens and files.
+updated: 
+tags: 
+image: screen-shot-2019-03-14-at-6.42.48-pm.png
+---
+
 # Style Guides & Design Systems
 
 *Originally published via Wordpress on March 14, 2019.*

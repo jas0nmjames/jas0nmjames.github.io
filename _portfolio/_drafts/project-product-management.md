@@ -1,0 +1,3 @@
+# Project & Product Management
+
+*Coming January 2020.*  I'll detail working with developers, quality assurance, and product owners across internal and external teams, locations, and rhythyms....

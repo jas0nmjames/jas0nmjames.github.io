@@ -1,6 +1,8 @@
 collections:
-  - portfolio
-  - writing
+  portfolio:
+    output: true
+
+permalink: /:title/
 
 defaults:
   - scope:
@@ -14,6 +16,13 @@ defaults:
       layout: "default"
 
 plugins:
+  - html-proofer
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+exclude:
+  - working-folder
+  - .gitignore
+  - gemfile
+  - gemfile.lock

@@ -1,3 +1,12 @@
+---
+layout: portfolio
+title: Miami-Dade Schools Performance Data Redesign
+summary: Project Awards (December 2017 Ironhack UX/UI Hackshow) - Overall Hackshow Judge Favorite, Outstanding UX Strategy, Outstanding Business Analysis, Outstanding Problem-Solving Skills, Outstanding Presentations Skills, Runner Up, Outstanding User Research, Runner Up.  Improved the Dade Schools site's overall information architecture to reduce cognitive overload and emphasized making school performance data more accessible to the public with a mobile-first design.  In other words, the site became much easier to view on mobile phones and users could more easily find what they were looking for without getting overwhelmed. The site was now built for not just school administrators, but parents and community members too!
+updated: 
+tags: 
+image: jjames_final-presentation-v-3-0.png
+---
+
 # Miami-Dade Schools Performance Data Redesign
 
 *Originally published via Wordpress on December 28, 2017.*

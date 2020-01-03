@@ -54,6 +54,11 @@ For this project, I found the following links helpful:
 - Inspiration for highlighting link style: [the balance](https://www.thebalance.com/best-personal-finance-software-4171938) (accessed December 2019)
 - Help on understanding hilighting link style: [css gradients](https://css-tricks.com/css3-gradients/) (accessed December 2019)
 - [Jekyll Date Formatting Examples](http://alanwsmith.com/jekyll-liquid-date-formatting-examples) (accessed December 2019)
+- https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+- https://jekyllrb.com/docs/configuration/
+- https://learn.cloudcannon.com/jekyll-cheat-sheet/
+- https://ben.balter.com/2015/02/20/jekyll-collections/
+- https://www.digitalocean.com/community/tutorials/controlling-urls-and-links-in-jekyll
 
 ## Principles
 
