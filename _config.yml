@@ -1,5 +1,5 @@
 collections:
-  portfolios:
+  portfolio:
     output: true
 
 permalink: /:title/

@@ -3,7 +3,7 @@ layout: default
 title: 'Portfolio'
 ---
 <main>
-    {% for item in site.portfolios %}
+    {% for item in site.portfolio %}
         <article>
             <div id="article-title" class="h3"><a href="{{ item.url }}">{{ item.title }}</a></div>
             <div id="article-date" class="small">{{ item.date | date: "%Y-%m-%d" }}</div>
