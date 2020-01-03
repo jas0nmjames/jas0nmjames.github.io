@@ -1,16 +1,16 @@
 ---
 layout: default
-permalink: /portfolio/
+title: 'Portfolio'
 ---
 <main>
-    {% for post in site.portfolio %}
+    {% for portfolio in site.portfolios %}
         <article>
-            <div id="article-title" class="h1">{{ post.title }}</div>
+            <div id="article-title" class="h1">{{ item.title }}</div>
             <div id="article-date" class="small">{{ page.date | date_to_string }}</div>
-            <div id="article-summary">{{ post.excerpt | markdownify }}</div>
-            <div id="article-tags" class="small">{{ post.tags }}</div>
+            <div id="article-summary">{{ item.excerpt | markdownify }}</div>
+            <div id="article-tags" class="small">{{ item.tags }}</div>
         </article>
+    {% else %}
+        <article>There are no items!</article>
     {% endfor %}
 </main>
-
-{{ site.portfolio }}

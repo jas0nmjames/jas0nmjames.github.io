@@ -1,6 +1,8 @@
 collections:
-  - portfolio
-  - writing
+  portfolios:
+    output: true
+
+permalink: /:title/
 
 defaults:
   - scope:
