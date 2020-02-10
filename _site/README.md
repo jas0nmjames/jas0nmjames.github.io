@@ -82,6 +82,7 @@ For this project, I found the following links helpful:
 - [Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/) (accessed January 2020)
 - [Explain like I’m five: Jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/) by Ben Balter (accessed January 2020)
 - [Controlling URLs and Links in Jekyll](https://www.digitalocean.com/community/tutorials/controlling-urls-and-links-in-jekyll) by Melissa Anderson (accessed January 2020)
+- [Jekyll Tags on Github Pages](http://longqian.me/2017/02/09/github-jekyll-tag/) by Long Qian, accessed February 2020.
 
 ## Principles
 

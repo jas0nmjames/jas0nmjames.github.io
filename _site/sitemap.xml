@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/portfolio/2017-12-28-bloombox/</loc>
-<lastmod>2017-12-28T00:00:00-05:00</lastmod>
+<loc>http://localhost:4000/portfolio/2019-03-14-style-guide/</loc>
+<lastmod>2019-03-14T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/2019-03-14-data-analysis/</loc>
+<lastmod>2019-03-14T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/2018-10-09-thinkrite/</loc>
+<lastmod>2018-10-09T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/portfolio/2017-12-28-miami-schools/</loc>
@@ -13,20 +21,12 @@
 <lastmod>2017-12-28T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/portfolio/2017-12-28-bloombox/</loc>
+<lastmod>2017-12-28T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/portfolio/2017-12-29-before-ux/</loc>
 <lastmod>2017-12-29T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/portfolio/2018-10-09-thinkrite/</loc>
-<lastmod>2018-10-09T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/portfolio/2019-03-14-data-analysis/</loc>
-<lastmod>2019-03-14T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/portfolio/2019-03-14-style-guide/</loc>
-<lastmod>2019-03-14T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/where-im-from/</loc>

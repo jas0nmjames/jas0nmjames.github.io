@@ -3,8 +3,8 @@ layout: portfolio
 title: Data Analysis & Visualization
 summary: Data Visualization can be an incredibly useful tool to discover insights in user testing data and in business analysis in general. When done right, the data is plain for all to see and can help avoid lengthy, subjective arguments.
 updated: Originally published via Wordpress on March 14, 2019.  Last edit March 2019.
-tags: #analysis #visualization
-image: screen-shot-2019-03-14-at-6.09.20-pm.png
+tags: [analysis visualization]
+image: screen-shot-2019-03-14-at-6.09.20-pm-20191116234421266.png
 ---
 
 *Originally published via Wordpress on March 14, 2019.*

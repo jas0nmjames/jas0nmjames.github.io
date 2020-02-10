@@ -5,11 +5,13 @@ title: 'Portfolio'
 <main>
     {% for item in site.portfolio %}
         <article>
-            <div id="article-title" class="h3"><a href="{{ item.url }}">{{ item.title }}</a></div>
+            <div id="article-excerpt-title" class="h3"><a href="{{ item.url }}">{{ item.title }}</a></div>
             <div id="article-date" class="small">{{ item.date | date: "%Y-%m-%d" }}</div>
+            <div id="article-tags" class="small">#{{ item.tags }}</div>
             <div id="article-summary">{{ item.summary | markdownify }}</div>
-            <div id="article-tags" class="small">{{ item.tags }}</div>
             <div id="article-image"><i><img src="{{ item.url }}{{ item.image }}" alt="{{ item.title }} Gallery Image"></i></div>
+            <p></p>
+            <p></p>
         </article>
     {% else %}
         <article>There are no items!</article>
