@@ -2,6 +2,15 @@
 
 Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liquid) with Jekyll.  Starting from scratch (not with a template) to learn for understanding.  On a journey to learn the JAMstack.  Next stop, design in Framer and build in React.
 
+## Repository Structure
+
+```bash
+├── TBD
+│   ├── TBD
+│   └── TBD
+│   │   └── TBD
+```
+
 ## Project Goals
 
 - [x] **Write in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) as widely as possible.**  This includes when taking personal notes, writing documentation for work, and in this case, creating site content.  For many years I've had notes in all sorts of formats across different devices.  It's been inefficient and a pain to unify.  I'd like to follow [indieweb](https://indieweb.org/) principles.  With markdown, I own my content and formatting is (largely) universal.
@@ -25,6 +34,11 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 
 ## Milestones
 
+- 2020-01-03 Adjustments to typography to make a better responsive experience.
+- 2020-01-03 Finally got [collections](https://jekyllrb.com/docs/collections/) working!  One of the main ways of publishing content in Jekyll is through [posts](https://jekyllrb.com/docs/posts/).  Posts are great for things like article and blogs posts that are *published* in some sort of chronology, but not as well for non-chronological items like reference lists or... a portfolio.  :wink:  Setting up posts (with corresponding drafts) in Jekyll was straight forward, but I had trouble getting collections up and running.
+- 2020-01-01 Responsive formatting improvements (mostly css)
+- 2019-12-30 Refactored html, css & liquid templates to better scale across multiple pages and page types.  Succesfully built and served static site with `bundle exec jekyll serve`.
+- 2019-12-23 Began creating Jekyll (liquid) templates
 - 2019-12-08 Initial home page design in sketch completed.  Began building page with CSS grid in `working-folder > home.html`
 - 2019-12-01 Deployed to Jekyll
 - 2019-11-16 to 2019-11-26 - Copying and cleaning up site content currently hosted elsewhere.  I wanted to do this manually rather than use an export tool so it was clean and I could review the content in detail.  Began writing additional content during this time as well.  
@@ -33,14 +47,16 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 
 ## Technologies / Tools
 
-- HTML / CSS
-- Markdown / Liquid
-- iTerm 2
-- Jekyll (and a little Ruby)
+- [Jekyll](https://jekyllrb.com/) static site generator written in [Ruby](https://www.ruby-lang.org/en/)
+- [Liquid](https://shopify.github.io/liquid/) templating language
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [iTerm 2](https://iterm2.com/) terminal emulator for MacOS
 - CircleCI
 - Sketch
-- Visual Studio Code, Atom, Typora & iA Writer
-- Git & Github Desktop
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Atom, Typora & iA Writer
+- Git & [Github Desktop](https://desktop.github.com/)
 
 ## Resources
 
@@ -54,17 +70,17 @@ For this project, I found the following links helpful:
 - Inspiration for highlighting link style: [the balance](https://www.thebalance.com/best-personal-finance-software-4171938) (accessed December 2019)
 - Help on understanding hilighting link style: [css gradients](https://css-tricks.com/css3-gradients/) (accessed December 2019)
 - [Jekyll Date Formatting Examples](http://alanwsmith.com/jekyll-liquid-date-formatting-examples) (accessed December 2019)
-- https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-- https://jekyllrb.com/docs/configuration/
-- https://learn.cloudcannon.com/jekyll-cheat-sheet/
-- https://ben.balter.com/2015/02/20/jekyll-collections/
-- https://www.digitalocean.com/community/tutorials/controlling-urls-and-links-in-jekyll
+- [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) by Shopify (accessed January 2020)
+- [Jekyll Configuration](https://jekyllrb.com/docs/configuration/) (accessed January 2020)
+- [Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/) (accessed January 2020)
+- [Explain like I’m five: Jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/) by Ben Balter (accessed January 2020)
+- [Controlling URLs and Links in Jekyll](https://www.digitalocean.com/community/tutorials/controlling-urls-and-links-in-jekyll) by Melissa Anderson (accessed January 2020)
 
 ## Principles
 
-[https://sustainableux.com/](https://sustainableux.com/)
-[https://whitehatux.com/](https://whitehatux.com/)
-[https://humanetech.com/](https://humanetech.com/)
+- [https://sustainableux.com/](https://sustainableux.com/)
+- [https://whitehatux.com/](https://whitehatux.com/)
+- [https://humanetech.com/](https://humanetech.com/)
 
 ## Licensing
 
