@@ -2,10 +2,10 @@
     <div id="nav-nav">
       └─
       {% for item in site.data.navigation %}
-        — <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a> —
       {% endfor %}
     </div>
     <div id="nav-breadcrumb">
-        <span>↳ — about — portfolio — résumé — wri</span>↳ <a class="small current" href="#">{{ page.date | date: "%Y-%m-%d"  }}</a>
+        <span>└─ about — portfolio — résumé — wri</span>↳ <a class="small current" href="#">{{ page.date | date: "%Y-%m-%d"  }}</a>
     </div>
   </nav>

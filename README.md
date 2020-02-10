@@ -42,7 +42,7 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
             portfolio:
                 output: true
         ```
-    - In both the portfolio template (_layouts/portfolio.hmtl) and post template, I need to reference 'pages'.  For example, I'm using `{{ page.title }}` to reference the title in a portfolio's front matter (ex `title: Bloombox`).  This was not completely intuitive.  In other examples I had seen posts referenced, (i.e. `{{ post.title }}`) which threw me off.
+    - In both the portfolio template (_layouts/portfolio.hmtl) and post template, I need to reference 'pages'.  For example, I'm using `{{ page.title }}` to reference the title in a portfolio's front matter (ex `title: Bloombox`).  This was not completely intuitive.  In other examples I had seen posts referenced, (i.e. `{{ post.title }}`) which threw me off.  In lists, I reference 'item' instead of 'post' or 'page'.
 - 2020-01-01 Responsive formatting improvements (mostly css)
 - 2019-12-30 Refactored html, css & liquid templates to better scale across multiple pages and page types.  Succesfully built and served static site with `bundle exec jekyll serve`.
 - 2019-12-23 Began creating Jekyll (liquid) templates

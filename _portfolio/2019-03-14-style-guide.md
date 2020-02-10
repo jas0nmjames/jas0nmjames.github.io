@@ -1,13 +1,13 @@
 ---
 layout: portfolio
-title: Thinkrite - Style Guide & Design Systems
+title: Thinkrite - Style Guide & Design System
 summary: I previously wrote about building a Design System in Sketch for my own Bloombox project.  Although I can't take credit for the overall visual design here (a UI designer was on the team), I rebuilt every component within XD and created nested symbols that could accept design changes across multiple components, screens and files.
-updated: 
-tags: 
-image: screen-shot-2019-03-14-at-6.42.48-pm.png
+updated: Originally published via Wordpress on March 14, 2019.  Last edit March 2019.
+tags: #styleguide #designsystems
+image: screen-shot-2019-03-14-at-6.42.48-pm-20191116234550851.png
 ---
 
-# Style Guides & Design Systems
+![screen-shot-2019-03-14-at-6.42.48-pm-20191116234550851.png](2019-03-14-style-guide/screen-shot-2019-03-14-at-6.42.48-pm-20191116234550851.png)
 
 *Originally published via Wordpress on March 14, 2019.*
 *Last edit March 2019.*
@@ -15,8 +15,6 @@ image: screen-shot-2019-03-14-at-6.42.48-pm.png
 **Processes:** Style Guides, Design Systems
 **Tools:** Adobe XD
 **Technologies:** iOS, Android
-
-![Screen Shot 2019-03-14 at 6.42.48 PM](2019-03-14-style-guide.assets/screen-shot-2019-03-14-at-6.42.48-pm-20191116234550851.png)
 
 I previously wrote about building a Design System in Sketch for my own [BloomBox project](http://jasonmjam.es/portfolio/bloombox-design-sprint/).
 
@@ -26,7 +24,7 @@ Although I can't take credit for the overall visual design (a UI designer was on
 
 Here's an example of one of the symbols:
 
-![Screen Shot 2019-03-14 at 6.45.02 PM](2019-03-14-style-guide.assets/screen-shot-2019-03-14-at-6.45.02-pm.png)
+![screen-shot-2019-03-14-at-6.45.02-pm.png](2019-03-14-style-guide/screen-shot-2019-03-14-at-6.45.02-pm.png)
 
 Notice in the layer panel on the left, the 'conflicts' icon is nested within the conflicts filter button, which is further nested within a menu.
 
