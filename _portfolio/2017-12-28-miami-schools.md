@@ -2,12 +2,10 @@
 layout: portfolio
 title: Miami-Dade Schools Performance Data Redesign
 summary: Project Awards (December 2017 Ironhack UX/UI Hackshow) - Overall Hackshow Judge Favorite, Outstanding UX Strategy, Outstanding Business Analysis, Outstanding Problem-Solving Skills, Outstanding Presentations Skills, Runner Up, Outstanding User Research, Runner Up.  Improved the Dade Schools site's overall information architecture to reduce cognitive overload and emphasized making school performance data more accessible to the public with a mobile-first design.  In other words, the site became much easier to view on mobile phones and users could more easily find what they were looking for without getting overwhelmed. The site was now built for not just school administrators, but parents and community members too!
-updated: 
+updated: Originally published via Wordpress on December 28, 2017.  Last edit December, 2017.
 tags: 
 image: jjames_final-presentation-v-3-0.png
 ---
-
-# Miami-Dade Schools Performance Data Redesign
 
 *Originally published via Wordpress on December 28, 2017.*
 *Last edit December, 2017.*
@@ -29,7 +27,7 @@ image: jjames_final-presentation-v-3-0.png
 
 I individually designed and presented this project from start to finish over two weeks.
 
-## I wrote this case study for a wide audience:
+## I wrote this case study for a wide audience
 
 I wrote this case study for not only other UX Designers, but for developers, project managers and anyone else that might not yet know the ins and outs of user experience design. I’ve [hyperlinked](https://www.w3schools.com/html/html_links.asp) many terms below to research or further explanation where I thought it’d be helpful.
 
@@ -51,13 +49,13 @@ Gregory was specifically working on visualizing graduation rates over time at th
 
 Imagine you’re a new parent trying to find out how Miami Dade School are performance. [Feel free to open a second tab and navigate with me to http://www.dadeschools.net/.] There are already some issues on the homepage, but we’ll skip discussing them for now by clicking on the ‘parents’ page in orange. We’ll find:
 
-![img](2017-12-28-miami-schools.assets/0*l8MhSGZS-rABOQ2U..png)
+![img](2017-12-28-miami-schools/0*l8MhSGZS-rABOQ2U..png)
 
 Miami Dade Public Schools parents page (http://www.dadeschools.net/parents.asp) as of January 2018.
 
 Even before testing, **there are enough items on the page to make an educated guess that at least one user will experience cognitive overload**. Also, I’m not exactly sure how to find school performance data from here. Now let's say you do find how to navigate to the school performance data page (I can never remember how to find it so I search for it directly from Google.):
 
-![img](2017-12-28-miami-schools.assets/0*AoKAEjGsHzSw_2ay..png)
+![img](2017-12-28-miami-schools/0*AoKAEjGsHzSw_2ay..png)
 
 http://oada.dadeschools.net/ as of January 2018
 
@@ -71,7 +69,7 @@ If these sites are meant for the general public to access, there’s a steep lea
 
 If you click on the link titled ‘2016–2017 Preliminary School Performance Grades as of Nov’, you’ll download the following excel file:
 
-![img](2017-12-28-miami-schools.assets/0*Oev3b-9z-F2IckFK..png)
+![img](2017-12-28-miami-schools/0*Oev3b-9z-F2IckFK..png)
 
 http://oada.dadeschools.net/SchoolPerformanceGrades/SchoolGradesDade1617asofNov.xls
 
@@ -79,7 +77,7 @@ Now, in all fairness, there are [Statistical Highlights](http://drs.dadeschools.
 
 Finally, **we can’t forget about what a user’s experience might be on mobile device**, especially considering the prevailing ‘[mobile first](https://www.lukew.com/resources/mobile_first.asp)’ approach to web design. Let’s try it out:
 
-![img](2017-12-28-miami-schools.assets/1*_1xg36Pb4N5d8zbgAhXvDA.png)
+![img](2017-12-28-miami-schools/1*_1xg36Pb4N5d8zbgAhXvDA.png)
 
 On the left, DadeSchools.net on a Galaxy Note 8. On the right, the first screen presented after opening the Dadeschools Mobile Android App. (Screenshots taken December 2018)
 
@@ -89,7 +87,7 @@ As shown above, there is no mobile site — **there’s only viewing a page desi
 
 ### The Solution
 
-![img](2017-12-28-miami-schools.assets/1*03MA_NKfwpOFWyDtMx2tVA.png)
+![img](2017-12-28-miami-schools/1*03MA_NKfwpOFWyDtMx2tVA.png)
 
 High Fidelity Prototype designed mobile-first for the responsive web: on mobile (Galaxy Note 8 here), tablet (iPad Air 2 show here) and Desktop.
 
@@ -136,7 +134,7 @@ Based on my background research, I knew that my target demographic (the type of 
 **I then reviewed my notes and organized them into a table to better view findings across all five interviews:**
 
 
-![img](2017-12-28-miami-schools.assets/0*Q3FXd1LTata_Xovf..png)
+![img](2017-12-28-miami-schools/0*Q3FXd1LTata_Xovf..png)
 
 The first page of my interview findings
 
@@ -148,36 +146,36 @@ Although surveys and interviews can be done simultaneously, I’ve found it help
 
 For this project, I had an interesting problem. I wanted at least 150 survey results, yet my timeline was limited — I only had two weeks from inception to completion. However, I was working with an existing product (Miami Dade Public Schools) with existing reviews of the school system in general, as well as existing reviews of its own Apple and Android apps. **Instead of creating an entirely new survey, why not leverage the feedback that was already there? But how?**
 
-![img](2017-12-28-miami-schools.assets/0*GUbRGD82Uzl7Jp3W..png)
+![img](2017-12-28-miami-schools/0*GUbRGD82Uzl7Jp3W..png)
 
 Reviews from the Dade Schools Mobile app in the iTunes App Store (https://itunes.apple.com/us/app/dadeschools-mobile/id820399142?mt=8)
 
 *Resourcefulness is the best resource.* The Dade Schools app [in the app store](https://itunes.apple.com/us/app/dadeschools-mobile/id820399142?mt=8) only showed a few recent reviews. I needed them all and I didn’t have easy access since I wasn’t the developer of the app. I found posts on both [Stack Overflow](https://stackoverflow.com/questions/16273306/how-to-get-app-reviews-from-itunes)and [Reddit](https://www.reddit.com/r/iOSProgramming/comments/5qjglf/rss_feeds_for_app_store_reviews_are_not_working/) that showed me how to access all of the reviews as an [XML document](https://itunes.apple.com/us/rss/customerreviews/id=820399142/sortBy=mostRecent/page=1/xml):
 
 
-![img](2017-12-28-miami-schools.assets/0*sT-nir0wYE-1kiFO..png)
+![img](2017-12-28-miami-schools/0*sT-nir0wYE-1kiFO..png)
 
 **I now needed this in a format I could work with.** With some data analysis experience I could’ve taken the time to parse this in Microsoft Excel, but [found a shortcut to do this for me (for free!)](https://conversiontools.io/conversion/convert_xml_to_excel):
 
-![img](2017-12-28-miami-schools.assets/0*kCsx1wudK8ZG_Qc0..png)
+![img](2017-12-28-miami-schools/0*kCsx1wudK8ZG_Qc0..png)
 
 And finally, I needed to collect insight. I had about 500 reviews to go through. If this was a larger data set, I could’ve employed some machine learning ([You can use Excel!](https://www.amazon.com/Data-Smart-Science-Transform-Information/dp/111866146X)) that could, with some trial and error, eventually start to pull out data I was looking for. But, considering I only had time to do it once, I decided to read and summarize each review line-by-line to make sure I could get the insight I needed:
 
-![img](2017-12-28-miami-schools.assets/0*IPJwII0t66ymRWw9..png)
+![img](2017-12-28-miami-schools/0*IPJwII0t66ymRWw9..png)
 
 For example, in row 77, the comment is “HI YEAH PALM SPRINGS MIDDLE SCHOOL AND I NEED MY SCHEDULE, OK THANKS BYE”. With an “x” in column L, I noted that this reviewer wanted to be able to view schedules in the app. This was a great way to pull out pain points and opportunities from a lot of data.
 
 I gained a few key insights about user experiences with the current app, namely that there were plenty of issues with functionality and reliability and that students and parents wanted to see grades, scheduling, and lunch menu functionality either added to or improved in the app:
 
-![img](2017-12-28-miami-schools.assets/1*1NCsSqvhKdxfrFbB6kPq5Q.png)
+![img](2017-12-28-miami-schools/1*1NCsSqvhKdxfrFbB6kPq5Q.png)
 
 I carried out a similar process to mine [data from another site, Niche.com](https://www.niche.com/k12/d/miami-dade-county-public-schools-fl/reviews/), which had detailed reviews about the school system itself:
 
-![img](2017-12-28-miami-schools.assets/0*VDEeULW58Y9n2jrp..png)
+![img](2017-12-28-miami-schools/0*VDEeULW58Y9n2jrp..png)
 
 and similarly cleaned and analyzed the reviews to find:
 
-![img](2017-12-28-miami-schools.assets/1*KuGaV5pSOUaeSVv62VTEZQ.png)
+![img](2017-12-28-miami-schools/1*KuGaV5pSOUaeSVv62VTEZQ.png)
 
 I noted if a particular topic was mentioned in a comment, whether good or bad, as insight into what kind of school information users were looking for. For example, there were more comments about food than I expected. In this case, users (especially students) think that a high quality cafeteria experience is part of a high quality school experience. So we need to factor that into what kind of information is available on the site.
 
@@ -187,15 +185,15 @@ Next, we take a **look at direct and indirect competitors to find best practices
 
 Schoolgrades.org had an excellent way to communicate school performance across districts via color on a map:
 
-![img](2017-12-28-miami-schools.assets/0*dtlfENk7wYELp9ji..png)
+![img](2017-12-28-miami-schools/0*dtlfENk7wYELp9ji..png)
 
 Greatschools.org interpreted the data in a straightforward way. In the example below, not only are test scores noted as “a worrisome sign” with an explanation, there are also “parent tips” on how to take action:
 
-![img](2017-12-28-miami-schools.assets/0*-ybhBa7db02mDL8A..png)
+![img](2017-12-28-miami-schools/0*-ybhBa7db02mDL8A..png)
 
 I discovered this feature of an indirect competitor through the recommendation of one of my User Interviewees! As a ‘socially responsible online investing’ service, at on-boarding Censible users answer questions to determine their values, which are in-turn incorporated into their investment strategy. The key for us is Censible’s process of sorting information and the user’s experience based on their preferences. In our context, we could change what type of school performance information a user views based on their preferences:
 
-![img](2017-12-28-miami-schools.assets/1*QZ9k_qY2bW7NOr4NqIcxhw.png)
+![img](2017-12-28-miami-schools/1*QZ9k_qY2bW7NOr4NqIcxhw.png)
 
 #### Business Analysis: Market Positioning Insight
 
@@ -213,11 +211,11 @@ Based on our user research and competitive analysis, we put our product manager 
 
 As we move into the end of the research phase, we use what insight we’ve gained to begin defining who exactly our users are and what sort of features they’re looking for. To do this, we condense our research into ‘[personas](https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them)’ that represent our target users to help orient our design process around user needs. I created primary and secondary personas:
 
-![img](2017-12-28-miami-schools.assets/1*djfLmCW4O-DEKuw5Op5SRw.png)
+![img](2017-12-28-miami-schools/1*djfLmCW4O-DEKuw5Op5SRw.png)
 
 Persona photo by [Alexander Dummer](https://unsplash.com/photos/UH-xs-FizTk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-![img](2017-12-28-miami-schools.assets/1*dnUKcgBKPUYpOa9b1OcuTg.png)
+![img](2017-12-28-miami-schools/1*dnUKcgBKPUYpOa9b1OcuTg.png)
 
 Persona photo by www.defense.gov
 
@@ -225,13 +223,13 @@ Persona photo by www.defense.gov
 
 A user doesn’t exist in a vacuum. [Storyboarding](https://medium.com/atolye15/what-is-storyboarding-in-ux-design-and-how-can-you-create-them-effectively-df3712626a22) helps place the persona in a larger context:
 
-![img](2017-12-28-miami-schools.assets/1*qsmg_b1qhFgAkYgZw231XQ.png)
+![img](2017-12-28-miami-schools/1*qsmg_b1qhFgAkYgZw231XQ.png)
 
 My storyboard for persona #1
 
 Now you can see that I’m not a fantastic freehand drawer, but that’s okay! The point is to convey information and get it down on paper. **A storyboard is not showing a user navigating your website or app. A storyboard puts the user in a context meaningful to them in which the product you’re designing becomes useful.**
 
-![img](2017-12-28-miami-schools.assets/1*X0MHebEVtrQUujacuv7DJg.png)
+![img](2017-12-28-miami-schools/1*X0MHebEVtrQUujacuv7DJg.png)
 
 My storyboard for persona #2
 
@@ -241,7 +239,7 @@ For persona #2, I captured [a very real situation](https://www.orlandoweekly.com
 
 Now we start digging into what specific tasks a user would need to carry out to meet the motivations, needs, and goals expressed in the storyboard. We’re still not yet thinking up solutions or actions that would specifically carried out in what we’re designing. If in the storyboard we noted the user would “want to find out how well their school is performing”, in the task analysis we note that the user will “search their schools name using Google search engine” or “talk to neighbor about their experience at the local school”:
 
-![img](2017-12-28-miami-schools.assets/0*swzPRV3mh968lNr0..png)
+![img](2017-12-28-miami-schools/0*swzPRV3mh968lNr0..png)
 
 Before doing task analysis, I find it helpful to review all of the primary research (interview notes, survey responses, etc.) as well as the analysis we completed to be sure our task analysis is research-based.
 
@@ -249,7 +247,7 @@ Before doing task analysis, I find it helpful to review all of the primary resea
 
 A user journey map is essentially a storyboard at a more granular level. We combine the personas, storyboard and task analysis into a map of how a user would experience trying to complete tasks given the current situation, before our design solutions are applied:
 
-![img](2017-12-28-miami-schools.assets/0*kkmSUu3jrc8LmKAN..jpeg)
+![img](2017-12-28-miami-schools/0*kkmSUu3jrc8LmKAN..jpeg)
 
 Again, my handwriting doesn’t have to be the most beautiful in the world to convey the information I need to analyze and ideate.
 
@@ -280,7 +278,7 @@ People will complain that they need to cut corners in order to complete a task o
 
 Card sorting with five people allows us to understand how users name and group different content on our site. For this school performance data project, a great place to start were terms used on the existing site. Are the terms easily understood? Do they mean different things to different users? Do they make sense within a larger context? Is there content missing that are research showed we needed?
 
-![img](2017-12-28-miami-schools.assets/1*7wRjvyJwgs2B7MikvYI5hQ.png)
+![img](2017-12-28-miami-schools/1*7wRjvyJwgs2B7MikvYI5hQ.png)
 
 **Key insight from card sorting:**
 
@@ -294,11 +292,11 @@ In a guest lecture, Milan De Vito, VP of Experience & Design at [Wrecking Ball S
 
 Here’s what the existing site architecture is for DadeSchools.net and http://oada.dadeschools.net/, as I mapped out in MindNode:
 
-![img](2017-12-28-miami-schools.assets/1*Tn-1SgJHapHy9n8PqRbrqQ.png)
+![img](2017-12-28-miami-schools/1*Tn-1SgJHapHy9n8PqRbrqQ.png)
 
 And here’s how, using research findings, card sorting results and best IA practices, I redesigned the architecture:
 
-![img](2017-12-28-miami-schools.assets/1*BpLo3WU-Cho0h3nzE7OBRA.png)
+![img](2017-12-28-miami-schools/1*BpLo3WU-Cho0h3nzE7OBRA.png)
 
 Now, to be fair, I haven’t added as much detail here. I don’t note the five or so sections of content that would be listed in the Employee’s ‘Human Resources’ page under ‘Discover M-DCPS’, but I don’t need to. **I demonstrate here a great improvement on how much information is presented to a user as they begin navigating the site.**
 
@@ -306,7 +304,7 @@ Now, to be fair, I haven’t added as much detail here. I don’t note the five 
 
 And here I show how a user would navigate this new architecture to perform a task, in this case to find school performance data:
 
-![img](2017-12-28-miami-schools.assets/1*GHFDJDydGrb3sbDSMpBBkQ.png)
+![img](2017-12-28-miami-schools/1*GHFDJDydGrb3sbDSMpBBkQ.png)
 
 Since our research showed a user would likely start with a search in Google, we begin there and depending on how they search, follow one of two paths to get to “2017 School Grades”, the user’s goal in this scenario
 
@@ -320,7 +318,7 @@ After all of the research documented above, we need to first figure out what we 
 
 Since I’m on a two week timeline (and by now have about one week left), I need to figure out **what features I must, should, and could have**. ([MoSCoW](https://www.agilebusiness.org/content/moscow-prioritisation-0)!):
 
-![img](2017-12-28-miami-schools.assets/0*dC36X0iWYIkJmSOe..jpeg)
+![img](2017-12-28-miami-schools/0*dC36X0iWYIkJmSOe..jpeg)
 
 The features I must have will be incorporated into the [minimum viable product](https://www.techopedia.com/definition/27809/minimum-viable-product-mvp) I’m completing design on over the next week. Ideally I can also incorporate some, if not all, of the should features. The could features are the most time-consuming, expensive or simply non-essential and can be incorporated into the design at a later stage in development.
 
@@ -332,7 +330,7 @@ At this point it’s important to note that in design, there are many ways to ac
 
 To explore how features could be implemented in my redesign, I did a few [Crazy 8s](https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/), one of design exercises I could’ve chosen:
 
-![img](2017-12-28-miami-schools.assets/0*tabneUhxYeTmJ7zL..jpeg)
+![img](2017-12-28-miami-schools/0*tabneUhxYeTmJ7zL..jpeg)
 
 Crazy Eights: Spend five minutes drawing eight different ways (that’s 40 seconds a way) a feature could be implemented. Review what you have, then do crazy eights again, refining what you’ve come up with.
 
@@ -342,7 +340,7 @@ Finally… it’s time to prototype.
 
 ### Testing Prototypes: From Low to High Fidelity
 
-![img](2017-12-28-miami-schools.assets/1*77GjxsKqdhGwutjQyfyGdw.png)
+![img](2017-12-28-miami-schools/1*77GjxsKqdhGwutjQyfyGdw.png)
 
 My first screens for this project, hand-drawn and uploaded into the Marvel App
 
@@ -354,7 +352,7 @@ From here, I’m going to use a single screen — School Performance Data — to
 
 This is the school performance data screen shown above as uploaded into the Marvel App:
 
-![img](2017-12-28-miami-schools.assets/1*V_mPyTveDv_PWIHNrYVLUQ.png)
+![img](2017-12-28-miami-schools/1*V_mPyTveDv_PWIHNrYVLUQ.png)
 
 This is the school performance data screen shown above in the Marvel App.
 
@@ -375,7 +373,7 @@ Finally, I would encourage the tester to be as vocal as possible and to let me k
 
 After testing with five users, I gathered insight and finally moved to digital design. At this stage I added more detail without adding color and was already responding to usability feedback; for example, on this data screen, 80% of testers had trouble differentiating between what was County level data and School level data. In response, I added the search box to find a specific school that was on a different screen in version one, to this screen in version two. See how this change and others were incorporated below:
 
-![img](2017-12-28-miami-schools.assets/1*py29UHKmQKE0t2hmYji27A.png)
+![img](2017-12-28-miami-schools/1*py29UHKmQKE0t2hmYji27A.png)
 
 I then created a clickable prototype in InVision and again tested five users.
 
@@ -383,7 +381,7 @@ I then created a clickable prototype in InVision and again tested five users.
 
 Before designing version three in high fidelity, I needed to design and test typography and color as they determine not only if something looks good, but carry emotion and meaning. To do this, I first created a mood board:
 
-![img](2017-12-28-miami-schools.assets/0*mKBpbNqDuHUqvYKq..png)
+![img](2017-12-28-miami-schools/0*mKBpbNqDuHUqvYKq..png)
 
 The mood board collects images, textures, text and colors of what we’re trying to design. I chose three [Brand Personality](http://www.valuebasedmanagement.net/methods_aaker_brand_personality_framework.html) adjectives that I was trying to communicate with the design based on my research and target audience:
 
@@ -393,7 +391,7 @@ The mood board collects images, textures, text and colors of what we’re trying
 
 I then created a style tile that would serve as a template for my design:
 
-![img](2017-12-28-miami-schools.assets/0*VY_um4gxUu77KE4U..png)
+![img](2017-12-28-miami-schools/0*VY_um4gxUu77KE4U..png)
 
 Style Tile
 
@@ -417,7 +415,7 @@ For example, three testers said the design was “honest” and a fourth noted i
 
 I now not only incorporated color, but address further usability issues I found when testing version two. **For example, 80% of users found it annoying to have to scroll all the way back up to the top from the bottom of a long page, so I had a scroll-to-top button:**
 
-![img](2017-12-28-miami-schools.assets/1*HxYgBAfsVVW4jNm8Rmm6QQ.png)
+![img](2017-12-28-miami-schools/1*HxYgBAfsVVW4jNm8Rmm6QQ.png)
 
 #### High Fidelity: Expert Analysis
 
@@ -425,7 +423,7 @@ You’ll notice that version four below is almost exactly the same as version th
 
 After consulting with colleagues, I darkened the blues and yellows and added back in the grey background I had in version two because I wanted to better match the existing site (DadeSchools.net) colors and give a fresher design:
 
-![img](2017-12-28-miami-schools.assets/1*kRtfg0BCS6iVMMnIZjdUWQ.png)
+![img](2017-12-28-miami-schools/1*kRtfg0BCS6iVMMnIZjdUWQ.png)
 
 I was still able to convey the emotions I was going for while freshening up the design a bit.
 
@@ -433,7 +431,7 @@ If there’s one thing I’ve learned about design, it’s that a good designer 
 
 ### The Final Product
 
-![img](2017-12-28-miami-schools.assets/1*03MA_NKfwpOFWyDtMx2tVA-20191116234041590.png)
+![img](2017-12-28-miami-schools/1*03MA_NKfwpOFWyDtMx2tVA-20191116234041590.png)
 
 High Fidelity Prototype designed mobile-first for the responsive web: on mobile (Galaxy Note 8 here), tablet (iPad Air 2 show here) and Desktop.
 

@@ -35,6 +35,7 @@ body {
   padding: 1em;
   font-size: 16px;
   font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 /*----------------------- CSS for HTML elements --------------------------*/
@@ -255,8 +256,13 @@ main a:hover {
 
 @media screen and (min-width: 768px) {
   :root {
-    font-size: 1.5rem;
+    font-size: 0.85rem;
   }
+  /*
+    body {
+      font-size: 2rem;
+    }
+  */
   #tagline {
     font-size: 3rem;
   }
@@ -273,7 +279,7 @@ main a:hover {
 
 @media screen and (min-width: 1440px) {
   :root {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
   #tagline {
     font-size: 3rem;
