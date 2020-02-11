@@ -1,0 +1,34 @@
+I"{	<p>At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with <strong>Framer X</strong></p>
+
+<h2 id="best-use-interaction-design-ixd">Best Use: Interaction Design (IxD)</h2>
+
+<p>Transitions, micro-interactions, etc. all can be tweaked with real react code, plus react props can be added as custom properties to the FramerUI based on the component you’re working in.</p>
+
+<p>So if you’re not comfortable with code you can still tweak interactions.</p>
+
+<h2 id="second-best-use-advanced-prototyping">Second-Best Use: Advanced Prototyping</h2>
+
+<p>For example, I created a prototype with a live, can-be-interacted-with map using a Mapbox API component.  You can also, for example, pass data from an input field on one screen, to a text field in another screen of the prototype.</p>
+
+<h2 id="something-unexpected-positive">Something Unexpected, Positive</h2>
+
+<p>Objects in the canvas are automatically nested if they’re placed in another object.  Makes layer organization much easier as it’s mostly automatic.  Just need to maintain naming.</p>
+
+<h2 id="something-unexpected-negative">Something Unexpected, Negative</h2>
+
+<p>I spent several hours over a weekend trying to import both material and other react components and couldn’t get it to work.  I’ll keep working at it in my free time.  It has a lot of promise: I should be able to just drag and drop react components as if they were design components.</p>
+
+<h2 id="other-points">Other Points</h2>
+
+<ul>
+  <li>You can import designs from sketch into Figma.</li>
+  <li>As my colleague Richard Novoa has rightly hyped, <a href="https://www.framer.com/blog/posts/announcing-framer-bridge/">framer bridge</a> holds a lot of promise.  With it implemented, we could basically use Framer like storybook where we could view and update components with version control!  It would allow designers to interact with single source of truth components more directly.  However it will take some better understanding of React to use effectively.</li>
+</ul>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+  <li>This can be a very powerful tool for our team, but to use effectively, designers will need to know at least React basics.  There’s a steep learning curve with it comes to working with real react components.</li>
+  <li>I’d rather prototype in FramerX than any other tools I’ve used.</li>
+</ul>
+:ET

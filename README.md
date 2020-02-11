@@ -59,11 +59,12 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [iTerm 2](https://iterm2.com/) terminal emulator for MacOS
-- CircleCI
-- Sketch
-- [Visual Studio Code](https://code.visualstudio.com/)
-- Atom, Typora & iA Writer
-- Git & [Github Desktop](https://desktop.github.com/)
+- [Sketch](https://www.sketch.com/) - I used Sketch to explore and layout the design before development
+- [Visual Studio Code](https://code.visualstudio.com/) - text editor
+- [Atom](https://atom.io/) - open source text editor
+- [Typora](https://typora.io/) - macOS markdown editor which helped in copying and reformatting existing markdown content from Wordpress
+- Git & [Github Desktop](https://desktop.github.com/) - I prefer interacting with Git and Github repositories using Github Desktop.  Why not make it easier if you can!
+- [CircleCI](https://circleci.com/)
 
 ## Resources
 

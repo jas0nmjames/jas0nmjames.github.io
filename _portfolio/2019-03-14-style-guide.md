@@ -12,9 +12,9 @@ image: screen-shot-2019-03-14-at-6.42.48-pm-20191116234550851.png
 *Originally published via Wordpress on March 14, 2019.*
 *Last edit March 2019.*
 
-**Processes:** Style Guides, Design Systems
-**Tools:** Adobe XD
-**Technologies:** iOS, Android
+- **Processes:** Style Guides, Design Systems
+- **Tools:** Adobe XD
+- **Technologies:** iOS, Android
 
 I previously wrote about building a Design System in Sketch for my own [BloomBox project](http://jasonmjam.es/portfolio/bloombox-design-sprint/).
 
