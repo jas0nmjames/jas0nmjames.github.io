@@ -7,6 +7,8 @@ tags:
 image: 
 ---
 
-*Coming Soon*
+*This page was last updated on February 11, 2020.*
 
-This page was last updated on February 11, 2020.
+## 🚧 Case Study
+
+*Coming Soon*
