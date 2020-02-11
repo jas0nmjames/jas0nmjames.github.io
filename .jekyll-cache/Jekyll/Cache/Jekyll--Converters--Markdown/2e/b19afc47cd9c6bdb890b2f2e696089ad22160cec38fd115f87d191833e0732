@@ -1,0 +1,136 @@
+I"�"<p><img src="2020-02-11-jekyllrb/index.png" alt="img" /></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>I previously created my portfolio site with Wordpress.  That site is still accessible at <a href="jasonmjam.wordpress.com">jasonmjam.wordpress.com</a>.</p>
+
+<p>There are a number of benefits in creating a site with a powerful CMS like Wordpress, but I wanted to build a new site from scratch for a number of reasons:</p>
+
+<ul>
+  <li>Write in <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">markdown</a> as widely as possible.  This includes when taking personal notes, writing documentation for work, and in this case, creating site content.  For many years I’ve had notes in all sorts of formats across different devices.  It’s been inefficient and a pain to unify.  I’d like to follow <a href="https://indieweb.org/">indieweb</a> principles.  With markdown, I own my content and formatting is (largely) universal.</li>
+  <li>Create clean markdown copies of my past writing for archival purposes.</li>
+  <li>Refresh my Sketch (and larger UI) chops.  I have been working a lot in Figma at work.  In another side project concurrent to this one, I’m learning Framer X.</li>
+  <li>Learn CSS Grids.  See inspiration from <a href="https://ahmadnassri.com/">Ahmad Nassri</a> / <a href="https://twitter.com/meowlivia_/status/1116784686640979968">Olivia Ng</a></li>
+  <li>Experiment with static site generators.</li>
+  <li>Learn the <a href="https://jamstack.org/">JAMstack</a> a bit better after seeing my dev colleagues working in React and Gatsby.</li>
+</ul>
+
+<p>To view milestone accomplishments of the project and resources I found helpful during its creation, view the repository’s <a href="README.MD">README.md</a>.</p>
+
+<h2 id="the-repository">The Repository</h2>
+
+<p>Feel free to view, clone or even fork the repository: <a href="https://github.com/jas0nmjames/jas0nmjames.github.io">https://github.com/jas0nmjames/jas0nmjames.github.io</a></p>
+
+<p>I’d be happy to answer any questions!</p>
+
+<p>P.S. You can find the design and other files I created before and during development that are not intended to be deployed in the repository’s <a href="working-folder">working folder</a>.</p>
+
+<h2 id="technologies--tools">Technologies / Tools</h2>
+
+<ul>
+  <li><a href="https://jekyllrb.com/">Jekyll</a> static site generator written in <a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  <li><a href="https://shopify.github.io/liquid/">Liquid</a> templating language</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+  <li><a href="https://iterm2.com/">iTerm 2</a> terminal emulator for MacOS</li>
+  <li><a href="https://www.sketch.com/">Sketch</a> - I used Sketch to explore and layout the design before development</li>
+  <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> - text editor</li>
+  <li><a href="https://atom.io/">Atom</a> - open source text editor</li>
+  <li><a href="https://typora.io/">Typora</a> - macOS markdown editor which helped in copying and reformatting existing markdown content from Wordpress</li>
+  <li>Git &amp; <a href="https://desktop.github.com/">Github Desktop</a> - I prefer interacting with Git and Github repositories using Github Desktop.  Why not make it easier if you can!</li>
+  <li><a href="https://circleci.com/">CircleCI</a></li>
+</ul>
+
+<h2 id="translating-markdown">Translating Markdown</h2>
+
+<p>My intial task was to translate the existing pages I had written on my Wordpress site or on Medium into Markdown.  This provided a chance to revisit my case studies and improve formatting when necessary.</p>
+
+<p>There are some markdown converters available, but I wanted to ensure my posts were clean.  It took quite a bit of time.  <a href="https://typora.io/">Typora</a> helped a bit by copying and pasting assets into a separate directory for each post.</p>
+
+<h2 id="design">Design</h2>
+
+<p>I first created a rough layout in markdown of the content I wanted to build the site with.  (See <a href="working-folder/content-home.md">content-home.md</a>)</p>
+
+<p>After viewing many contemporary designs, considering I wanted my site to be <strong>accessible</strong>, and considering the possibilities of markdown and Jekyll, I decided on a simple, text-focused mostly black-and-white design with ample white space.</p>
+
+<p>Perhaps I’ll revist this post in the future and comment more on the design decisions in more detail.</p>
+
+<p>I than began to lay out the site in Sketch across multiple device sizes for good responsive design:</p>
+
+<p><img src="2020-02-11-jekyllrb/sketch.png" alt="img" /></p>
+
+<h3 id="a-short-note-on-typography">A short note on Typography</h3>
+
+<p>I had previously developed personal branding which formed a starting point for some of the design.</p>
+
+<p>However, after exploring several fonts I settled on <a href="https://fonts.google.com/specimen/Patua+One">Patua One</a>, instead of the previously used <a href="https://fonts.google.com/specimen/Prata">Prata</a>, to communicate the feeling I am trying to convey in this minimalist design.  They both pair nicely with Roboto, which I am using as body text throughout.</p>
+
+<p>In the future I will write about this in greater detail.</p>
+
+<h2 id="translating-the-design-to-html--css">Translating the Design to HTML &amp; CSS</h2>
+
+<p>Before building the site with Jekyll and Liquid templating, I created local html &amp; css to experiment with the design, especially as related to <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grids</a> and <a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">Responsiveness</a>.</p>
+
+<h3 id="css-grids">CSS Grids</h3>
+
+<p>It was my first time working in detail with CSS Grids and I wanted to build everything from scratch so I could really understand their implementation.</p>
+
+<p>Here, I’m using Firefox’s inspector to view the developed grids:</p>
+
+<p><img src="2020-02-11-jekyllrb/inspecting-css-grids.png" alt="img" /></p>
+
+<p>The grid system helps organize the content and even reorganize the content depending on screen type, size and orientation.</p>
+
+<h3 id="tweaking-html--css">Tweaking HTML &amp; CSS</h3>
+
+<p>You can find the code before I translated everything over to Jekyll in the working folder:</p>
+
+<ul>
+  <li><a href="working-folder/index.html">Original HTML</a></li>
+  <li><a href="working-folder/style.css">Original CSS</a></li>
+</ul>
+
+<p>I also created templates for different page types:</p>
+
+<ul>
+  <li><a href="working-folder/template-article-list.html">Portfolio Page</a></li>
+  <li><a href="working-folder/template-article-writing.html">Post Page</a></li>
+  <li><a href="working-folder/template-article-list.html">List Page</a></li>
+  <li><a href="working-folder/template-page.html">General Page</a></li>
+</ul>
+
+<p>View the <a href="https://github.com/jas0nmjames/jas0nmjames.github.io/commits/master">commit history</a> to see all the tweaks made over the course of exploring and understanding the design.</p>
+
+<h2 id="development">Development</h2>
+
+<h3 id="learning-jekyll">Learning Jekyll</h3>
+
+<p>I spent some type in the Jekyll tutorial to learn the basics of Ruby and Liquid along with Jekyll’s typical configuration.</p>
+
+<p>With Jekyll installed locally, I could build and serve my new site with a few key commands in the termial:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">bundle exec jekyll build</code></li>
+  <li><code class="highlighter-rouge">bundle exec jekyll serve</code></li>
+</ul>
+
+<p>Jekyll is easy to deploy with Github, so I created a new repository, configured it for integration with Jekyll, and was on my way.</p>
+
+<h3 id="building-out-the-site">Building Out the Site</h3>
+
+<p>I faced a few hurdles in getting my site working properly, mainly around getting Jekyll ‘configurations’ working and targeting different parts of the site with CSS to ensure a clean, responsive design.  Styles evolved as needed and will continue to.</p>
+
+<p>View the <a href="https://github.com/jas0nmjames/jas0nmjames.github.io/commits/master">commit history</a> to see how development progressed over time.</p>
+
+<p>If you have any questions about why I’m using html classes and ids the way I am, or how I’m using liquid templating, or other choices I made, please let me know!</p>
+
+<h2 id="in-closing">In Closing</h2>
+
+<p>I’m so glad I built this site from scratch.  I’ve increased my understanding of HTML &amp; CSS several fold and have more context in which to engage developers in general.</p>
+
+<p>I’ve run into several blockers which have meant it’s taken much longer for me to complete this site, but I’m glad for it.</p>
+
+<p>As I continue to refine and build out the site, I’ll update this post accordingly.</p>
+
+<p>February 2020</p>
+:ET

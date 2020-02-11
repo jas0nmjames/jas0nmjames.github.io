@@ -3,6 +3,7 @@ layout: page
 title: résumé
 permalink: /résumé/
 ---
-🚧 Under Construction
 
-<a href="http://docs.google.com/gview?url=https://jas0nmjames.github.io/resume/jasonjames_resume_2019_spring.pdf" target="_blank">Click here to open résumé as PDF.</a>
+![PNG image of Résumé](assets/resume/jasonjames_resume_2020-02-11.png)
+
+[Click here to download my résumé as a PDF](assets/resume/jasonjames_resume_2020-02-11.pdf)

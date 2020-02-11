@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-10T07:17:36-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">CLI Reference</title><link href="http://localhost:4000/commands-and-syntax/" rel="alternate" type="text/html" title="CLI Reference" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>http://localhost:4000/commands-and-syntax</id><content type="html" xml:base="http://localhost:4000/commands-and-syntax/">&lt;h1 id=&quot;commands-syntax--shortcuts&quot;&gt;Commands, Syntax &amp;amp; Shortcuts&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-02-11T16:41:03-05:00</updated><id>/feed.xml</id><entry><title type="html">My Thoughts on Framer</title><link href="/framerx/" rel="alternate" type="text/html" title="My Thoughts on Framer" /><published>2019-12-17T00:00:00-05:00</published><updated>2019-12-17T00:00:00-05:00</updated><id>/framerx</id><content type="html" xml:base="/framerx/">&lt;p&gt;At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with &lt;strong&gt;Framer X&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;best-use-interaction-design-ixd&quot;&gt;Best Use: Interaction Design (IxD)&lt;/h2&gt;
+
+&lt;p&gt;Transitions, micro-interactions, etc. all can be tweaked with real react code, plus react props can be added as custom properties to the FramerUI based on the component you’re working in.&lt;/p&gt;
+
+&lt;p&gt;So if you’re not comfortable with code you can still tweak interactions.&lt;/p&gt;
+
+&lt;h2 id=&quot;second-best-use-advanced-prototyping&quot;&gt;Second-Best Use: Advanced Prototyping&lt;/h2&gt;
+
+&lt;p&gt;For example, I created a prototype with a live, can-be-interacted-with map using a Mapbox API component.  You can also, for example, pass data from an input field on one screen, to a text field in another screen of the prototype.&lt;/p&gt;
+
+&lt;h2 id=&quot;something-unexpected-positive&quot;&gt;Something Unexpected, Positive&lt;/h2&gt;
+
+&lt;p&gt;Objects in the canvas are automatically nested if they’re placed in another object.  Makes layer organization much easier as it’s mostly automatic.  Just need to maintain naming.&lt;/p&gt;
+
+&lt;h2 id=&quot;something-unexpected-negative&quot;&gt;Something Unexpected, Negative&lt;/h2&gt;
+
+&lt;p&gt;I spent several hours over a weekend trying to import both material and other react components and couldn’t get it to work.  I’ll keep working at it in my free time.  It has a lot of promise: I should be able to just drag and drop react components as if they were design components.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-points&quot;&gt;Other Points&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can import designs from sketch into Figma.&lt;/li&gt;
+  &lt;li&gt;As my colleague Richard Novoa has rightly hyped, &lt;a href=&quot;https://www.framer.com/blog/posts/announcing-framer-bridge/&quot;&gt;framer bridge&lt;/a&gt; holds a lot of promise.  With it implemented, we could basically use Framer like storybook where we could view and update components with version control!  It would allow designers to interact with single source of truth components more directly.  However it will take some better understanding of React to use effectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;key-takeaways&quot;&gt;Key Takeaways&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This can be a very powerful tool for our team, but to use effectively, designers will need to know at least React basics.  There’s a steep learning curve with it comes to working with real react components.&lt;/li&gt;
+  &lt;li&gt;I’d rather prototype in FramerX than any other tools I’ve used.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Tools" /><summary type="html">At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with Framer X</summary></entry><entry><title type="html">CLI Reference</title><link href="/commands-and-syntax/" rel="alternate" type="text/html" title="CLI Reference" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>/commands-and-syntax</id><content type="html" xml:base="/commands-and-syntax/">&lt;h1 id=&quot;commands-syntax--shortcuts&quot;&gt;Commands, Syntax &amp;amp; Shortcuts&lt;/h1&gt;
 
 &lt;h2 id=&quot;cli&quot;&gt;CLI&lt;/h2&gt;
 
@@ -45,27 +77,39 @@
 
 &lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
 
-&lt;h2 id=&quot;liquid&quot;&gt;Liquid&lt;/h2&gt;</content><author><name></name></author><category term="reference" /><summary type="html">Commands, Syntax &amp;amp; Shortcuts</summary></entry><entry><title type="html">Cross Sections</title><link href="http://localhost:4000/cross-sections/" rel="alternate" type="text/html" title="Cross Sections" /><published>2018-01-03T00:00:00-05:00</published><updated>2018-01-03T00:00:00-05:00</updated><id>http://localhost:4000/cross-sections</id><content type="html" xml:base="http://localhost:4000/cross-sections/">&lt;h1 id=&quot;cross-sections&quot;&gt;Cross Sections&lt;/h1&gt;
+&lt;h2 id=&quot;liquid&quot;&gt;Liquid&lt;/h2&gt;</content><author><name></name></author><category term="reference" /><summary type="html">Commands, Syntax &amp;amp; Shortcuts</summary></entry><entry><title type="html">Cross Sections</title><link href="/cross-sections/" rel="alternate" type="text/html" title="Cross Sections" /><published>2018-01-03T00:00:00-05:00</published><updated>2018-01-03T00:00:00-05:00</updated><id>/cross-sections</id><content type="html" xml:base="/cross-sections/">&lt;p&gt;&lt;img src=&quot;/assets/images/stephenbiesty_bigrescuehelicopter.jpg&quot; alt=&quot;img&quot; /&gt;&lt;!--{:class=&quot;img-responsive&quot;}--&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/2018-01-03-cross-sections.assets/stephenbiesty_bigrescuehelicopter.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.stephenbiesty.co.uk/work.html&quot;&gt;Stephen Biesty&lt;/a&gt; drew the helicopter cross-section above in a book called &lt;a href=&quot;https://www.amazon.com/Stephen-Biestys-Incredible-Cross-Sections-Richard/dp/0679814116&quot;&gt;Incredible Cross Sections&lt;/a&gt; that I loved as a kid.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/stephenbiesty_bigrescuehelicopter.jpg&quot; alt=&quot;img&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It not only showed the inner workings of buildings and machines, but the purposes of people that used them. I’ve still never ridden in a helicopter, but even as a child I was able to appreciate that although complex, a machine or system that might seem magical is still just made with parts put together.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.stephenbiesty.co.uk/work.html&quot;&gt;Stephen Biesty&lt;/a&gt; drew the helicopter cross-section above in a book called &lt;a href=&quot;https://www.amazon.com/Stephen-Biestys-Incredible-Cross-Sections-Richard/dp/0679814116&quot;&gt;Incredible Cross Sections&lt;/a&gt; that I loved as a kid. It not only showed the inner workings of buildings and machines, but the purposes of people that used them. I’ve still never ridden in a helicopter, but even as a child I was able to appreciate that although complex, a machine or system that might seem magical is still just made with parts put together. Looking back, I also appreciate that each of Stephen’s drawings were not just about the object, but about the purposes people were able to achieve through them, such as rescuing an injured person in the drawing above.&lt;/p&gt;
+&lt;p&gt;Looking back, I also appreciate that each of Stephen’s drawings were not just about the object, but about the purposes people were able to achieve through them, such as rescuing an injured person in the drawing above.&lt;/p&gt;
 
 &lt;p&gt;I transitioned into UX (User Experience) Design because it brings out so much of what makes me tick:&lt;/p&gt;
 
-&lt;h2 id=&quot;im-curious-about-how-the-world-works&quot;&gt;I’m curious about how the world works&lt;/h2&gt;
+&lt;h2 id=&quot;curiosity&quot;&gt;Curiosity&lt;/h2&gt;
 
-&lt;p&gt;In 2011 I earned a &lt;strong&gt;BA in History&lt;/strong&gt; from the &lt;a href=&quot;http://www.virginia.edu/&quot;&gt;University of Virginia&lt;/a&gt;. Good history tells a captivating story by truthfully piecing together details. I wanted to understand how the world around me came to be what it is today in hopes of making it better and in the process learned to really read, think and write for myself.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I’m curious about how the world works.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2011 I earned a &lt;strong&gt;BA in History&lt;/strong&gt; from the &lt;a href=&quot;http://www.virginia.edu/&quot;&gt;University of Virginia&lt;/a&gt;. Good history tells a captivating story by truthfully piecing together details.&lt;/p&gt;
+
+&lt;p&gt;I wanted to understand how the world around me came to be what it is today in hopes of making it better and in the process learned to really read, think and write for myself.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Good UX is well-researched and my humanities background provides a solid foundation.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;In 2017 I earned a &lt;strong&gt;Master’s Degree in Business&lt;/strong&gt; from &lt;a href=&quot;http://collaborativemba.org/&quot;&gt;Eastern Mennonite University&lt;/a&gt;. Like technology, money is a tool, and to really understand how things work, I’d recommend learning how to read a financial statement. Seriously. I also learned how to increase my capacity to serve others through courses like Leadership and Organizational Behavior and perhaps benefitted most from training in sustainability, which at the root is &lt;a href=&quot;http://wtf.tw/ref/meadows.pdf&quot;&gt;systems thinking&lt;/a&gt;. Experiences in the communities I’m a part of and as a professional taught me that there are ample opportunities to attack root problems through business and why I chose a program that not was not only anchored by the &lt;a href=&quot;http://www.economist.com/node/14301663&quot;&gt;triple bottom line&lt;/a&gt; of people, planet, and profit, but took me &lt;a href=&quot;http://www.coopeatenas.com/&quot;&gt;outside of the United States&lt;/a&gt; to study cooperative business models.&lt;/p&gt;
+&lt;p&gt;In 2017 I earned a &lt;strong&gt;Master’s Degree in Business&lt;/strong&gt; from &lt;a href=&quot;http://collaborativemba.org/&quot;&gt;Eastern Mennonite University&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Good UX looks at business needs, strategy and information architecture systematically.&lt;/em&gt; I love the fact that design deals with both pixel-perfect detail and grand vision.&lt;/p&gt;
+&lt;p&gt;Like technology, money is a tool, and to really understand how things work, I’d recommend learning how to read a financial statement. Seriously. I also learned how to increase my capacity to serve others through courses like Leadership and Organizational Behavior and perhaps benefitted most from training in sustainability, which at the root is &lt;a href=&quot;http://wtf.tw/ref/meadows.pdf&quot;&gt;systems thinking&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;i-like-connecting-with-and-helping-others-to-connect-with-people&quot;&gt;I like connecting with and helping others to connect with people&lt;/h2&gt;
+&lt;p&gt;Experiences in the communities I’m a part of and as a professional taught me that there are ample opportunities to attack root problems through business and why I chose a program that not was not only anchored by the &lt;a href=&quot;http://www.economist.com/node/14301663&quot;&gt;triple bottom line&lt;/a&gt; of people, planet, and profit, but took me &lt;a href=&quot;http://www.coopeatenas.com/&quot;&gt;outside of the United States&lt;/a&gt; to study cooperative business models.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Good UX looks at business needs, strategy and information architecture systematically.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I love the fact that design deals with both pixel-perfect detail and grand vision.&lt;/p&gt;
+
+&lt;h2 id=&quot;connecting&quot;&gt;Connecting&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;I like connecting with and helping others to connect with people.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;You might now be asking, why is this guy not a business analyst or operations manager or maybe even a non-profit program manager?&lt;/p&gt;
 
@@ -81,9 +125,17 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;i-dont-want-to-waste-my-time-on-earth-i-want-to-leave-a-positive-legacy-i-want-to-solve-problems&quot;&gt;I don’t want to waste my time on earth. I want to leave a positive legacy. I want to &lt;a href=&quot;https://ssir.org/articles/entry/wicked_problems_problems_worth_solving&quot;&gt;solve problems&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;life-is-short&quot;&gt;Life is Short&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;I don’t want to waste my time on earth.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I want to leave a positive legacy.&lt;/p&gt;
+
+&lt;p&gt;I want to &lt;a href=&quot;https://ssir.org/articles/entry/wicked_problems_problems_worth_solving&quot;&gt;solve problems&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If systems thinking taught me &lt;a href=&quot;https://medium.com/disruptive-design/problem-solving-desperately-needs-systems-thinking-607d34e4fc80&quot;&gt;‘solutions’&lt;/a&gt; you think up can have serious &lt;a href=&quot;https://www.futurelearn.com/courses/systems-thinking-complexity/0/steps/20396&quot;&gt;unintended consequences&lt;/a&gt;, design thinking showed me a path to begin tackling problems big and small in a creative, pragmatic way that responds to reality.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;After working with wireless engineering teams in Spain, Taiwan, and the US as a sales associate and spending four years as project manager &lt;a href=&quot;http://jasonmjam.es/portfolio-2/my-work-before-ux/&quot;&gt;building buildings&lt;/a&gt;, I now build for the web.&lt;/p&gt;
 
@@ -91,7 +143,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/jas0nmjames/&quot;&gt;Connect with me on LinkedIn&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;P.S. Many thanks to &lt;a href=&quot;https://www.linkedin.com/in/steve-nunez/&quot;&gt;Steve Nunez&lt;/a&gt; for the photos of me on this page.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="systems thinking" /><summary type="html">Cross Sections</summary></entry><entry><title type="html">Where I’m From</title><link href="http://localhost:4000/where-im-from/" rel="alternate" type="text/html" title="Where I'm From" /><published>2017-09-16T00:00:00-04:00</published><updated>2017-09-16T00:00:00-04:00</updated><id>http://localhost:4000/where-im-from</id><content type="html" xml:base="http://localhost:4000/where-im-from/">&lt;h1 id=&quot;where-im-from&quot;&gt;Where I’m From&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;P.S. Many thanks to &lt;a href=&quot;https://www.linkedin.com/in/steve-nunez/&quot;&gt;Steve Nunez&lt;/a&gt; for the photos of me on this page.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="systems thinking" /><summary type="html"></summary></entry><entry><title type="html">Where I’m From</title><link href="/where-im-from/" rel="alternate" type="text/html" title="Where I'm From" /><published>2017-09-16T00:00:00-04:00</published><updated>2017-09-16T00:00:00-04:00</updated><id>/where-im-from</id><content type="html" xml:base="/where-im-from/">&lt;h1 id=&quot;where-im-from&quot;&gt;Where I’m From&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;2017-09-16-where-im-from.assets/20170810_194359.jpg&quot; alt=&quot;20170810_194359&quot; /&gt;&lt;/p&gt;
 

@@ -1,0 +1,40 @@
+I"�
+<p><em>Originally published via Wordpress on March 14, 2019.</em>
+<em>Last edit February 2020. (Formatting only)</em></p>
+
+<ul>
+  <li><strong>Processes:</strong> Data Analysis</li>
+  <li><strong>Tools:</strong> Excel, Tableau</li>
+  <li><strong>Technologies:</strong> N/A</li>
+</ul>
+
+<p>Data Visualization can be an incredibly useful tool to discover insights in user testing data and in business analysis in general. When done right, the data is plain for all to see and can help avoid lengthy, subjective arguments.</p>
+
+<p>To exemplify this, in December 2018 I took mortgage data made <a href="https://www.zillow.com/research/data/">publicly available by Zillow</a> (thanks!) and with the help of <a href="https://public.tableau.com/profile/jason.james#!/">Tableau</a>, turned this:</p>
+
+<h2 id="csv-data">CSV Data</h2>
+
+<p><img src="2019-03-14-data-analysis/screen-shot-2019-03-14-at-6.04.21-pm.png" alt="Screen Shot 2019-03-14 at 6.04.21 PM" /></p>
+
+<p>into this:</p>
+
+<h2 id="processed-in-tableau">Processed in Tableau</h2>
+
+<p><img src="2019-03-14-data-analysis/screen-shot-2019-03-14-at-6.09.20-pm-20191116234421266.png" alt="Screen Shot 2019-03-14 at 6.09.20 PM" /></p>
+
+<p>The data in the spreadsheet were <a href="https://www.zillow.com/info/whats-the-zillow-home-value-index/">Zillow Home Value Indices</a> by zip code. Using Tableau, I plotted the values across a map as color and then manually adjusted the ‘temperature’ or hues of the colors based on the median value across the entire data set.</p>
+
+<p>Initially the visualization was not as informative because a few outliers made much of the country look very similar. (It all looked like one color). But, once dialed in, one can easily make correlations like higher home value indices closer to urban centers. It’s so much more apparent than in the spreadsheet!</p>
+
+<p><img src="2019-03-14-data-analysis/screen-shot-2019-03-14-at-6.10.29-pm.png" alt="Screen Shot 2019-03-14 at 6.10.29 PM" /></p>
+
+<p>The reason I used mortgage data in this mini project is because home prices are something most people have some sort of experience with and a frame of reference for and because the Zillow Data set is so large it seems hard to grasp.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Perhaps later on this year (2019) I’ll post a more in-depth article on how manipulate data in Tableau or even some common Data Analysis tools in Microsoft Excel. You can even get started with machine learning in Excel and, for example, try out <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes</a> on your data!</p>
+
+<p>Here’s a link to the <a href="https://public.tableau.com/profile/jason.james#!/vizhome/USZillowHomeValueIndexbyCounty/Sheet1">live Tableau workbook</a>.</p>
+
+<p>March 2019</p>
+:ET

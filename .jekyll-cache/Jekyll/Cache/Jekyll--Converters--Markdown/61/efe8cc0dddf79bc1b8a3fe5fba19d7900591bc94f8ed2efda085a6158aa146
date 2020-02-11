@@ -1,0 +1,53 @@
+I"5
+<p><em>This page was last updated on February 11, 2020.</em></p>
+
+<ul>
+  <li><strong>Processes:</strong> Mobile First Design, Design Systems, Design Theme API,</li>
+  <li><strong>Tools:</strong> Figma, Sketch, Github, Github Projects, JIRA, Confluence, Bitbucket, Bamboo, CircleCI, Slack, Swagger, Chrome/Firefox Developer Tools, React Developer Tools,</li>
+  <li><strong>Technologies:</strong> React, Material Design, Material-UI, JSON, CSS, APIs, MongoDB</li>
+</ul>
+
+<h2 id="role">Role</h2>
+
+<p>Lead product designer. Worked closely with front end and back end developers to implement new presentation layer, built with:</p>
+
+<ul>
+  <li>Presentation layer in React for 20+ year high profile global trading platform for fortune 500 financial institution.</li>
+  <li>User research including c-suite stakeholders.</li>
+  <li>Requirements gathering: balancing user needs and usability heuristics with legacy architecture and technical constraints.</li>
+  <li>Provided internal project management of design &amp; dev and facilitated communcation across our and client’s team.</li>
+  <li>Material.io Design System in Figma with nested styles and components.</li>
+</ul>
+
+<h2 id="activities">Activities</h2>
+
+<p>On any given day I might:</p>
+
+<ul>
+  <li>Interview and record a stakeholder</li>
+  <li>Modify a material-ui component in Figma to create a new component for the project</li>
+  <li>clone a repository to my local machine and <code class="highlighter-rouge">yarn install</code> then <code class="highlighter-rouge">yarn start</code> in the command line to run the project locally.</li>
+  <li>debug a site using chrome or firefox development tools in the browser.  could include inspecting ui issues or adding breakpoints in the network tab to figure out where an api is failing</li>
+  <li>create markdown documentation and submit a pull request</li>
+  <li>create and manage github issues in a project board</li>
+  <li>draw wireframes for a new page layout</li>
+  <li>populate a design with json real data in Sketch</li>
+  <li>provide project updates to the client during client meetings or via weekly summarized correspondence</li>
+  <li>drive internal standup meetings</li>
+  <li>encourage communication across design and development to architect solutions given project constraints.</li>
+</ul>
+
+<h2 id="-case-study">🚧 Case Study</h2>
+
+<p><em>Coming Soon</em></p>
+
+<!--
+
+*Last edit November 26, 2019.*
+
+# Project & Product Management
+
+*Coming January 2020.*  I'll detail working with developers, quality assurance, and product owners across internal and external teams, locations, and rhythyms....
+
+-->
+:ET

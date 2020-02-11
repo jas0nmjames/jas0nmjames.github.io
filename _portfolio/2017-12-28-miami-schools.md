@@ -1,18 +1,21 @@
 ---
 layout: portfolio
-title: Miami-Dade Schools Performance Data Redesign
+title: Case Study - Miami-Dade Schools Performance Data Redesign
 summary: Project Awards (December 2017 Ironhack UX/UI Hackshow) - Overall Hackshow Judge Favorite, Outstanding UX Strategy, Outstanding Business Analysis, Outstanding Problem-Solving Skills, Outstanding Presentations Skills, Runner Up, Outstanding User Research, Runner Up.  Improved the Dade Schools site's overall information architecture to reduce cognitive overload and emphasized making school performance data more accessible to the public with a mobile-first design.  In other words, the site became much easier to view on mobile phones and users could more easily find what they were looking for without getting overwhelmed. The site was now built for not just school administrators, but parents and community members too!
+categories: [case study]
 updated: Originally published via Wordpress on December 28, 2017.  Last edit December, 2017.
-tags: 
-image: jjames_final-presentation-v-3-0.png
+tags: [case-study award-winning IA]
+image: 1*03MA_NKfwpOFWyDtMx2tVA-20191116234041590.png
 ---
 
-*Originally published via Wordpress on December 28, 2017.*
-*Last edit December, 2017.*
+![img](2017-12-28-miami-schools/1*03MA_NKfwpOFWyDtMx2tVA-20191116234041590.png)
 
-**Processes:** TBD
-**Tools:** TBD
-**Technologies:** TBD
+*Originally published via Wordpress on December 28, 2017.*
+*Last Edit February 2020. (Formatting only)*
+
+- **Processes:** TBD
+- **Tools:** TBD
+- **Technologies:** TBD
 
 ## Ironhack Miami UX/UI Hackshow Award Winning Project (December 2017)
 
@@ -49,7 +52,7 @@ Gregory was specifically working on visualizing graduation rates over time at th
 
 Imagine you’re a new parent trying to find out how Miami Dade School are performance. [Feel free to open a second tab and navigate with me to http://www.dadeschools.net/.] There are already some issues on the homepage, but we’ll skip discussing them for now by clicking on the ‘parents’ page in orange. We’ll find:
 
-![img](2017-12-28-miami-schools/0*l8MhSGZS-rABOQ2U..png)
+![2017-12-28-miami-schools/0*l8MhSGZS-rABOQ2U..png](2017-12-28-miami-schools/0*l8MhSGZS.png)
 
 Miami Dade Public Schools parents page (http://www.dadeschools.net/parents.asp) as of January 2018.
 
