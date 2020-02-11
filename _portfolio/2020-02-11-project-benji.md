@@ -1,10 +1,10 @@
 ---
 layout: portfolio
 title: Case Study - Project Benji
-summary:  
+summary: 🚧 Coming Soon
 updated: February 2020
 tags:
-image: 
+image: 🚧
 ---
 
 *This page was last updated on February 11, 2020.*
