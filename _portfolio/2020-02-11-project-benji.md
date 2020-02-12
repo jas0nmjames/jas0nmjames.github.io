@@ -4,8 +4,10 @@ title: Case Study - Project Benji
 summary: 🚧 Coming Soon
 updated: February 2020
 tags:
-image: 🚧
+image: 2020-02-11-project-benji/project-benji-1.png
 ---
+
+![img](2020-02-11-project-benji/project-benji-1.png)
 
 *This page was last updated on February 11, 2020.*
 
@@ -39,9 +41,9 @@ On any given day I might:
 - drive internal standup meetings
 - encourage communication across design and development to architect solutions given project constraints.
 
-## 🚧 Case Study
+## Case Study
 
-*Coming Soon*
+🚧 Under Construction
 
 <!--
 
