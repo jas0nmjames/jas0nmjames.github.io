@@ -2,18 +2,18 @@ collections:
   portfolio:
     output: true
     order: 
-      - 2020-02-11-jekyllrb.md
-      - 2020-02-11-recyclaide.md
-      - 2020-02-11-containerco.md
-      - 2020-02-12-project-ada.md
-      - 2020-02-11-project-benji.md
-      - 2019-03-14-style-guide.md
-      - 2019-03-14-data-analysis.md
-      - 2018-10-09-thinkrite.md
-      - 2017-12-28-miami-schools.md
-      - 2017-12-28-wellness.md
-      - 2017-12-28-bloombox.md
-      - 2017-12-29-before-ux.md
+      - jekyllrb.md
+      - recyclaide.md
+      - containerco.md
+      - project-ada.md
+      - project-benji.md
+      - style-guide.md
+      - data-analysis.md
+      - thinkrite.md
+      - miami-schools.md
+      - wellness.md
+      - bloombox.md
+      - before-ux.md
 
 permalink: /:title/
 
