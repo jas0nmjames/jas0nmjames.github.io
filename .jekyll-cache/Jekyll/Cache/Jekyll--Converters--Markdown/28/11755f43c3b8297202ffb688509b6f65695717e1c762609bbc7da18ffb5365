@@ -1,0 +1,195 @@
+I"+<p><img src="2020-02-11-project-benji/project-benji-1.png" alt="img" /></p>
+
+<p><em>This page was last updated on February 11, 2020.</em></p>
+
+<ul>
+  <li><strong>Processes:</strong> Mobile First Design, Design Systems, Design Theme API,</li>
+  <li><strong>Tools:</strong> Figma, Sketch, Github, Github Projects, JIRA, Confluence, Bitbucket, Bamboo, CircleCI, Slack, Swagger, Chrome/Firefox Developer Tools, React Developer Tools,</li>
+  <li><strong>Technologies:</strong> React, Material Design, Material-UI, JSON, CSS, APIs, MongoDB</li>
+</ul>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Cross.Team worked closely with a large financial institution to redefine the user experience of worldwide traders and their managers.</p>
+
+<p>This newly redesigned presentation layer foundation was delivered as a full design system and allowed the IT team to design, develop and quickly deploy a world-class user experience for internal end-users and stakeholders.</p>
+
+<p>Because of the NDA signed with our client, I am referring the project as “Project Benji” throughout this case study.</p>
+
+<h3 id="my-role">My Role</h3>
+
+<p>Lead product designer.</p>
+
+<p>Worked closely with front-end and back-end developers to implement a new presentation layer:</p>
+
+<ul>
+  <li>Presentation layer in React for 20+ year high profile global trading platform for fortune 500 financial institution</li>
+  <li>User research including c-suite stakeholders</li>
+  <li>Requirements gathering: balancing user needs and usability heuristics with legacy architecture and technical constraints</li>
+  <li>Provided internal project management of design &amp; dev and facilitated communcation across our and client’s team</li>
+  <li>Manage material.io design system in Figma with nested styles and components</li>
+  <li>Quality Assurance &amp; Testing</li>
+</ul>
+
+<h3 id="my-activities">My Activities</h3>
+
+<p>On any given day I might:</p>
+
+<ul>
+  <li>Interview and record a stakeholder</li>
+  <li>Modify a material-ui component in Figma to create a new component for the project</li>
+  <li>clone a repository to my local machine and <code class="highlighter-rouge">yarn install</code> then <code class="highlighter-rouge">yarn start</code> in the command line to run the project locally.</li>
+  <li>debug a site using chrome or firefox development tools in the browser; might include inspecting ui issues or adding breakpoints in the network tab to figure out where an api is failing</li>
+  <li>create markdown documentation and submit a pull request</li>
+  <li>create and manage github issues in a project board</li>
+  <li>draw wireframes for a new page layout</li>
+  <li>populate a design with json real data in Sketch</li>
+  <li>provide project updates to the client during client meetings or via weekly summarized correspondence</li>
+  <li>drive internal standup meetings</li>
+  <li>encourage communication across design and development to architect solutions given project constraints</li>
+</ul>
+
+<h2 id="case-study">Case Study</h2>
+
+<p>I joined this project after the bulk of the user research had been accomplished and the overall design direction had been established.</p>
+
+<p>At a high level, I:</p>
+
+<ul>
+  <li>translated this overall design into specific layouts as needed</li>
+  <li>helped to define business logic during data integration</li>
+  <li>helped to faciliate communication across development teams, stakeholders and the client’s project management</li>
+  <li>performed user research and design for new UX problems and requirements as they were presented</li>
+  <li>work with developers to debug the application</li>
+</ul>
+
+<p>I’d like to present to you below a snapshot of what we were able to accomplish with the product and a high level overview of the tasks I performed in that aim.</p>
+
+<h3 id="updating-a-20-year-old-net-ui-to-a-modern-mobile-first-material-design-react-friendly-ui">Updating a 20 Year Old .NET UI to a Modern, Mobile First, Material Design React Friendly UI</h3>
+
+<p>The major design research performed by my colleagues Marcelo and Kat before I joined established the overall visual direction of the product:</p>
+
+<h4 id="the-net-ui">The .NET UI</h4>
+
+<p><img src="2020-02-11-project-benji/ui-dotnet.png" alt="img" /></p>
+
+<h4 id="the-new-proposed-modern-ui">The New Proposed Modern UI</h4>
+
+<p>Kanban views were proposed to help reduce user’s cognitive overload by prioritizing the information needed at by a user at any given time.</p>
+
+<p><img src="2020-02-11-project-benji/ui-new-1.png" alt="img" /></p>
+
+<p>List views were still available, but in a modern UI:</p>
+
+<p><img src="2020-02-11-project-benji/ui-new-2.png" alt="img" /></p>
+
+<h4 id="a-mobile-first-approach">A Mobile First Approach</h4>
+
+<p>A mobile-first design approach helped clarify design decisions and ensured a scalable architecture for the future.</p>
+
+<p>Each column is designed to fit on a mobile screen:</p>
+
+<p><img src="2020-02-11-project-benji/ui-new-3.png" alt="img" /></p>
+
+<p>Additional views were designed as drawers that could stand-alone as a single screen on mobile:</p>
+
+<p><img src="2020-02-11-project-benji/design-vpm-settings.png" alt="img" /></p>
+
+<h3 id="design-system-architecture">Design System Architecture</h3>
+
+<p>One of the beautiful things about this project is that we built it on top of a tokenized and componetized design system and provided a single source of truth for the UI across the application that could be quickly modified with variables:</p>
+
+<p><img src="2020-02-11-project-benji/thor-design-system-arch-overview.png" alt="img" /></p>
+
+<p>For example, we could change the primary color used throughout the application by adjusting a single color variable in our token database.  This became very useful when the client requested three different versions of the application - we created a theme for each version which was distinguished by a different primary color.</p>
+
+<p>The design system architecture of the product deserves a much lengthier discussion that I should touch on in the future.</p>
+
+<h3 id="translating-design-to-development">Translating Design to Development</h3>
+
+<p>After we as a team decided on the overall product’s architecutre, much of my work in the beginning of the project was helping the development team understand the existing product as we were translating it into the new design and integrating the data.</p>
+
+<p>Here’s an example of some of the field mapping work I did to help break things down for my colleagues:</p>
+
+<p><img src="2020-02-11-project-benji/field-mapping.png" alt="img" /></p>
+
+<p>My colleague Rudy Architected the new designs with respect to the newly built components, overall product architecture, and existing APIs:</p>
+
+<p><img src="2020-02-11-project-benji/eps-fti-settings-responseObj.png" alt="img" /></p>
+
+<p>We worked together to translate this architecture to each layout:</p>
+
+<p><img src="2020-02-11-project-benji/User-Desk-Management-detailed.png" alt="img" /></p>
+
+<h3 id="project-management">Project Management</h3>
+
+<p>To help keep us on track, I created a kanban board in Github Projects and worked with the team to set priorities and resolved doubts regularly:</p>
+
+<p><img src="2020-02-11-project-benji/github-projects.png" alt="img" /></p>
+
+<p>Github Projects was just robust enough for our project without being <em>too</em> heavy and its automated integration with our Github repositories made life much easier.</p>
+
+<h3 id="documentation">Documentation</h3>
+
+<p>I spent a considerable amount of time helping to craft the project’s documentation as we planned to hand off the project to the client’s development team and wanted to leave them in good hands.  Here’s a few examples of that effort:</p>
+
+<p>We used storybook as a sandbox for our components.  Here I discuss how to access it:</p>
+
+<p><img src="2020-02-11-project-benji/doc-example-1.png" alt="img" /></p>
+
+<p>Here’s an example of documenting one of the custom components we designed and developed:</p>
+
+<p><img src="2020-02-11-project-benji/doc-example-2.png" alt="img" /></p>
+
+<p>Beginning to discuss the design token database:</p>
+
+<p><img src="2020-02-11-project-benji/doc-example-3.png" alt="img" /></p>
+
+<p>Documenting examples of the design system theme .json:</p>
+
+<p><img src="2020-02-11-project-benji/doc-example-4.png" alt="img" /></p>
+
+<p>Writing about the architecture of the project:</p>
+
+<p><img src="2020-02-11-project-benji/doc-example-5.png" alt="img" /></p>
+
+<h3 id="truly-cross-functional-a-designer-does-qa">Truly Cross Functional: A Designer Does QA</h3>
+
+<p>Further along in the project, I worked with my colleague Sebastian to help find and fix bugs in the code.  When necessary I compiled the application locally:</p>
+
+<p><img src="2020-02-11-project-benji/QA-2.png" alt="img" /></p>
+
+<p>It’s great as a designer to be able to dig into the code and help test the application:</p>
+
+<p><img src="2020-02-11-project-benji/QA-1.png" alt="img" /></p>
+
+<p>I leaned on my colleague Sebastian heavily to help him test as efficiently as possible, but I knowlege about React and front-end in general greatly increased over this QA process.</p>
+
+<p>My empathy for the potential complexities in development grew leaps and bounds.</p>
+
+<h3 id="user-research-for-the-future">User Research for the Future</h3>
+
+<p>In addition to all of the above, I also worked to research newly requested features or workflows not yet designed.</p>
+
+<p>Here’s an example of some of my user interview notes:</p>
+
+<p><img src="2020-02-11-project-benji/meeting-notes.png" alt="img" /></p>
+
+<p>And some of the whiteboarding we did to solve problems uncovered in the user research:</p>
+
+<p><img src="2020-02-11-project-benji/whiteboard-etf-flow.jpg" alt="img" /></p>
+
+<p><img src="2020-02-11-project-benji/blotter-all-screens.jpg" alt="img" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I know I did more showing than telling in this case study.  My goal was to show you the myriad roles I played on this project - each topic above could be expanded into its own, longer case study.</p>
+
+<p>One of the larger hurdles we faced in the project was integrating data from the existing APIs into the new design.  We had been expecting a .json with key value pairs that would be ready for integration, but found a much more complicated situation waiting for us.</p>
+
+<p>To integrate the data, my colleague Rudy ended up having to create an SDK from scratch - basically an intermediary between the APIs and the front-end components that helped normalize the data.  We ended up using the SDK for data validation as well - as requested by our client - even though we suggested in the long run that data validation be conducted on the back end.</p>
+
+<p>For our team, the ultimate success of this project was the atmosphere we created to work across two development teams, stakeholders across the globe, and between design and development.</p>
+
+<p>You can’t succeed in such a complicated project without a foundation of camraderie and teamwork.</p>
+:ET

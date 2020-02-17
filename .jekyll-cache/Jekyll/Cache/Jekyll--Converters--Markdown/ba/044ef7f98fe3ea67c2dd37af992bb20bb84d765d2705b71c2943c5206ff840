@@ -1,0 +1,203 @@
+I"'<p><img src="2020-02-11-containerco/example-2-col-layout.png" alt="img" /></p>
+
+<p><em>This page was last updated on February 17, 2020.</em></p>
+
+<ul>
+  <li><strong>Processes:</strong> Mobile First Design</li>
+  <li><strong>Tools:</strong> Figma, Github, Github Projects, Chrome/Firefox Developer Tools</li>
+  <li><strong>Technologies:</strong> React, Material Design, Material-UI, JSON, CSS, APIs</li>
+</ul>
+
+<h2 id="the-project">The Project</h2>
+
+<p>cross.team was asked to design a new front-end for a container shipping order management and dispatching application.</p>
+
+<h2 id="my-role">My Role</h2>
+
+<ul>
+  <li>performed limited project management duties</li>
+  <li>performed limitied product management tasks, including collecting feature requirements from key stakeholder</li>
+  <li>worked on Information Architecture, including assessing application’s overall navigation</li>
+  <li>collaborated with developers to understand and map existing backend APIs in graphQL schema</li>
+  <li>Visual Design</li>
+  <li>documented APIs</li>
+  <li>mentored Junior Designer</li>
+</ul>
+
+<h2 id="case-study">Case Study</h2>
+
+<p>The existing product in kanban view:</p>
+
+<p><img src="2020-02-11-containerco/dev-dispatching.png" alt="img" /></p>
+
+<p>A different view of the existing product in grid/list view:</p>
+
+<p><img src="2020-02-11-containerco/dev-drayings.png" alt="img" /></p>
+
+<p>The main ask for this project was to make the UI more intuitive overall on top of a modern architecture.</p>
+
+<p>The existing application was built in .NET - we proposed building it with React, with graphQL as a middle layer to help with performance and to help the new front-end architecture interact with the old backend.</p>
+
+<p>We proposed leveraging the Material UI design framework for its universality and mobile-first approach, utilizing the material-ui react component library to help us build quickly.</p>
+
+<h3 id="user-research">User Research</h3>
+
+<p>My colleague Richard Novoa began the project with research into users and the industry.</p>
+
+<p><img src="2020-02-11-containerco/miro-user-research-plan.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/miro-user-research.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/miro-affinity-map.png" alt="img" /></p>
+
+<h3 id="information-architecture">Information Architecture</h3>
+
+<p>As we began to explore general usability conventions and UI frameworks that would fit the product, we looked at the current application to understand and improve the Information Architecture:</p>
+
+<p><img src="2020-02-11-containerco/miro-logic-0.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/miro-logic-1.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/miro-logic-2.png" alt="img" /></p>
+
+<h3 id="card-sorting">Card Sorting</h3>
+
+<p>We presented the IA work above to our client and facilitated a card sorting exercise to help determine how to organize the new site:</p>
+
+<p><img src="2020-02-11-containerco/miro-nav-card-sorting.png" alt="img" /></p>
+
+<h3 id="mapping-the-new-information-architecture">Mapping the new Information Architecture</h3>
+
+<p><img src="2020-02-11-containerco/screen-shot-flowmapp.png" alt="img" /></p>
+
+<p>The image above was created with Flowmapp.  Here’s the entire architecture I created with my colleague Richard.  Select the image to view a larger version:</p>
+
+<p><a href="2020-02-11-containerco/IA.svg"><img src="2020-02-11-containerco/IA.svg" alt="img" /></a></p>
+
+<h3 id="wireframing">Wireframing</h3>
+
+<p>Richard continued his great work by sketching wireframes considering the research he uncovered:</p>
+
+<p><img src="2020-02-11-containerco/figma-sketches-1.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/miro-dispatching-sketches.png" alt="img" /></p>
+
+<p>And then translated those wireframes into interactions with feedback from the team:</p>
+
+<h3 id="interaction-design">Interaction Design</h3>
+
+<p><img src="2020-02-11-containerco/figma-interactions-1.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/figma-interactions-2.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/figma-interactions-3.png" alt="img" /></p>
+
+<h2 id="translating-richards-work-into-visual-design-and-development">Translating Richard’s Work into Visual Design and Development</h2>
+
+<p>It was then my task to translate these wireframes and interactive prototypes into visual design.</p>
+
+<h3 id="a-framework-for-visual-design">A Framework for Visual Design</h3>
+
+<p>My colleague Marcelo had already established the general visual language, based on Material Design guidlines, given the research and ongoing conversations we were having with the main stakeholder (client) and users:</p>
+
+<p><img src="2020-02-11-containerco/example-2-col-layout.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/example-right-drawer.png" alt="img" /></p>
+
+<h3 id="documenting-the-existing-product">Documenting the Existing Product</h3>
+
+<p>As I collected feature requirements and learned more about the existing products architecture, I paused visual design to document the existing product to help business, design, and development use the same language and have the same understanding of the product.</p>
+
+<p>Documentation often began with inspecting the existing application and then asking the developer questions as they arose:</p>
+
+<p><img src="2020-02-11-containerco/dev-inspect-add-cost.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/dev-inspect-delivery-order.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/dev-json-delivery-order.png" alt="img" /></p>
+
+<p>I wrote the documentation in markdown, which made storage in the repositories a breeze, ensuring the documentation would always exist alongside code:</p>
+
+<p><img src="2020-02-11-containerco/documentation-11.08.46am.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/documentation-11.08.53am.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/documentation-11.09.12am.png" alt="img" /></p>
+
+<p>My documentation of the front-end went hand-in-hand with my developer colleague Sebastian’s creation of the graphQL schema that would be the intermediary between the old backend and new front end.</p>
+
+<p>Sometimes my research and explorations would help him document the schema in-line or answer a feature question - other times he’d help explain how the backend worked, which helped me understand how the UI functioned and its larger intent.</p>
+
+<p>If I had questions, I documented them:</p>
+
+<p><img src="2020-02-11-containerco/documentation-11.09.59am.png" alt="img" /></p>
+
+<p>I also documented the user experience architecture; how the pieces of the product fit together:</p>
+
+<p><img src="2020-02-11-containerco/documentation-11.10.28am.png" alt="img" /></p>
+
+<p><img src="2020-02-11-containerco/documentation-11.10.45am.png" alt="img" /></p>
+
+<p>Getting clarity around what the features were and how they actually fit together in a complex product helped us speak the same language as a team.</p>
+
+<h3 id="visual-design-in-figma">Visual Design in Figma</h3>
+
+<p>Now it was time to build out the visual design, starting with the overall visual direction already established by my colleague Marcelo.</p>
+
+<p><img src="2020-02-11-containerco/containerco_figma_edit-trip-details.png" alt="img" /></p>
+
+<p>How did I get here?</p>
+
+<p>Here’s a quick hand-sketch I did to help make sure the new visual design incorporated Richard’s wireframes and interactions while also including all of the features and nuance of the existing product and data structure:</p>
+
+<p><img src="2020-02-11-containerco/trip-details-sketch-1.jpg" alt="img" /></p>
+
+<p>I then began building the UI, keeping the developer’s needs close at mind:</p>
+
+<p><img src="2020-02-11-containerco/trip-details.png" alt="img" /></p>
+
+<p>Using material design conventions, we began to build out the secondary screens necessary for all of the interactions:</p>
+
+<p><img src="2020-02-11-containerco/trip-details-editing.png" alt="img" /></p>
+
+<p>Here’s a close-up of one:</p>
+
+<p><img src="2020-02-11-containerco/dispatching_trip-details_edit_container.png" alt="img" /></p>
+
+<h3 id="field-mapping--working-with-development">Field Mapping &amp; Working with Development</h3>
+
+<p>As design and development progressed and we came into questions of nuance that needed to be clarified, I further defined the UI as needed:</p>
+
+<p><img src="2020-02-11-containerco/FieldMapping-CollapsedDriverCard.png" alt="img" /></p>
+
+<p>Our development approach was the build the UI with ‘vanilla’ material-ui components, which we would then style in high fidelity later on the project.</p>
+
+<p>Here’s an early version of the new UI in react:</p>
+
+<p><img src="2020-02-11-containerco/mui-1.png" alt="img" /></p>
+
+<p>This allowed us to move more quickly in development as we focused heavily on data integration without getting muddled down in UI refinement.</p>
+
+<h3 id="quick-ui-exercise">Quick UI Exercise</h3>
+
+<p>In some cases, at the request of the client, we designed the new UI to more closely match the existing UI.</p>
+
+<p>Here’s a quick prototype I created in Figma over an afternoon with material components:</p>
+
+<p><img src="2020-02-11-containerco/ordercreation.png" alt="img" /></p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Before a decision to halt design and development due to business concerns, the next steps of the project would be to:</p>
+
+<ul>
+  <li>continue to design and develop secondary and tertiary views to build all of the requested major and minor product features</li>
+  <li>once views were built, restyle the UI into high fidelity</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I hope this gave you a brief overview of how we approached the challenge of developing a product quickly, yet robustly, while facilitating clear communication about a complicated product.</p>
+
+<p>I’m happy to answer any questions you may have as this was a brief overview of many aspects of the project.</p>
+:ET
