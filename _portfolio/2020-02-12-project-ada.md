@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Case Study - Project ADA
+title: Case Study - Project ADA - Taking an Accessibility Web Application to the Next Level
 summary: Our team took over development of a web accessibility application after a previous developer didn't finish the project.  With little documentation, we needed to fix bugs in the code, while improving the overall UX of the product.  In addition, the team lead performed a usability heuristics audit of the company's overall website, including the application's landing page.
 updated: February 16, 2020
 tags:
@@ -35,11 +35,11 @@ Screenshots of the existing site helped place the immediate effort in larger con
 
 ![img](2020-02-12-project-ada/assess-existing.png)
 
-### Assessing Best Practices in the Accessbility Landscape
+### Assessing Best Practices in the Accessibility Landscape
 
 Examples of best practices in the larger accessibility space helped larger discussions of the product's aims and business model.
 
-![img](2020-02-12-project-ada/best-practices.png)
+![img](2020-02-12-project-ada/assess-best-practices.png)
 
 ### Assessing Competitors
 

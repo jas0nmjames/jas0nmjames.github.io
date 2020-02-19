@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246px" height="46px" viewBox="0 0 246 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="236" height="36" rx="8"></rect>
+        <filter x="-3.2%" y="-15.3%" width="106.4%" height="141.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03" transform="translate(-5.000000, -216.000000)">
+            <g id="cards-/-card-single" transform="translate(10.000000, 219.000000)">
+                <g id="card">
+                    <g id="card-single-bg">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#2E2D2B" stroke-width="1" fill="#262524" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="data-right" transform="translate(152.000000, 4.000000)">
+                        <g id="status-bottom" transform="translate(29.000000, 19.000000)">
+                            <text id="fti-status-pm" font-family="Roboto-Medium, Roboto" font-size="7" font-weight="400" fill="#B3B0AA">
+                                <tspan x="0.426269531" y="7">0 OF 22,000</tspan>
+                            </text>
+                            <text id="icon-pm" font-family="FontAwesome5Pro-Solid, Font Awesome 5 Pro" font-size="8" font-weight="700" fill="#F2C94C">
+                                <tspan x="42" y="7">comment-alt-lines</tspan>
+                            </text>
+                        </g>
+                        <g id="status-top" transform="translate(52.000000, 0.000000)" fill="#E5E2DA">
+                            <text id="fti-status-fix" font-family="Roboto-Medium, Roboto" font-size="7" font-weight="400">
+                                <tspan x="0.913085938" y="7">NEW</tspan>
+                            </text>
+                            <text id="icon-fix" font-family="FontAwesome5Pro-Solid, Font Awesome 5 Pro" font-size="8" font-weight="700">
+                                <tspan x="25.140625" y="7">.</tspan>
+                            </text>
+                        </g>
+                        <g id="cards-/-card-progress-buy-0" transform="translate(0.000000, 10.000000)">
+                            <g id="card-progress-buy">
+                                <rect id="progress-bg" fill="#064032" x="7" y="3" width="73" height="2"></rect>
+                                <rect id="progress-fg" fill="#13BE95" x="7" y="3" width="1" height="2"></rect>
+                                <rect id="order-type-bg" fill="#13BE95" x="0" y="0" width="8" height="8" rx="4"></rect>
+                                <text id="cards-/-data-xs" font-family="Roboto-Black, Roboto" font-size="6" font-weight="700" line-spacing="8" fill="#000000">
+                                    <tspan x="2" y="6">B</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="avg" transform="translate(114.000000, 24.000000)" font-family="Roboto-Medium, Roboto" font-size="7" font-weight="400" line-spacing="8">
+                        <text id="fti-avg" fill="#E5E2DA">
+                            <tspan x="20.109375" y="6">1.77</tspan>
+                        </text>
+                        <text id="fti-avg-label" fill="#89898F">
+                            <tspan x="0.35546875" y="6">AVG</tspan>
+                        </text>
+                    </g>
+                    <text id="fti-chg" font-family="Roboto-Medium, Roboto" font-size="7" font-weight="400" line-spacing="8" fill="#FD5A5A">
+                        <tspan x="126.671875" y="21">-0.04%</tspan>
+                    </text>
+                    <text id="fti-price" font-family="Roboto-Medium, Roboto" font-size="7" font-weight="400" line-spacing="8" fill="#E5E2DA">
+                        <tspan x="115.026855" y="11">USD $1.59</tspan>
+                    </text>
+                    <g id="data-left" transform="translate(23.000000, 3.000000)" font-family="Roboto-Medium, Roboto" font-weight="400">
+                        <text id="fti-name" font-size="7" line-spacing="8" fill="#89898F">
+                            <tspan x="0" y="29">HECLA MINING</tspan>
+                        </text>
+                        <text id="fti-trader" font-size="7" line-spacing="8" fill="#89898F">
+                            <tspan x="0" y="6">LT2</tspan>
+                        </text>
+                        <text id="fti-symbol" font-size="12" fill="#E5E2DA">
+                            <tspan x="0" y="19">HL</tspan>
+                        </text>
+                    </g>
+                    <text id="checkbox" font-family="FontAwesome5Pro-Light, Font Awesome 5 Pro" font-size="12" font-weight="300" fill="#E5E2DA">
+                        <tspan x="4.75" y="21">ticket</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

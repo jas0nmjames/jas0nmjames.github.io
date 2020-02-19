@@ -1,7 +1,7 @@
 ---
 layout: portfolio
-title: Case Study - Container Shipping Software
-summary: cross.team was asked to design a new front-end for a container shipping order management and dispatching application
+title: Case Study - Drayage Web App - Shipping Dispatching & Order Management
+summary: cross.team was asked to design a new front-end for a container shipping order management and dispatching application.  The client was a startup in the drayage industry.
 updated: February 2020
 tags:
 image: 2020-02-11-containerco/example-2-col-layout.png

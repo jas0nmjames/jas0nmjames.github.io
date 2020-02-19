@@ -1,7 +1,7 @@
 ---
 layout: portfolio
-title: Case Study - Recyclaide
-summary: I previously wrote about building a Design System in Sketch for my own Bloombox project.  Although I can't take credit for the overall visual design here (a UI designer was on the team), I rebuilt every component within XD and created nested symbols that could accept design changes across multiple components, screens and files.
+title: Case Study - Recyclaide - Mobile App for a Startup Social Enterpise
+summary: I joined the Recyclaide team pro bono in late 2019 to help bring the ideas they had for an app to life.  Rapid prototyping with Framer X.
 updated: Last edit February 11, 2020
 tags: [framer bot]
 image: 2020-02-11-recyclaide/recyclaide-v4-24fps.gif
