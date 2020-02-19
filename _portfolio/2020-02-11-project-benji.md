@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Case Study - Project Benji
+title: Case Study - Project Benji - Financial Services Global Trading Platform
 summary: Cross.Team worked closely with a large financial institution to redefine the user experience of worldwide traders and their managers.  This newly redesigned presentation layer foundation was delivered as a full design system and allowed the IT team to design, develop and quickly deploy a world-class user experience for internal end-users and stakeholders.
 updated: February 2020
 tags:
@@ -65,6 +65,28 @@ At a high level, I:
 - work with developers to debug the application
 
 I'd like to present to you below a snapshot of what we were able to accomplish with the product and a high level overview of the tasks I performed in that aim.
+
+## Visual Design
+
+Before joining the project, my colleagues had established the overall visual direction.
+
+I helped refine that visual design in light of the detail we uncovered as we integrated the back-end APIs into the UI:
+
+![img](2020-02-11-project-benji/20200219_143616.jpg)
+
+![img](2020-02-11-project-benji/20200219_144053.jpg)
+
+![img](2020-02-11-project-benji/20200219_143631.jpg)
+
+![img](2020-02-11-project-benji/20200219_143713.jpg)
+
+![img](2020-02-11-project-benji/card-block-mapping.png)
+
+![img](2020-02-11-project-benji/card-full.png)
+
+![img](2020-02-11-project-benji/20200219_153136.jpg)
+
+![img](2020-02-11-project-benji/ui-new-1.png)
 
 ### Updating a 20 Year Old .NET UI to a Modern, Mobile First, Material Design React Friendly UI
 
