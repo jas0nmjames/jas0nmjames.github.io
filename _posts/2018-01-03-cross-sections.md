@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cross Sections
+author: Jason M. James
 summary: A brief walk-through of my journey to UX and the motivations behind my story.
 updated: Originally published via Wordpress on January 3, 2018.  Last updated November 16, 2019.
 tags: [personal, systems thinking]
