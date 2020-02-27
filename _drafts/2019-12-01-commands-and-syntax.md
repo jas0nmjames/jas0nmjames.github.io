@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CLI Reference
+Author: Jason M. James
 summary: A reference of commands, syntax and shortcuts I've found helpful as I've learned programming.
 updated: Last updated November 19, 2019 by Jason James
 tags: [reference]

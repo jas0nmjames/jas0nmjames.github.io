@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Where I'm From
+author: Jason M. James
 summary: If my 'what' is systems thinking, my 'how' is empathy in the pursuit of community.
 updated: Originally published via Wordpress on September 16, 2017.  Last edit September 16, 2017.
 tags: [personal]

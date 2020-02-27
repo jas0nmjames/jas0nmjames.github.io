@@ -17,10 +17,10 @@ Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liqu
 - [x] Create clean markdown copies of my past writing for archival purposes.  
 - [x] **Build and deploy a site on my own** rather than through a CMS like Wordpress.  See above.  
 - [x] Experiment with static site generators (**SSGs**).  See [below](#why).
-- [ ] Refresh my **Sketch** chops.  I've been working a lot in Figma recently at work.  In another side project concurrent to this one, I'm refreshing my Adobe XD chops.  
+- [x] Refresh my **Sketch** chops.  I've been working a lot in Figma recently at work.  In another side project concurrent to this one, I'm refreshing my Adobe XD chops.  
 - [x] Learn **CSS Grids**.  See inspiration from [Ahmad Nassri](https://ahmadnassri.com/) / [Olivia Ng](https://twitter.com/meowlivia_/status/1116784686640979968)
-- [ ] Work on my **UI** chops.
-- [ ] Learn the [JAMstack](https://jamstack.org/) a bit better after seeing my dev colleagues working in React and Gatsby.
+- [x] Work on my **UI** chops.
+- [x] Learn the [JAMstack](https://jamstack.org/) a bit better after seeing my dev colleagues working in React and Gatsby.
 
 ## Why
 
@@ -89,7 +89,13 @@ For this project, I found the following links helpful:
 
 - [https://sustainableux.com/](https://sustainableux.com/)
 - [https://whitehatux.com/](https://whitehatux.com/)
-- [https://humanetech.com/](https://humanetech.com/)
+- [https://humanetech.com/](https://humanetech.com/
+
+## To Do
+
+- [ ] Copy markdown text to Wordpress in full.  
+- [ ] Rename markdown assets to be more descriptive.  Ensure originals are used where approrpriate.
+- [ ] Ensure accessibility for assets is robust.
 
 ## Licensing
 
