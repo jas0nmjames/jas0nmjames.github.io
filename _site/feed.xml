@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-19T18:41:30-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">My Thoughts on Framer</title><link href="http://localhost:4000/framerx/" rel="alternate" type="text/html" title="My Thoughts on Framer" /><published>2019-12-17T00:00:00-05:00</published><updated>2019-12-17T00:00:00-05:00</updated><id>http://localhost:4000/framerx</id><content type="html" xml:base="http://localhost:4000/framerx/">&lt;p&gt;At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with &lt;strong&gt;Framer X&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-22T11:22:04-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">My Thoughts on Framer</title><link href="http://localhost:4000/framerx/" rel="alternate" type="text/html" title="My Thoughts on Framer" /><published>2019-12-17T00:00:00-05:00</published><updated>2019-12-17T00:00:00-05:00</updated><id>http://localhost:4000/framerx</id><content type="html" xml:base="http://localhost:4000/framerx/">&lt;p&gt;At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with &lt;strong&gt;Framer X&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;best-use-interaction-design-ixd&quot;&gt;Best Use: Interaction Design (IxD)&lt;/h2&gt;
 
@@ -30,54 +30,7 @@
 &lt;ul&gt;
   &lt;li&gt;This can be a very powerful tool for our team, but to use effectively, designers will need to know at least React basics.  There’s a steep learning curve with it comes to working with real react components.&lt;/li&gt;
   &lt;li&gt;I’d rather prototype in FramerX than any other tools I’ve used.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="Tools" /><summary type="html">At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with Framer X</summary></entry><entry><title type="html">CLI Reference</title><link href="http://localhost:4000/commands-and-syntax/" rel="alternate" type="text/html" title="CLI Reference" /><published>2019-12-01T00:00:00-05:00</published><updated>2019-12-01T00:00:00-05:00</updated><id>http://localhost:4000/commands-and-syntax</id><content type="html" xml:base="http://localhost:4000/commands-and-syntax/">&lt;h1 id=&quot;commands-syntax--shortcuts&quot;&gt;Commands, Syntax &amp;amp; Shortcuts&lt;/h1&gt;
-
-&lt;h2 id=&quot;cli&quot;&gt;CLI&lt;/h2&gt;
-
-&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; - print the name of the current directory&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; - navigate up the directory hierarchy by one&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; - print list of what’s inside the current directory&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;homebrew&quot;&gt;Homebrew&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew update&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew outdated&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew upgrade&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;localhost-simplehttpserver&quot;&gt;Localhost: SimpleHTTPServer&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Command: &lt;code class=&quot;highlighter-rouge&quot;&gt;python -m SimpleHTTPServer 8000&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Description: deploys the repository to a local server.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;yarn&quot;&gt;Yarn&lt;/h3&gt;
-
-&lt;h3 id=&quot;npm&quot;&gt;NPM&lt;/h3&gt;
-
-&lt;h3 id=&quot;docker&quot;&gt;Docker&lt;/h3&gt;
-
-&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;.  reference &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/10-deployment/&quot;&gt;https://jekyllrb.com/docs/step-by-step/10-deployment/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle update&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;
-
-&lt;h2 id=&quot;html&quot;&gt;HTML&lt;/h2&gt;
-
-&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
-
-&lt;h2 id=&quot;liquid&quot;&gt;Liquid&lt;/h2&gt;</content><author><name></name></author><category term="reference" /><summary type="html">Commands, Syntax &amp;amp; Shortcuts</summary></entry><entry><title type="html">Cross Sections</title><link href="http://localhost:4000/cross-sections/" rel="alternate" type="text/html" title="Cross Sections" /><published>2018-01-03T00:00:00-05:00</published><updated>2018-01-03T00:00:00-05:00</updated><id>http://localhost:4000/cross-sections</id><content type="html" xml:base="http://localhost:4000/cross-sections/">&lt;p&gt;&lt;img src=&quot;/assets/images/stephenbiesty_bigrescuehelicopter.jpg&quot; alt=&quot;img&quot; /&gt;&lt;!--{:class=&quot;img-responsive&quot;}--&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jason M. James</name></author><category term="Tools" /><summary type="html">At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with Framer X</summary></entry><entry><title type="html">Cross Sections</title><link href="http://localhost:4000/cross-sections/" rel="alternate" type="text/html" title="Cross Sections" /><published>2018-01-03T00:00:00-05:00</published><updated>2018-01-03T00:00:00-05:00</updated><id>http://localhost:4000/cross-sections</id><content type="html" xml:base="http://localhost:4000/cross-sections/">&lt;p&gt;&lt;img src=&quot;/assets/images/stephenbiesty_bigrescuehelicopter.jpg&quot; alt=&quot;img&quot; /&gt;&lt;!--{:class=&quot;img-responsive&quot;}--&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.stephenbiesty.co.uk/work.html&quot;&gt;Stephen Biesty&lt;/a&gt; drew the helicopter cross-section above in a book called &lt;a href=&quot;https://www.amazon.com/Stephen-Biestys-Incredible-Cross-Sections-Richard/dp/0679814116&quot;&gt;Incredible Cross Sections&lt;/a&gt; that I loved as a kid.&lt;/p&gt;
 
@@ -143,7 +96,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/jas0nmjames/&quot;&gt;Connect with me on LinkedIn&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;P.S. Many thanks to &lt;a href=&quot;https://www.linkedin.com/in/steve-nunez/&quot;&gt;Steve Nunez&lt;/a&gt; for the photos of me on this page.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="systems thinking" /><summary type="html"></summary></entry><entry><title type="html">Where I’m From</title><link href="http://localhost:4000/where-im-from/" rel="alternate" type="text/html" title="Where I'm From" /><published>2017-09-16T00:00:00-04:00</published><updated>2017-09-16T00:00:00-04:00</updated><id>http://localhost:4000/where-im-from</id><content type="html" xml:base="http://localhost:4000/where-im-from/">&lt;h1 id=&quot;where-im-from&quot;&gt;Where I’m From&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;P.S. Many thanks to &lt;a href=&quot;https://www.linkedin.com/in/steve-nunez/&quot;&gt;Steve Nunez&lt;/a&gt; for the photos of me on this page.&lt;/em&gt;&lt;/p&gt;</content><author><name>Jason M. James</name></author><category term="personal" /><category term="systems thinking" /><summary type="html"></summary></entry><entry><title type="html">Where I’m From</title><link href="http://localhost:4000/where-im-from/" rel="alternate" type="text/html" title="Where I'm From" /><published>2017-09-16T00:00:00-04:00</published><updated>2017-09-16T00:00:00-04:00</updated><id>http://localhost:4000/where-im-from</id><content type="html" xml:base="http://localhost:4000/where-im-from/">&lt;h1 id=&quot;where-im-from&quot;&gt;Where I’m From&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;2017-09-16-where-im-from.assets/20170810_194359.jpg&quot; alt=&quot;20170810_194359&quot; /&gt;&lt;/p&gt;
 
@@ -167,4 +120,4 @@
 
 &lt;p&gt;Until next time,&lt;/p&gt;
 
-&lt;p&gt;Peace&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">Where I’m From</summary></entry></feed>
+&lt;p&gt;Peace&lt;/p&gt;</content><author><name>Jason M. James</name></author><category term="personal" /><summary type="html">Where I’m From</summary></entry></feed>

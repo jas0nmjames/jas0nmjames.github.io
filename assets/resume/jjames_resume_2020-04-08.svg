@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="794px" height="1028px" viewBox="0 0 794 1028" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>resume_letter</title>
     <desc>Created with Sketch.</desc>
     <g id="resume_letter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -61,25 +61,26 @@
                     <tspan x="0" y="441">Adobe InDesign</tspan>
                 </text>
             </g>
-            <g id="Portfolio" transform="translate(1.000000, 405.000000)">
+            <g id="Portfolio" transform="translate(0.000000, 363.000000)">
                 <g id="Heading_Contact">
                     <text id="PORTFOLIO" font-family="Prata-Regular, Prata" font-size="12" font-weight="normal" letter-spacing="1.5" fill="#FFFFFF">
                         <tspan x="0" y="15">PORTFOLIO</tspan>
                     </text>
                     <line x1="0" y1="24" x2="87.5" y2="24" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></line>
                 </g>
-                <text id="jas0nmjames.github.i" font-family="Hind-Regular, Hind" font-size="11" font-weight="normal" letter-spacing="1.1" fill="#FFFFFF">
-                    <tspan x="0" y="42">jas0nmjames.github.io/</tspan>
+                <text id="https://jasonmjam.es" font-family="Hind-Regular, Hind" font-size="11" font-weight="normal" letter-spacing="1.1" fill="#FFFFFF">
+                    <tspan x="0" y="42">https://jasonmjam.es</tspan>
                 </text>
             </g>
             <g id="Heading" transform="translate(0.000000, 105.000000)" fill="#FFFFFF" font-family="Hind-Medium, Hind" font-size="14" font-weight="400" letter-spacing="1.5">
-                <text id="UX-DESIGNER,-MBA-COR">
-                    <tspan x="0" y="15">UX DESIGNER, MB</tspan>
-                    <tspan x="132.75" y="15">A </tspan>
-                    <tspan x="0" y="38">CORAL SPRINGS, FL</tspan>
+                <text id="PRODUCT-DESIGN-&amp;-MAN">
+                    <tspan x="0" y="15">PRODUCT DESIGN </tspan>
+                    <tspan x="0" y="38">&amp; MANAGEMENT</tspan>
+                    <tspan x="124.204" y="38"></tspan>
+                    <tspan x="0" y="61">CORAL SPRINGS, FL</tspan>
                 </text>
             </g>
-            <g id="Group-2" transform="translate(1.000000, 199.000000)">
+            <g id="Group-2" transform="translate(0.000000, 186.000000)">
                 <g id="Heading_Contact">
                     <text id="CONTACT" font-family="Prata-Regular, Prata" font-size="12" font-weight="normal" letter-spacing="1.5" fill="#FFFFFF">
                         <tspan x="0" y="15">CONTACT</tspan>
@@ -234,8 +235,8 @@
             </text>
         </g>
         <g id="Group-10" transform="translate(330.000000, 46.000000)" fill="#404040" font-weight="normal">
-            <text id="Product-Designer-|-S" font-family="Prata-Regular, Prata" font-size="12">
-                <tspan x="11" y="15">Product Designer | South Florida</tspan>
+            <text id="Product-Design-&amp;-Pro" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">Product Design &amp; Product Management | South Florida</tspan>
             </text>
             <text id="Conducted-user-resea" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
                 <tspan x="11" y="38">Conducted user research, design system component creation, QA and project </tspan>
