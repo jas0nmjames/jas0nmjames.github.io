@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="794px" height="1028px" viewBox="0 0 794 1028" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>resume_letter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="resume_letter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="794" height="1028"></rect>
+        <g id="Sidebar" transform="translate(-1.000000, 0.000000)">
+            <polygon id="sidebar" fill="#114B5F" points="0 0 190 0 190 1028 0 1028"></polygon>
+            <polygon id="Rectangle-2" fill="#F4D06F" points="0 0 190 0 190 8 0 8"></polygon>
+        </g>
+        <g id="Group-3" transform="translate(24.000000, 49.000000)">
+            <text id="JASON-JAMES" font-family="Prata-Regular, Prata" font-size="40" font-weight="normal" line-spacing="49" fill="#FFFFFF">
+                <tspan x="0" y="51">JASON </tspan>
+                <tspan x="0" y="100">JAMES</tspan>
+            </text>
+            <g id="Technologies" transform="translate(0.000000, 508.000000)">
+                <g id="Heading_Contact">
+                    <text id="TECHNOLOGIES" font-family="Prata-Regular, Prata" font-size="12" font-weight="normal" letter-spacing="1.5" fill="#FFFFFF">
+                        <tspan x="0" y="15">TECHNOLOGIES</tspan>
+                    </text>
+                    <line x1="0" y1="24" x2="121.5" y2="24" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></line>
+                </g>
+                <text id="Design-Thinking-Syst" font-family="Hind-Regular, Hind" font-size="11" font-weight="normal" line-spacing="11" letter-spacing="1" fill="#FFFFFF">
+                    <tspan x="0" y="45">Design Thinking</tspan>
+                    <tspan x="4.675" y="59.0330658"></tspan>
+                    <tspan x="0" y="67">Systems Thinking</tspan>
+                    <tspan x="4.675" y="81.0330658"></tspan>
+                    <tspan x="0" y="89">Business Analysis</tspan>
+                    <tspan x="4.675" y="103.033066"></tspan>
+                    <tspan x="0" y="111">Figma</tspan>
+                    <tspan x="4.675" y="125.033066"></tspan>
+                    <tspan x="0" y="133">Sketch</tspan>
+                    <tspan x="4.675" y="147.033066"></tspan>
+                    <tspan x="0" y="155">Framer X</tspan>
+                    <tspan x="4.675" y="169.033066"></tspan>
+                    <tspan x="0" y="177">InVision</tspan>
+                    <tspan x="4.675" y="191.033066"></tspan>
+                    <tspan x="0" y="199">Adobe XD</tspan>
+                    <tspan x="4.675" y="213.033066"></tspan>
+                    <tspan x="0" y="221">Justinmind</tspan>
+                    <tspan x="4.675" y="235.033066"></tspan>
+                    <tspan x="0" y="243">UserTesting.com</tspan>
+                    <tspan x="4.675" y="257.033066"></tspan>
+                    <tspan x="0" y="265">Flinto</tspan>
+                    <tspan x="4.675" y="279.033066"></tspan>
+                    <tspan x="0" y="287">Marvel</tspan>
+                    <tspan x="4.675" y="301.033066"></tspan>
+                    <tspan x="0" y="309">Atom</tspan>
+                    <tspan x="4.675" y="323.033066"></tspan>
+                    <tspan x="0" y="331">Visual Studio Code</tspan>
+                    <tspan x="4.675" y="345.033066"></tspan>
+                    <tspan x="0" y="353">Browser Dev Tools</tspan>
+                    <tspan x="4.675" y="367.033066"></tspan>
+                    <tspan x="0" y="375">Microsoft Project</tspan>
+                    <tspan x="4.675" y="389.033066"></tspan>
+                    <tspan x="0" y="397">Microsoft Excel</tspan>
+                    <tspan x="4.675" y="411.033066"></tspan>
+                    <tspan x="0" y="419">Tableau</tspan>
+                    <tspan x="4.675" y="433.033066"></tspan>
+                    <tspan x="0" y="441">Adobe InDesign</tspan>
+                </text>
+            </g>
+            <g id="Portfolio" transform="translate(0.000000, 363.000000)">
+                <g id="Heading_Contact">
+                    <text id="PORTFOLIO" font-family="Prata-Regular, Prata" font-size="12" font-weight="normal" letter-spacing="1.5" fill="#FFFFFF">
+                        <tspan x="0" y="15">PORTFOLIO</tspan>
+                    </text>
+                    <line x1="0" y1="24" x2="87.5" y2="24" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></line>
+                </g>
+                <text id="https://jasonmjam.es" font-family="Hind-Regular, Hind" font-size="11" font-weight="normal" letter-spacing="1.1" fill="#FFFFFF">
+                    <tspan x="0" y="42">https://jasonmjam.es</tspan>
+                </text>
+            </g>
+            <g id="Heading" transform="translate(0.000000, 105.000000)" fill="#FFFFFF" font-family="Hind-Medium, Hind" font-size="14" font-weight="400" letter-spacing="1.5">
+                <text id="PRODUCT-DESIGN-&amp;-MAN">
+                    <tspan x="0" y="15">PRODUCT DESIGN </tspan>
+                    <tspan x="0" y="38">&amp; MANAGEMENT</tspan>
+                    <tspan x="124.204" y="38"></tspan>
+                    <tspan x="0" y="61">CORAL SPRINGS, FL</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(0.000000, 186.000000)">
+                <g id="Heading_Contact">
+                    <text id="CONTACT" font-family="Prata-Regular, Prata" font-size="12" font-weight="normal" letter-spacing="1.5" fill="#FFFFFF">
+                        <tspan x="0" y="15">CONTACT</tspan>
+                    </text>
+                    <line x1="0" y1="21" x2="70.5" y2="21" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></line>
+                </g>
+                <g id="Group" transform="translate(0.000000, 27.000000)">
+                    <g id="ic_phone_white_48px" transform="translate(1.000000, 26.000000)">
+                        <polygon id="Shape" points="0 0 17 0 17 17 0 17"></polygon>
+                        <path d="M4.61444444,7.62611111 C5.65444444,9.67 7.33,11.3383333 9.37388889,12.3855556 L10.9627778,10.7966667 C11.1577778,10.6016667 11.4466667,10.5366667 11.6994444,10.6233333 C12.5083333,10.8905556 13.3822222,11.035 14.2777778,11.035 C14.675,11.035 15,11.36 15,11.7572222 L15,14.2777778 C15,14.675 14.675,15 14.2777778,15 C7.49611111,15 2,9.50388889 2,2.72222222 C2,2.325 2.325,2 2.72222222,2 L5.25,2 C5.64722222,2 5.97222222,2.325 5.97222222,2.72222222 C5.97222222,3.625 6.11666667,4.49166667 6.38388889,5.30055556 C6.46333333,5.55333333 6.40555556,5.835 6.20333333,6.03722222 L4.61444444,7.62611111 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                    <g id="Logo__x2014__FIXED" transform="translate(1.000000, 106.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M5.3401362,13.6000004 C11.7551024,13.6000004 15.2653066,8.36614197 15.2653066,3.83503948 C15.2653066,3.68779538 15.2653066,3.54055128 15.2585038,3.39330718 C15.938776,2.9114174 16.5306127,2.30236227 17,1.61299217 C16.3741501,1.88740163 15.7006807,2.06811029 14.9931977,2.15511817 C15.7142862,1.73346462 16.2653066,1.05748034 16.5306127,0.254330716 C15.8571433,0.649212617 15.108844,0.930314987 14.3129256,1.084252 C13.6734698,0.414960642 12.7687078,0 11.7687078,0 C9.84353769,0 8.2789118,1.53937012 8.2789118,3.43346466 C8.2789118,3.70118121 8.3129254,3.96220484 8.36734717,4.21653555 C5.46938791,4.07598437 2.89795926,2.70393708 1.17687078,0.629133876 C0.877551045,1.13779531 0.707483013,1.7267717 0.707483013,2.35590558 C0.707483013,3.54724419 1.32653065,4.59803163 2.25850346,5.21377967 C1.68707488,5.19370093 1.1496599,5.03976392 0.680272128,4.78543321 C0.680272128,4.79881903 0.680272128,4.81220486 0.680272128,4.8322836 C0.680272128,6.49212617 1.88435379,7.88425219 3.47619057,8.19881913 C3.18367356,8.27913409 2.8775511,8.31929157 2.5578232,8.31929157 C2.3333334,8.31929157 2.11564632,8.29921283 1.90476196,8.25905535 C2.34693884,9.62440972 3.63945588,10.6149609 5.16326545,10.6417326 C3.96598651,11.5653547 2.4625851,12.1141736 0.829931996,12.1141736 C0.551020424,12.1141736 0.272108851,12.1007877 0,12.0673232 C1.53741501,13.0311027 3.37414975,13.6000004 5.3401362,13.6000004" id="Shape"></path>
+                    </g>
+                    <text id="jason@jasonmjam.es-5" font-family="Hind-Regular, Hind" font-size="11" font-weight="normal" line-spacing="13" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="23" y="14">jason@jasonmjam.e</tspan>
+                        <tspan x="132.587" y="14" letter-spacing="1.5">s</tspan>
+                        <tspan x="27.675" y="29.0330658" letter-spacing="1.5"></tspan>
+                        <tspan x="23" y="40" letter-spacing="1.5">571.306.0189</tspan>
+                        <tspan x="27.675" y="55.0330658" letter-spacing="1.5"></tspan>
+                        <tspan x="23" y="66" letter-spacing="1.5">/in/jas0nmjames</tspan>
+                        <tspan x="27.675" y="81.0330658" letter-spacing="1.5"></tspan>
+                        <tspan x="23" y="92" letter-spacing="1.5">@jas0nmjames</tspan>
+                        <tspan x="27.675" y="107.033066" letter-spacing="1.5"></tspan>
+                        <tspan x="23" y="118" letter-spacing="1.5">@jas0nmjames</tspan>
+                    </text>
+                    <image id="In-White-128px-TM" x="2" y="52" width="15" height="14" xlink:href="data:image/png;base64,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"></image>
+                    <g id="ic_email_white_48px" transform="translate(1.000000, 0.000000)">
+                        <path d="M13.6,3 L2.4,3 C1.63,3 1.007,3.61875 1.007,4.375 L1,12.625 C1,13.38125 1.63,14 2.4,14 L13.6,14 C14.37,14 15,13.38125 15,12.625 L15,4.375 C15,3.61875 14.37,3 13.6,3 Z M13.6,5.75 L8,9.1875 L2.4,5.75 L2.4,4.375 L8,7.8125 L13.6,4.375 L13.6,5.75 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <polygon id="Shape" points="0 0 17 0 17 17 0 17"></polygon>
+                    </g>
+                    <g id="Monogram" transform="translate(0.000000, 78.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M4.54154995,6.03997648 C4.55770146,5.88535165 4.4968458,5.73252221 4.37768441,5.62845385 L3.16386555,4.21164021 L3.16386555,4 L6.93277311,4 L9.84593838,10.1904762 L12.4070962,4 L16,4 L16,4.21164021 L14.9621849,5.17577895 C14.8727138,5.24186036 14.8283316,5.35046983 14.8468721,5.4579659 L14.8468721,12.5420341 C14.8283316,12.6495302 14.8727138,12.7581396 14.9621849,12.8242211 L15.9757236,13.7883598 L15.9757236,14 L10.8776844,14 L10.8776844,13.7883598 L11.9276378,12.8007055 C12.0308123,12.7007642 12.0308123,12.6713698 12.0308123,12.5185186 L12.0308123,6.79247502 L9.11157796,13.9764844 L8.71708684,13.9764844 L5.31839402,6.79247502 L5.31839402,11.6072898 C5.29005696,11.8097182 5.35944243,12.0135192 5.50653594,12.159906 L6.87208216,13.7648442 L6.87208216,13.9764844 L3,13.9764844 L3,13.7648442 L4.36554622,12.159906 C4.51156876,12.0132765 4.57690832,11.8081236 4.54154995,11.6072898 L4.54154995,6.03997648 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Group-5" transform="translate(330.000000, 417.000000)" fill="#404040" font-weight="normal">
+            <text id="○-○-○" font-family="LucidaGrande, Lucida Grande" font-size="11" line-spacing="19">
+                <tspan x="0" y="40">○</tspan>
+                <tspan x="6.359375" y="40" font-family="Hind-Regular, Hind"></tspan>
+                <tspan x="0" y="59">○</tspan>
+                <tspan x="6.359375" y="59" font-family="Hind-Regular, Hind"> </tspan>
+                <tspan x="0" y="78">○</tspan>
+            </text>
+            <text id="Designed-bid-proposa" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
+                <tspan x="11" y="41">Designed bid proposals and promotional content in Adobe InDesign </tspan>
+                <tspan x="11" y="60">Curated and created promotional content addressing industry trends.  </tspan>
+                <tspan x="11" y="79">Led and organized pitch presentations to prospective clients in order to win new business </tspan>
+                <tspan x="11" y="98">and represented firm at industry events to maintain and create customer relationships.</tspan>
+            </text>
+            <text id="Business-Development" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">Business Development &amp; PM - Commercial Construction | Herndon, VA</tspan>
+            </text>
+        </g>
+        <g id="Group-6" transform="translate(330.000000, 532.000000)" fill="#404040" font-weight="normal">
+            <text id="○-○-○" font-family="LucidaGrande, Lucida Grande" font-size="11" line-spacing="19">
+                <tspan x="0" y="40">○</tspan>
+                <tspan x="6.359375" y="40" font-family="Hind-Regular, Hind"></tspan>
+                <tspan x="0" y="59">○</tspan>
+                <tspan x="6.359375" y="59" font-family="Hind-Regular, Hind"> </tspan>
+                <tspan x="8" y="59"></tspan>
+                <tspan x="0" y="78">○</tspan>
+            </text>
+            <text id="Led-project-status-m" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
+                <tspan x="11" y="41">Led project status meetings of up to 25 people with subcontractors, architects and clients.</tspan>
+                <tspan x="11" y="60">Proactively solved design and construction issues as they arose on-site and managed last-</tspan>
+                <tspan x="11" y="79">minute design requests due to client needs, budget constraints, or project requirements.  </tspan>
+                <tspan x="11" y="98">Utilized waterfall methodology (GANTT) to meet project deadlines and manage costs.</tspan>
+                <tspan x="11" y="117">***2017 NAIOP VA Award of Excellence (GMU Potomac Science Cener) </tspan>
+                <tspan x="11" y="136">***2016 IIDA Pinnacle Award (AOL Steve Case Center)</tspan>
+            </text>
+            <text id="Assistant-Project-Ma" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">Assistant Project Manager - Commercial Construction | Herndon, VA</tspan>
+            </text>
+        </g>
+        <g id="Group-4" transform="translate(330.000000, 685.000000)" fill="#404040" font-weight="normal">
+            <text id="○" font-family="LucidaGrande, Lucida Grande" font-size="11" line-spacing="19">
+                <tspan x="0" y="34">○</tspan>
+            </text>
+            <text id="Gathered-and-analyze" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
+                <tspan x="11" y="38">Gathered and analyzed customer feedback to share insights with engineering teams in </tspan>
+                <tspan x="11" y="57">Taiwan, Spain and the US. </tspan>
+            </text>
+            <text id="Sales-Associate---Wi" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">Sales Associate - Wireless Telecommunications | Herndon, VA</tspan>
+            </text>
+        </g>
+        <g id="Group-8" transform="translate(330.000000, 800.000000)" fill="#404040" font-weight="normal">
+            <text id="○" font-family="LucidaGrande, Lucida Grande" font-size="11" line-spacing="19">
+                <tspan x="0" y="29">○</tspan>
+            </text>
+            <text id="Rapid-Prototyping,-U" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
+                <tspan x="11" y="32">Rapid Prototyping, Usability Testing, User Research, Agile Methodology, Lean UX, Design </tspan>
+                <tspan x="11" y="51">Thinking</tspan>
+            </text>
+            <text id="Fulltime-UX/UI-Desig" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">Fulltime UX/UI Design Bootcamp (400+ hours) | Miami, FL</tspan>
+            </text>
+        </g>
+        <g id="Group-9" transform="translate(330.000000, 858.000000)" fill="#404040" font-weight="normal">
+            <text id="○-○" font-family="LucidaGrande, Lucida Grande" font-size="11" line-spacing="19">
+                <tspan x="0" y="31">○</tspan>
+                <tspan x="6.359375" y="31" font-family="Hind-Regular, Hind"></tspan>
+                <tspan x="0" y="50" font-family="Hind-Regular, Hind"></tspan>
+                <tspan x="0" y="69">○</tspan>
+            </text>
+            <text id="Trained-in-Organizat" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
+                <tspan x="11" y="32">Trained in Organizational Behavior, Systems Thinking, Data Analysis, Marketing, Accounting </tspan>
+                <tspan x="11" y="51">and Finance, Economics, Leadership and Sustainability.</tspan>
+                <tspan x="11" y="70">International Residence in Costa Rica observing sustainable coffee cooperative</tspan>
+            </text>
+            <text id="MBA,-Master-of-Busin" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">MBA, Master of Business Administration | collaborativemba.org </tspan>
+            </text>
+        </g>
+        <text id="BA,-Bachelor-of-Arts" font-family="Prata-Regular, Prata" font-size="12" font-weight="normal" fill="#404040">
+            <tspan x="341" y="967">BA, Bachelor of Arts - History | Charlottesville, VA</tspan>
+        </text>
+        <g id="Group-7" transform="translate(330.000000, 286.000000)" fill="#404040" font-weight="normal">
+            <text id="○" font-family="LucidaGrande, Lucida Grande" font-size="11" line-spacing="20">
+                <tspan x="0" y="34">○</tspan>
+            </text>
+            <text id="UX/UI-Designer-(Stud" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">UX/UI Designer (Student) - User Experience Design | Miami, FL</tspan>
+            </text>
+            <text id="Code-for-Miami-Schoo" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
+                <tspan x="11" y="38">Code-for-Miami School Data Redesign: Made existing school performance data clear and </tspan>
+                <tspan x="11" y="57">accessible to the public. </tspan>
+                <tspan x="11" y="76">***December 2017 Ironhack UX/UI Hackshow Awards: Overall Hackshow Judge Favorite; </tspan>
+                <tspan x="11" y="95">Outstanding UX Strategy; Outstanding Business Analysis; Outstanding Problem-Solving </tspan>
+                <tspan x="11" y="114">Skills; Outstanding Presentations Skills, Runner Up; Outsanding User Research, Runner Up</tspan>
+            </text>
+        </g>
+        <g id="Group-10" transform="translate(330.000000, 174.000000)" fill="#404040" font-weight="normal">
+            <text id="User-Experience-Desi" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">User Experience Designer - iOS, Android, Web | Fort Lauderdale, FL</tspan>
+            </text>
+            <text id="Created-design-syste" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
+                <tspan x="11" y="38">Created design system in Adobe XD after unifying designs across XD and Sketch</tspan>
+                <tspan x="11" y="57">Created fully interactive prototypes, including data variables, with Justinmind</tspan>
+                <tspan x="11" y="76">Advocated for a user-centric design process with C-suite executives and collaborated with </tspan>
+                <tspan x="11" y="95">ux strategist, user researcher, product manager, dev teams and QA.  </tspan>
+            </text>
+            <text id="○-○-○" font-family="LucidaGrande, Lucida Grande" font-size="11" line-spacing="19">
+                <tspan x="0" y="36">○</tspan>
+                <tspan x="6.359375" y="36" font-family="Hind-Regular, Hind"></tspan>
+                <tspan x="0" y="55">○</tspan>
+                <tspan x="6.359375" y="55" font-family="Hind-Regular, Hind"></tspan>
+                <tspan x="0" y="74">○</tspan>
+                <tspan x="6.359375" y="74" font-family="Hind-Regular, Hind"> </tspan>
+            </text>
+        </g>
+        <g id="Group-10" transform="translate(330.000000, 46.000000)" fill="#404040" font-weight="normal">
+            <text id="Product-Design-&amp;-Pro" font-family="Prata-Regular, Prata" font-size="12">
+                <tspan x="11" y="15">Product Design &amp; Product Management | South Florida</tspan>
+            </text>
+            <text id="Conducted-user-resea" font-family="Hind-Regular, Hind" font-size="11" line-spacing="19">
+                <tspan x="11" y="38">Conducted user research, design system component creation, QA and project </tspan>
+                <tspan x="11" y="57">management for new presentation layer in React for a 20+ year high profile global trading </tspan>
+                <tspan x="11" y="76">platform for fortune 500 financial institution.</tspan>
+                <tspan x="11" y="95">Created information architecture, API documentation, visual design and helped facilitate </tspan>
+                <tspan x="11" y="114">team communication for a shipping transportation startup.</tspan>
+            </text>
+            <text id="○-○" font-family="LucidaGrande, Lucida Grande" font-size="11" line-spacing="19">
+                <tspan x="0" y="36">○</tspan>
+                <tspan x="6.359375" y="36" font-family="Hind-Regular, Hind"></tspan>
+                <tspan x="0" y="55"></tspan>
+                <tspan x="0" y="74" font-family="Hind-Regular, Hind"></tspan>
+                <tspan x="0" y="93">○</tspan>
+                <tspan x="6.359375" y="93" font-family="Hind-Regular, Hind"> </tspan>
+            </text>
+        </g>
+        <g id="Group-11" transform="translate(213.000000, 769.000000)">
+            <text id="IRONHACK-2017-2017-E" font-family="Hind-SemiBold, Hind" font-size="14" font-weight="500" line-spacing="19" letter-spacing="1" fill="#404040">
+                <tspan x="0" y="48">IRONHACK</tspan>
+                <tspan x="82.48" y="49.4199829" font-family="Hind-Regular, Hind" font-weight="normal"></tspan>
+                <tspan x="0.448" y="67.3778992" font-family="Hind-Regular, Hind" font-weight="normal">2017-2017</tspan>
+                <tspan x="6.398" y="87.4199829" font-family="Hind-Regular, Hind" font-weight="normal"></tspan>
+                <tspan x="0" y="105">EASTERN </tspan>
+                <tspan x="0" y="124">MENNONITE</tspan>
+                <tspan x="0" y="143">UNIVERSITY</tspan>
+                <tspan x="91.172" y="144.419983" font-family="Hind-Regular, Hind" font-weight="normal"></tspan>
+                <tspan x="0.448" y="162.377899" font-family="Hind-Regular, Hind" font-weight="normal">2015-2017</tspan>
+                <tspan x="6.398" y="182.419983" font-family="Hind-Regular, Hind" font-weight="normal"></tspan>
+                <tspan x="0" y="200">UNIVERISTY </tspan>
+                <tspan x="0" y="219">OF VIRGINIA</tspan>
+                <tspan x="95.952" y="220.419983" font-family="Hind-Regular, Hind" font-weight="normal"></tspan>
+                <tspan x="0.448" y="238.377899" font-family="Hind-Regular, Hind" font-weight="normal">2006-2011</tspan>
+            </text>
+            <text id="EDUCATION" font-family="Prata-Regular, Prata" font-size="14" font-weight="normal" letter-spacing="1.5" fill="#404040">
+                <tspan x="0" y="18">EDUCATION</tspan>
+            </text>
+            <g id="timeline_education" transform="translate(106.000000, 37.000000)">
+                <line x1="4" y1="156" x2="4" y2="4" id="Line" stroke="#404040" stroke-width="0.5" stroke-linecap="square"></line>
+                <circle id="Oval" fill="#114B5F" cx="4" cy="4" r="4"></circle>
+                <circle id="Oval" fill="#114B5F" cx="4" cy="63" r="4"></circle>
+                <circle id="Oval" fill="#114B5F" cx="4" cy="156" r="4"></circle>
+            </g>
+        </g>
+        <text id="EXPERIENCE" font-family="Prata-Regular, Prata" font-size="14" font-weight="normal" letter-spacing="1.5" fill="#404040">
+            <tspan x="212" y="31">EXPERIENCE</tspan>
+        </text>
+        <text id="CROSSTEAM-2019-prese" font-family="Hind-SemiBold, Hind" font-size="14" font-weight="500" line-spacing="19" letter-spacing="1.5" fill="#404040">
+            <tspan x="213" y="63">CROSSTEAM</tspan>
+            <tspan x="213.448" y="82.3778992" font-family="Hind-Regular, Hind" font-weight="normal">2019-present</tspan>
+            <tspan x="313.992" y="83.4199829"></tspan>
+            <tspan x="219.398" y="102.419983"></tspan>
+            <tspan x="219.398" y="121.419983"></tspan>
+            <tspan x="219.398" y="140.419983"></tspan>
+            <tspan x="219.398" y="159.419983"></tspan>
+            <tspan x="213" y="177">THINKRITE</tspan>
+            <tspan x="213.448" y="196.377899" font-family="Hind-Regular, Hind" font-weight="normal">2018-2019</tspan>
+            <tspan x="290.438" y="197.419983"></tspan>
+            <tspan x="219.398" y="216.419983"></tspan>
+            <tspan x="219.398" y="235.419983"></tspan>
+            <tspan x="219.398" y="254.419983"></tspan>
+            <tspan x="219.398" y="273.419983"></tspan>
+            <tspan x="219.398" y="292.419983"></tspan>
+            <tspan x="213" y="310">IRONHACK</tspan>
+            <tspan x="213.448" y="329.377899" font-family="Hind-Regular, Hind" font-weight="normal">2017-2017</tspan>
+            <tspan x="288.506" y="330.419983"></tspan>
+            <tspan x="219.398" y="349.419983"></tspan>
+            <tspan x="219.398" y="368.419983"></tspan>
+            <tspan x="219.398" y="387.419983"></tspan>
+            <tspan x="219.398" y="406.419983"></tspan>
+            <tspan x="213" y="424">E.E. REED</tspan>
+            <tspan x="213" y="443">Construction</tspan>
+            <tspan x="213.448" y="462.377899" font-family="Hind-Regular, Hind" font-weight="normal">2016-2017</tspan>
+            <tspan x="289.556" y="463.419983"></tspan>
+            <tspan x="219.398" y="482.419983"></tspan>
+            <tspan x="219.398" y="501.419983"></tspan>
+            <tspan x="219.398" y="520.419983"></tspan>
+            <tspan x="219.398" y="539.419983"></tspan>
+            <tspan x="213" y="557">E.E. REED</tspan>
+            <tspan x="213" y="576">Construction</tspan>
+            <tspan x="213.448" y="595.377899" font-family="Hind-Regular, Hind" font-weight="normal">2013-2016</tspan>
+            <tspan x="289.766" y="596.419983"></tspan>
+            <tspan x="219.398" y="615.419983"></tspan>
+            <tspan x="219.398" y="634.419983"></tspan>
+            <tspan x="219.398" y="653.419983"></tspan>
+            <tspan x="219.398" y="672.419983"></tspan>
+            <tspan x="213" y="690">AT4</tspan>
+            <tspan x="213" y="709">Wireless, Inc</tspan>
+            <tspan x="213.448" y="728.377899" font-family="Hind-Regular, Hind" font-weight="normal">2011-2013</tspan>
+            <tspan x="286.924" y="729.419983"></tspan>
+        </text>
+        <g id="timeline_education" transform="translate(319.000000, 61.000000)">
+            <line x1="4" y1="630.493651" x2="4" y2="4.00634921" id="Line" stroke="#404040" stroke-width="0.5" stroke-linecap="square"></line>
+            <ellipse id="Oval" fill="#114B5F" cx="4" cy="4.00634921" rx="4" ry="4.00634921"></ellipse>
+            <ellipse id="Oval" fill="#114B5F" cx="4" cy="251.006349" rx="4" ry="4.00634921"></ellipse>
+            <ellipse id="Oval" fill="#114B5F" cx="4" cy="365.006349" rx="4" ry="4.00634921"></ellipse>
+            <ellipse id="Oval" fill="#114B5F" cx="4" cy="497.506349" rx="4" ry="4.00634921"></ellipse>
+            <ellipse id="Oval" fill="#114B5F" cx="4" cy="630.493651" rx="4" ry="4.00634921"></ellipse>
+            <ellipse id="Oval" fill="#114B5F" cx="4" cy="118.506349" rx="4" ry="4.00634921"></ellipse>
+        </g>
+        <line x1="214" y1="759" x2="769.5" y2="759" id="Line" stroke="#404040" stroke-linecap="square"></line>
+    </g>
+</svg>
