@@ -7,8 +7,6 @@ updated: Originally published via Wordpress on September 16, 2017.  Last edit Se
 tags: [personal]
 ---
 
-# Where I'm From
-
 ![20170810_194359](2017-09-16-where-im-from.assets/20170810_194359.jpg)
 
 Welcome to my little corner of the Internet.
