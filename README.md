@@ -34,8 +34,8 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 
 ## Milestones
 
-- 2020-06-08 Fixed [404.html](/404) permalink.  Previously, the github pages default 404 was being displayed, not the one designed for this site.
-- 2020-05 Added `charset` and `lang` to html header per accessibility best practices, minor content updates, and updated [about page](/about) content / copy.
+- 2020-06-08 Fixed [404.html](/404.html) permalink.  Previously, the github pages default 404 was being displayed, not the one designed for this site.
+- 2020-05 Added `charset` and `lang` to html header per accessibility best practices, minor content updates, and updated [about page](/about.md) content / copy.
 - 2020-02-26 **dependabot** updated `nokogiri` dependency from `1.10.7` to `1.10.8`
 - 2020-02-19 Portfolio & Résumé updates
 - 2020-02-10 Fixed assets, updated nav design & cleaned up main readme
