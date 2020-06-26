@@ -114,7 +114,7 @@ main a:hover { text-decoration: none; }
   #tagline { grid-column: 2 / 12; }
   nav { grid-column: 3 / 12; } }
 
-@media screen and (min-width: 1440px) { :root { font-size: 1rem; }
+@media screen and (min-width: 1440px) { :root { font-size: .85rem; }
   #tagline { font-size: 3rem; }
   header, main, footer { grid-column: 2 / 9; }
   #tagline { grid-column: 2 / 12; }
