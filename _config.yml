@@ -14,6 +14,8 @@ collections:
       - 2017-12-28-wellness.md
       - 2017-12-28-bloombox.md
       - 2017-12-29-before-ux.md
+  notes:
+    output: true
 
 permalink: /:title/
 

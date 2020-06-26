@@ -1,4 +1,4 @@
-I"&[<p><img src="2020-02-11-recyclaide/recyclaide-framer-v4-canvas.png" alt="recylaide-v4-canvas.png" /></p>
+I"�[<p><img src="2020-02-11-recyclaide/recyclaide-framer-v4-canvas.png" alt="recylaide-v4-canvas.png" /></p>
 
 <p><em>Last edit February 11, 2020.</em></p>
 
@@ -306,11 +306,11 @@ You can interact with the prototype directly here:
 
 <p>In the image above I’m able to add location points to the map with details for each point.  Here’s the .json so you can see it closer:</p>
 
-<p><code class="highlighter-rouge">"name": "Mon, Wed, Fri",</code>
-<code class="highlighter-rouge">"location": { "longitude": -79.886567, "latitude": -2.192818 },</code>
-<code class="highlighter-rouge">"focusLocation": { "zoom": 16, "bearing": 0, "pitch": 60 },</code>
-<code class="highlighter-rouge">"category": "recycling",</code>
-<code class="highlighter-rouge">"details": "Bring recyclables to this location on Mondays, Wednesdays and Fridays."</code></p>
+<p><code class="language-plaintext highlighter-rouge">"name": "Mon, Wed, Fri",</code>
+<code class="language-plaintext highlighter-rouge">"location": { "longitude": -79.886567, "latitude": -2.192818 },</code>
+<code class="language-plaintext highlighter-rouge">"focusLocation": { "zoom": 16, "bearing": 0, "pitch": 60 },</code>
+<code class="language-plaintext highlighter-rouge">"category": "recycling",</code>
+<code class="language-plaintext highlighter-rouge">"details": "Bring recyclables to this location on Mondays, Wednesdays and Fridays."</code></p>
 
 <!-- I'd like to include markdown codeblocks, but I'm having difficulty rendering them with Jekyll.  Will need to revisit.  - JJ 2020-02-11 -->
 
@@ -344,11 +344,11 @@ You can interact with the prototype directly here:
 
 <h3 id="thinking-like-a-developer">Thinking Like a Developer</h3>
 
-<p>Another nice thing in Framer is that objects are grouped and ordered automatically based on placement in the canvas.  It’s like every object is its own <code class="highlighter-rouge">div</code>.  Put a button inside of a box?  You automatically get:</p>
+<p>Another nice thing in Framer is that objects are grouped and ordered automatically based on placement in the canvas.  It’s like every object is its own <code class="language-plaintext highlighter-rouge">div</code>.  Put a button inside of a box?  You automatically get:</p>
 
 <!-- I'd like to include markdown codeblocks, but I'm having difficulty rendering them with Jekyll.  Will need to revisit.  - JJ 2020-02-11 -->
 
-<p><code class="highlighter-rouge">&lt;div id="box"&gt;&lt;div id="button"&gt;&lt;/div&gt;&lt;/div&gt;</code></p>
+<p><code class="language-plaintext highlighter-rouge">&lt;div id="box"&gt;&lt;div id="button"&gt;&lt;/div&gt;&lt;/div&gt;</code></p>
 
 <p>The IDs are not actually created - I did that for clarity in the example.</p>
 

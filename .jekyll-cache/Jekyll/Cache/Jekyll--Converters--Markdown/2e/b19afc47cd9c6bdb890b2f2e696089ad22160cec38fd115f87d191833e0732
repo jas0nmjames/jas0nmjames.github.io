@@ -1,4 +1,4 @@
-I"»"<p><img src="2020-02-11-jekyllrb/index.png" alt="img" /></p>
+I"á"<p><img src="2020-02-11-jekyllrb/index.png" alt="img" /></p>
 
 <h2 id="introduction">Introduction</h2>
 
@@ -110,8 +110,8 @@
 <p>With Jekyll installed locally, I could build and serve my new site with a few key commands in the termial:</p>
 
 <ul>
-  <li><code class="highlighter-rouge">bundle exec jekyll build</code></li>
-  <li><code class="highlighter-rouge">bundle exec jekyll serve</code></li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll build</code></li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></li>
 </ul>
 
 <p>Jekyll is easy to deploy with Github, so I created a new repository, configured it for integration with Jekyll, and was on my way.</p>

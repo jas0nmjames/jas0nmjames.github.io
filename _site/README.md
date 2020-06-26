@@ -22,7 +22,7 @@ Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liqu
 - [x] Work on my **UI** chops.
 - [x] Learn the [JAMstack](https://jamstack.org/) a bit better after seeing my dev colleagues working in React and Gatsby.
 
-## Why
+## The Why
 
 I've been working (Fall 2019) as a designer / project manager with React developers to build products with a component driven design system (Figma -> Storybook -> React), theming API, and JSON data.  
 
@@ -34,6 +34,11 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 
 ## Milestones
 
+- 2020-06-08 Fixed [404.html](/404.html) permalink.  Previously, the github pages default 404 was being displayed, not the one designed for this site.
+- 2020-05 Added `charset` and `lang` to html header per accessibility best practices, minor content updates, and updated [about page](/about.md) content / copy.
+- 2020-02-26 **dependabot** updated `nokogiri` dependency from `1.10.7` to `1.10.8`
+- 2020-02-19 Portfolio & Résumé updates
+- 2020-02-10 Fixed assets, updated nav design & cleaned up main readme
 - 2020-01-03 Adjustments to typography to make a better responsive experience.
 - 2020-01-03 Finally got [collections](https://jekyllrb.com/docs/collections/) working!  One of the main ways of publishing content in Jekyll is through [posts](https://jekyllrb.com/docs/posts/).  Posts are great for things like article and blogs posts that are *published* in some sort of chronology, but not as well for non-chronological items like reference lists or... a portfolio.  :wink:  Setting up posts (with corresponding drafts) in Jekyll was straight forward, but I had trouble getting collections up and running.
     - One of the keys was configuring the collection to 'true' in `config.yml`:
@@ -93,8 +98,8 @@ For this project, I found the following links helpful:
 
 ## To Do
 
-- [ ] Copy markdown text to Wordpress in full.  
-- [ ] Rename markdown assets to be more descriptive.  Ensure originals are used where approrpriate.
+- [x] Copy markdown text to Wordpress in full.  
+- [ ] Rename markdown assets to be more descriptive.  Ensure originals are used where appropriate.
 - [ ] Ensure accessibility for assets is robust.
 
 ## Licensing
