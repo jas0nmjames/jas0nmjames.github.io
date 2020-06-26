@@ -1,4 +1,4 @@
-I"s.<p><img src="2020-02-11-project-benji/project-benji-1.png" alt="img" /></p>
+I"™.<p><img src="2020-02-11-project-benji/project-benji-1.png" alt="img" /></p>
 
 <p><em>This page was last updated on February 11, 2020.</em></p>
 
@@ -38,7 +38,7 @@
 <ul>
   <li>Interview and record a stakeholder</li>
   <li>Modify a material-ui component in Figma to create a new component for the project</li>
-  <li>clone a repository to my local machine and <code class="highlighter-rouge">yarn install</code> then <code class="highlighter-rouge">yarn start</code> in the command line to run the project locally.</li>
+  <li>clone a repository to my local machine and <code class="language-plaintext highlighter-rouge">yarn install</code> then <code class="language-plaintext highlighter-rouge">yarn start</code> in the command line to run the project locally.</li>
   <li>debug a site using chrome or firefox development tools in the browser; might include inspecting ui issues or adding breakpoints in the network tab to figure out where an api is failing</li>
   <li>create markdown documentation and submit a pull request</li>
   <li>create and manage github issues in a project board</li>
