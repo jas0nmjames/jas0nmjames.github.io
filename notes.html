@@ -1,0 +1,18 @@
+---
+layout: default
+title: 'Notes'
+---
+<main>
+    {% for item in site.notes %}
+        <article>
+            <div id="article-excerpt-title" class="h3"><a href="{{ item.url }}">{{ item.title }}</a></div>
+            <div id="article-date" class="small">{{ item.date | date: "%Y-%m-%d" }}</div>
+            <div id="article-tags" class="small">#{{ item.tags }}</div>
+            <div id="article-summary">{{ item.summary | markdownify }}</div>
+            <p></p>
+            <p></p>
+        </article>
+    {% else %}
+        <article>There are no items!</article>
+    {% endfor %}
+</main>
