@@ -101,6 +101,8 @@ For this project, I found the following links helpful:
 - [x] Copy markdown text to Wordpress in full.  
 - [ ] Rename markdown assets to be more descriptive.  Ensure originals are used where appropriate.
 - [ ] Ensure accessibility for assets is robust.
+- [ ] Map this repo to http://jasonmjam.es wordpress domain.  See [Custom Domains and Github Pages](https://docs.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages) *(Added 2020-07-28)*
+- [ ] Look into version control in Jekyll.  See [Just Write Click](https://github.com/justwriteclick/versions-jekyll) and [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
 
 ## Licensing
 
