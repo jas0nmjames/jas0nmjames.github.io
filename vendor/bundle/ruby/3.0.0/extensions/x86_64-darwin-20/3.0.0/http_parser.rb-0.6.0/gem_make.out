@@ -1,0 +1,17 @@
+current directory: /Users/jasonjames/repositories/jas0nmjames/jas0nmjames.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.0.0_1/lib/ruby/3.0.0 -r ./siteconf20210202-13181-vvzoq2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jasonjames/repositories/jas0nmjames/jas0nmjames.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+xcrun: error: active developer path ("/Library/Developer/CommandLineTools") does not exist
+Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
+See `man xcode-select` for more details.
+
+current directory: /Users/jasonjames/repositories/jas0nmjames/jas0nmjames.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+xcrun: error: active developer path ("/Library/Developer/CommandLineTools") does not exist
+Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
+See `man xcode-select` for more details.
+
+make failed, exit code 1
