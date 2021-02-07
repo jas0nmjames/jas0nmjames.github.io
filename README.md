@@ -2,6 +2,8 @@
 
 Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liquid) with Jekyll.  Starting from scratch (not with a template) to learn for understanding.  On a journey to learn the JAMstack.  Next stop, design in Framer and build in React.
 
+<!--
+
 ## Repository Structure
 
 ```bash
@@ -10,6 +12,48 @@ Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liqu
 │   └── TBD
 │   │   └── TBD
 ```
+
+-->
+
+## Takeaways
+
+As I write this in February of 2021 after wrestling with Jekyll for probably 12 hours over the course of a month, here's what I learned:
+
+- Building things yourself is fun.  
+- Building things yourself is one of the best ways to gain understanding and mastery
+- Dependencies are a pain in the butt, especially over time.  
+- Open source projects are empowering, inspiring and messy.
+- Information Architecture is fun
+- Design Systems are fun.  Although this project was not componentized in the techincal sense, building templates from scratch was an exercise in componetizing.  Now, on to learning the development side of components.
+
+These principles are important to me:
+
+1. Build with the intention to last [until the end of the Internet](https://basecamp.com/about/policies/until-the-end-of-the-internet)
+    1. In the same vein, 'Slow is smooth, smooth is fast.'
+    1. Also see, [In Praise of Slowness](http://www.carlhonore.com/book/in-praise-of-slowness/)
+2. Selfdogfood: [use what you create](https://indieweb.org/selfdogfood).
+    2. This is also why I'm interested in HAM radio.
+    2. And why I was fortunate enough to buy brand new car with a manual transmission in 2020.  I plan to [drive](https://www.matthewbcrawford.com/why-we-drive) that into the ground.
+3. Pragmatism.  Before it's pretty, it should be meaningful.  [Death to bullshit.](https://deathtobullshit.com/)
+    3. Simple is hard.
+    3. Saying no is hard.  To opportunities.  To distractions.  To a tidal wave of information.  To easy solutions.  
+4. Systems matter.  Whether it's the pitfalls of tech solutioning or systems design or sustainable ux or organizational chaos.  Processes matter.  And we should be wary our efforts to improve them don't make them worse.
+
+I'm going to probably leave Jekyll behind and find a more stable platform to build my home on the web.  I'd also like to retire my Wordpress site.  We'll see where learning takes us this year.
+
+- February 7, 2021
+
+## Why Build This Site from Scratch with Jekyll?
+
+I've been working (Fall 2019) as a designer / project manager with React developers to build products with a component driven design system (Figma -> Storybook -> React), theming API, and JSON data.  
+
+As we move into Winter 2019/2020, our team is exploring building SSGs with tools like [React](https://reactjs.org/), [Gatsby](https://www.gatsbyjs.org/), and [Apollo GraphQL](https://www.apollographql.com/).  
+
+Not only am I interested in design systems, but our small-team, cross-functional project approach at [cross.team](http://cross.team/) means as a designer I'm often thinking about development.  
+
+I'd like to learn to design with React, but I want a stepping stone to truly understand fundamentals like deployment, first.
+
+- Fall 2019
 
 ## Project Goals
 
@@ -22,18 +66,20 @@ Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liqu
 - [x] Work on my **UI** chops.
 - [x] Learn the [JAMstack](https://jamstack.org/) a bit better after seeing my dev colleagues working in React and Gatsby.
 
-## The Why
+## Project To Do's
 
-I've been working (Fall 2019) as a designer / project manager with React developers to build products with a component driven design system (Figma -> Storybook -> React), theming API, and JSON data.  
-
-As we move into Winter 2019/2020, our team is exploring building SSGs with tools like [React](https://reactjs.org/), [Gatsby](https://www.gatsbyjs.org/), and [Apollo GraphQL](https://www.apollographql.com/).  
-
-Not only am I interested in design systems, but our small-team, cross-functional project approach at [cross.team](http://cross.team/) means as a designer I'm often thinking about development.  
-
-I'd like to learn to design with React, but I want a stepping stone to truly understand fundamentals like deployment, first.
+- [x] Copy markdown text to Wordpress in full.  
+- [ ] Rename markdown assets to be more descriptive.  Ensure originals are used where appropriate.
+- [ ] Ensure accessibility for assets is robust.
+- [ ] Map this repo to the [https://jasonmjam.es](https://jasonmjam.es) wordpress domain.  (Create a subdomain.)  See [Custom Domains and Github Pages](https://docs.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages)
+- [ ] Look into version control in Jekyll.  See [Just Write Click](https://github.com/justwriteclick/versions-jekyll) and [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
 
 ## Milestones
 
+- 2021-02-07 After various updates and fixes to gem files, removal of CircleCI config and adding gems to the repository's vendor directory, the site is updated and successfully building locally and deploying to Github pages.  Phew!  🥵
+- 2021-01-15 After some time away, re-engaged this project.  Ran into issues building Jekyll locally.
+- 2020-08-27 Unsuccessfully tried installing a fresh CircleCI config.  ***builds began failing here***
+- 2020-06-26 Updated resume, ruby gems & site notes.
 - 2020-06-08 Fixed [404.html](/404.html) permalink.  Previously, the github pages default 404 was being displayed, not the one designed for this site.
 - 2020-05 Added `charset` and `lang` to html header per accessibility best practices, minor content updates, and updated [about page](/about.md) content / copy.
 - 2020-02-26 **dependabot** updated `nokogiri` dependency from `1.10.7` to `1.10.8`
@@ -41,13 +87,17 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 - 2020-02-10 Fixed assets, updated nav design & cleaned up main readme
 - 2020-01-03 Adjustments to typography to make a better responsive experience.
 - 2020-01-03 Finally got [collections](https://jekyllrb.com/docs/collections/) working!  One of the main ways of publishing content in Jekyll is through [posts](https://jekyllrb.com/docs/posts/).  Posts are great for things like article and blogs posts that are *published* in some sort of chronology, but not as well for non-chronological items like reference lists or... a portfolio.  :wink:  Setting up posts (with corresponding drafts) in Jekyll was straight forward, but I had trouble getting collections up and running.
+
     - One of the keys was configuring the collection to 'true' in `config.yml`:
+
         ```yml
         collections:
             portfolio:
                 output: true
         ```
+
     - In both the portfolio template (_layouts/portfolio.hmtl) and post template, I need to reference 'pages'.  For example, I'm using `{{ page.title }}` to reference the title in a portfolio's front matter (ex `title: Bloombox`).  This was not completely intuitive.  In other examples I had seen posts referenced, (i.e. `{{ post.title }}`) which threw me off.  In lists, I reference 'item' instead of 'post' or 'page'.
+
 - 2020-01-01 Responsive formatting improvements (mostly css)
 - 2019-12-30 Refactored html, css & liquid templates to better scale across multiple pages and page types.  Succesfully built and served static site with `bundle exec jekyll serve`.
 - 2019-12-23 Began creating Jekyll (liquid) templates
@@ -66,10 +116,11 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 - [iTerm 2](https://iterm2.com/) terminal emulator for MacOS
 - [Sketch](https://www.sketch.com/) - I used Sketch to explore and layout the design before development
 - [Visual Studio Code](https://code.visualstudio.com/) - text editor
-- [Atom](https://atom.io/) - open source text editor
-- [Typora](https://typora.io/) - macOS markdown editor which helped in copying and reformatting existing markdown content from Wordpress
+- ~~[Atom](https://atom.io/)~~ - open source text editor
+- [IA Writer](https://ia.net/writer)
+- ~~[Typora](https://typora.io/)~~ - macOS markdown editor which helped in copying and reformatting existing markdown content from Wordpress
 - Git & [Github Desktop](https://desktop.github.com/) - I prefer interacting with Git and Github repositories using Github Desktop.  Why not make it easier if you can!
-- [CircleCI](https://circleci.com/)
+- ~~[CircleCI](https://circleci.com/)~~
 
 ## Resources
 
@@ -94,18 +145,10 @@ For this project, I found the following links helpful:
 
 - [https://sustainableux.com/](https://sustainableux.com/)
 - [https://whitehatux.com/](https://whitehatux.com/)
-- [https://humanetech.com/](https://humanetech.com/
-
-## To Do
-
-- [x] Copy markdown text to Wordpress in full.  
-- [ ] Rename markdown assets to be more descriptive.  Ensure originals are used where appropriate.
-- [ ] Ensure accessibility for assets is robust.
-- [ ] Map this repo to http://jasonmjam.es wordpress domain.  See [Custom Domains and Github Pages](https://docs.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages) *(Added 2020-07-28)*
-- [ ] Look into version control in Jekyll.  See [Just Write Click](https://github.com/justwriteclick/versions-jekyll) and [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
+- [https://humanetech.com/](https://humanetech.com/)
 
 ## Licensing
 
 Source code [is licensed](/license.md) under the MIT license.
 
-Contents of this site are © Copyright 2019 Jason M. James. All rights reserved.
+Contents of this site are © Copyright 2019-2021 Jason M. James. All rights reserved.
