@@ -19,12 +19,12 @@ Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liqu
 
 As I write this in February of 2021 after wrestling with Jekyll for probably 12 hours over the course of a month, here's what I learned:
 
-- Building things yourself is fun.  
+- Building things yourself is fun.
 - Building things yourself is one of the best ways to gain understanding and mastery
-- Dependencies are a pain in the butt, especially over time.  
+- Dependencies are a pain in the butt, especially over time.
 - Open source projects are empowering, inspiring and messy.
-- Information Architecture is fun
-- Design Systems are fun.  Although this project was not componentized in the techincal sense, building templates from scratch was an exercise in componetizing.  Now, on to learning the development side of components.
+- Information Architecture is fun.
+- Design Systems are fun.  Although this project was not componetized in the technical sense, building templates from scratch was an exercise in componetizing.  Now, on to learning the development side of components.
 
 These principles are important to me:
 
@@ -139,7 +139,8 @@ For this project, I found the following links helpful:
 - [Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/) (accessed January 2020)
 - [Explain like I’m five: Jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/) by Ben Balter (accessed January 2020)
 - [Controlling URLs and Links in Jekyll](https://www.digitalocean.com/community/tutorials/controlling-urls-and-links-in-jekyll) by Melissa Anderson (accessed January 2020)
-- [Jekyll Tags on Github Pages](http://longqian.me/2017/02/09/github-jekyll-tag/) by Long Qian, accessed February 2020.
+- [Jekyll Tags on Github Pages](http://longqian.me/2017/02/09/github-jekyll-tag/) by Long Qian (accessed February 2020)
+- [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/): how to install gems in a project subdirectory with `bundle config set --local path 'vendor/bundle'` (accessed February 2021)
 
 ## Principles
 
