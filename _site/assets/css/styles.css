@@ -1,9 +1,8 @@
 /*----------------------- The Root --------------------------*/
-/* I'm using `em` for font sizes, with `px` sizes noted for each in case a browser doesn't render `em`. (If there are duplicate styles, CSS will apply the style furthest down - closest to the bottom of - the cascading style sheet.)*/
-:root { background-color: #FFFFFF; color: #000000; font-family: 'Lato', sans-serif; font-size: 10px; font-size: 62.5%; }
+/* Defining light mode and dark mode colors in CSS variables. */
+:root { --bg-color-light: #FFFFFF; --color-light: #000000; --bg-color-dark: #000000; --color-dark: #FFFFFF; }
 
-/* Adding some CSS variables for possible use later. */
-:root { --light-bg-color: #FFFFFF; --light-color: #000000; --dark-bg-color: #000000; --dark-color: #FFFFFF; }
+:root { background-color: var(--bg-color-light); color: var(--color-light); font-family: 'Lato', sans-serif; /* I'm using `rem` for font sizes, with `px` sizes noted for each in case a browser doesn't render `em`. (If there are duplicate styles, CSS will apply the style furthest down - closest to the bottom of - the cascading style sheet.)*/ font-size: 10px; font-size: 62.5%; }
 
 /*----------------------- The Body --------------------------*/
 /* The body is the container for the CSS grid. */
@@ -68,11 +67,11 @@ img { width: 100%; height: auto; }
 span { opacity: 0.0; }
 
 /*----------------------- Customizing Links --------------------------*/
-a:link { color: #000000; text-decoration: none; }
+a:link { color: var(--color-light); text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
-a:visited { color: #000000; }
+a:visited { color: var(--color-light); }
 
 a:active { background-image: linear-gradient(0deg, rgba(244, 208, 111, 0.5) 50%, transparent 50%); }
 
@@ -102,7 +101,7 @@ main a:hover { text-decoration: none; }
 .fa-dribbble { color: #ea4c89; }
 
 /* Making all icons black. */
-#icon { font-size: 20px; font-size: 1.25rem; color: #000000; }
+#icon { font-size: 20px; font-size: 1.25rem; color: var(--color-light); }
 
 /*----------------------- Responsive typography via media queries. --------------------------*/
 /* I'm designing and coding with a mobile-first approach, which means the baseline styles are for mobile.  (i.e. I scale up for desktop rather than scale down for mobile.)  I wanted to scale certain text a bit larger.  For example, on the desktop, I wanted the body text to be 2x larger than on mobile, but I wanted the tagline to be 3x as large.  Because I'm using em font sizes, changing the body font-size will change font sizes everywhere.  Additional font size changes like "h1" and "icon" below are to scale text differently than the body.*/
@@ -110,5 +109,9 @@ main a:hover { text-decoration: none; }
 @media screen and (min-width: 768px) { :root { font-size: 0.85rem; } /* body { font-size: 2rem; } */ #tagline { font-size: 3rem; } header, main, footer { grid-column: 2 / 11; } #tagline { grid-column: 2 / 12; } nav { grid-column: 3 / 12; } }
 
 @media screen and (min-width: 1440px) { :root { font-size: .85rem; } #tagline { font-size: 3rem; } header, main, footer { grid-column: 2 / 9; } #tagline { grid-column: 2 / 12; } nav { grid-column: 3 / 12; } }
+
+/*----------------------- Dark Mode via media queries. --------------------------*/
+/* Now adding a simple dark mode (with no toggle) via media query. */
+@media (prefers-color-scheme: dark) { :root { background-color: var(--bg-color-dark); color: var(--color-dark); } a:link { color: var(--color-dark); } a:visited { color: var(--color-dark); } #icon { color: var(--color-dark); } /* I found a complementary blue high color through coolors.co to my yellow highlight color in light mode. */ /* I eye-balled the color via VS Code color picker to make it a bit lighter. */ a:active { background-image: linear-gradient(0deg, rgba(111, 173, 227, 0.5) 50%, transparent 50%); } .current { background-image: linear-gradient(0deg, rgba(111, 173, 227, 0.5) 50%, transparent 50%); } }
 
 /*# sourceMappingURL=styles.css.map */

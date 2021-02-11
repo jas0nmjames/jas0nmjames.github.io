@@ -1,22 +1,21 @@
 /*----------------------- The Root --------------------------*/
 
-/* I'm using `em` for font sizes, with `px` sizes noted for each in case a browser doesn't render `em`. (If there are duplicate styles, CSS will apply the style furthest down - closest to the bottom of - the cascading style sheet.)*/
+/* Defining light mode and dark mode colors in CSS variables. */
 
 :root {
-  background-color: #FFFFFF;
-  color: #000000;
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  font-size: 62.5%;
+  --bg-color-light: #FFFFFF;
+  --color-light: #000000;
+  --bg-color-dark: #000000;
+  --color-dark: #FFFFFF;
 }
 
-/* Adding some CSS variables for possible use later. */
-
 :root {
-  --light-bg-color: #FFFFFF;
-  --light-color: #000000;
-  --dark-bg-color: #000000;
-  --dark-color: #FFFFFF;
+  background-color: var(--bg-color-light);
+  color: var(--color-light);
+  font-family: 'Lato', sans-serif;
+  /* I'm using `rem` for font sizes, with `px` sizes noted for each in case a browser doesn't render `em`. (If there are duplicate styles, CSS will apply the style furthest down - closest to the bottom of - the cascading style sheet.)*/
+  font-size: 10px;
+  font-size: 62.5%;
 }
 
 /*----------------------- The Body --------------------------*/
@@ -194,7 +193,7 @@ span {
 /*----------------------- Customizing Links --------------------------*/
 
 a:link {
-  color: #000000;
+  color: var(--color-light);
   text-decoration: none;
 }
 
@@ -203,7 +202,7 @@ a:hover {
 }
 
 a:visited {
-  color: #000000;
+  color: var(--color-light);
 }
 
 a:active {
@@ -265,7 +264,7 @@ main a:hover {
 #icon {
   font-size: 20px;
   font-size: 1.25rem;
-  color: #000000;
+  color: var(--color-light);
 }
 
 /*----------------------- Responsive typography via media queries. --------------------------*/
@@ -312,5 +311,35 @@ main a:hover {
   }
   nav {
     grid-column: 3 / 12;
+  }
+}
+
+/*----------------------- Dark Mode via media queries. --------------------------*/
+
+/* Now adding a simple dark mode (with no toggle) via media query. */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: var(--bg-color-dark);
+    color: var(--color-dark);
+  }
+  a:link {
+    color: var(--color-dark);
+  }
+  a:visited {
+    color: var(--color-dark);
+  }
+  #icon {
+    color: var(--color-dark)
+  }
+  
+  /* I found a complementary blue high color through coolors.co to my yellow highlight color in light mode. */
+  /* I eye-balled the color via VS Code color picker to make it a bit lighter. */
+  
+  a:active {
+    background-image: linear-gradient(0deg,rgba(111, 173, 227, 0.5) 50%,transparent 50%);
+  }
+  .current {
+    background-image: linear-gradient(0deg,rgba(111, 173, 227, 0.5) 50%,transparent 50%);
   }
 }
