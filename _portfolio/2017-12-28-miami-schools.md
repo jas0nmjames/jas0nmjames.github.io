@@ -4,6 +4,7 @@ title: Case Study - Miami-Dade Schools Performance Data Redesign
 summary: Improved the Dade Schools site's overall information architecture to reduce cognitive overload and emphasized making school performance data more accessible to the public with a mobile-first design.  The site was now built for not just school administrators, but parents and community members too!
 categories: [case study]
 updated: Originally published via Wordpress on December 28, 2017.  Last edit December, 2017.
+date: 2017-12-28
 tags: [case-study award-winning IA]
 image: 1*03MA_NKfwpOFWyDtMx2tVA-20191116234041590.png
 ---

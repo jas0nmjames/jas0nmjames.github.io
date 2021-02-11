@@ -1,0 +1,22 @@
+I"�<p>AND ANOTHER ONE! 🕶️</p>
+
+<p>I’m going to order my notes like this:</p>
+
+<ul>
+  <li>Two</li>
+  <li>One</li>
+  <li>Three</li>
+</ul>
+
+<p>To see if <code class="language-plaintext highlighter-rouge">_config.yml</code> is working.</p>
+
+<p>Okay, so I just learned about the <code class="language-plaintext highlighter-rouge">date</code> front matter key in <a href="https://jekyllrb.com/docs/collections/">Jekyll’s docs</a>.  Using this in my test notes collection has fixed displaying dates I’m calling out in <code class="language-plaintext highlighter-rouge">key</code> instead of the file’s last modified date.</p>
+
+<blockquote>
+  <p>By default, two documents in a collection are sorted by their <code class="language-plaintext highlighter-rouge">date</code> attribute when both of them have the <code class="language-plaintext highlighter-rouge">date</code> key in their front matter. However, if either or both documents do not have the <code class="language-plaintext highlighter-rouge">date</code> key in their front matter, they are sorted by their respective paths.</p>
+</blockquote>
+
+<p>You can sort by a front matter key by adding <code class="language-plaintext highlighter-rouge">sort_by:</code> in the <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<p>Now I will add <code class="language-plaintext highlighter-rouge">date</code> to the front matter of all of my portfolio posts, while also removing the custom order, to see if it’ll do it automatically.</p>
+:ET

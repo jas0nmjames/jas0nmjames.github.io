@@ -1,0 +1,12 @@
+I"�<p>This is another test.</p>
+
+<h2 id="comment-on-2021-02-11">Comment on 2021-02-11</h2>
+
+<p>I think my problem is that in collections - notes in this case - the date of the note is based on the date last modified, and not on the name of the markdown file nor the updated date in the front matter.</p>
+
+<p>Why is this?</p>
+
+<p>The order from <code class="language-plaintext highlighter-rouge">_config.yml</code> is respected though.  That’s positive. 👍️</p>
+
+<p>P.S. I just had a eureka moment - I was working on my portfolio around the same time last year!  Several updates to portfolio pieces on the 11th and 12th of February 2020. 👀</p>
+:ET

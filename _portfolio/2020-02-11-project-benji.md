@@ -3,6 +3,7 @@ layout: portfolio
 title: Case Study - Project Benji - Financial Services Global Trading Platform
 summary: Cross.Team worked closely with a large financial institution to redefine the user experience of worldwide traders and their managers.  This newly redesigned presentation layer foundation was delivered as a full design system and allowed the IT team to design, develop and quickly deploy a world-class user experience for internal end-users and stakeholders.
 updated: February 2020
+date: 2020-02-11
 tags:
 image: 2020-02-11-project-benji/project-benji-1.png
 ---
