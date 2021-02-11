@@ -3,6 +3,7 @@ layout: portfolio
 title: Ideation, Wireframing & Advanced Prototyping For Thinkrite
 summary: Much of my work in 2018 was under NDA and I won't be able to walk you through the design process. However, I wanted to share with you an example of the sort of advanced prototyping I had the opportunity to put together.
 updated: Originally published via Wordpress on December 28, 2017.  Last edit December 2017.
+date: 2017-10-09
 tags: [prototyping]
 image: 2018-09-05_old-plan-ad3-time-picker-20191116234232068.gif
 ---

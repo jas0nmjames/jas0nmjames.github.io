@@ -3,6 +3,7 @@ layout: portfolio
 title: Case Study - Recyclaide - Mobile App for a Startup Social Enterpise
 summary: I joined the Recyclaide team pro bono in late 2019 to help bring the ideas they had for an app to life.  Rapid prototyping with Framer X.
 updated: Last edit February 11, 2020
+date: 2020-02-11
 tags: [framer bot]
 image: 2020-02-11-recyclaide/recyclaide-v4-24fps.gif
 ---
