@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title: [Draft] Building a Chatbot with IBM’s Watson Assistant
+title: (In Progress Draft) Building a Chatbot with IBM’s Watson Assistant
 summary:
 categories:
 created: Monday, February 15, 2021
 updated: Tuesday, February 16, 2021
-date: 2021-02-16
+date: 2021-02-18
 tags: conversational ai, chatbots, ibm cloud, watson assistant
 image:
 ---
@@ -89,7 +89,7 @@ I wrote about this project in [markdown](https://www.markdownguide.org/).  For m
 
 <!-- Although it's not listed in Github's markdown documentation, you can not only add alt text, but also titles for images: `![Alt](/path/to/img.jpg “image title”)`.  Thanks to Stephen (see https://dev.to/stephencweiss/markdown-image-titles-and-alt-text-5fi1 accessed 2021-02-15) -->
 
-![A horizontal line that starts off very squiggly on the left that resolves into a straight line on the right](assets/watson-assistant-chatbot/squiggle-labels-outline.png "The Design Squiggle")
+![A horizontal line that starts off very squiggly on the left that resolves into a straight line on the right](/assets/portfolio/watson-assistant-chatbot/squiggle-labels-outline.png "The Design Squiggle")
 
 *The Process of Design Squiggle by Damien Newman, [thedesignsquiggle.com](https://thedesignsquiggle.com/)*
 
@@ -97,7 +97,7 @@ I wrote about this project in [markdown](https://www.markdownguide.org/).  For m
 
 ### Reviewing the Existing Site
 
-![A screenshot of the Coral Springs website](assets/watson-assistant-chatbot/screen-shot_coral-springs-home-page.png "coralsprings.org")
+![A screenshot of the Coral Springs website](/assets/portfolio/watson-assistant-chatbot/screen-shot_coral-springs-home-page.png "coralsprings.org")
 
 [The City of Coral Springs website](https://www.coralsprings.org/home)
 
@@ -107,17 +107,17 @@ The site's existing [site map](https://www.coralsprings.org/how-do-i/site-map/-s
 
 [MindNode](https://mindnode.com/) is a great tool for exploring Information Architecture.  I was able to copy and paste the site map into MindNode to help understand how the content is structured.
 
-I was going to insert the map inline here, but it was too long!  [You can view or download it here.](assets/watson-assistant-chatbot/coral-springs-ia-existing.png)
+I was going to insert the map inline here, but it was too long!  [You can view or download it here.](/assets/portfolio/watson-assistant-chatbot/coral-springs-ia-existing.png)
 
-I've also exported the entire mind map as a [markdown file available here](assets/watson-assistant-chatbot/coral-springs-ia-existing.md).  You might find it helpful if you cannot view or access any of the images of the map inline below.
+I've also exported the entire mind map as a [markdown file available here](/assets/portfolio/watson-assistant-chatbot/coral-springs-ia-existing.md).  You might find it helpful if you cannot view or access any of the images of the map inline below.
 
 Let's look at just the top level:
 
-![A mind map with a parent of "coralsprings.org" and the following children: "Home", "Living", "Visiting", "Doing Business", "Government", and "How Do I?"](assets/watson-assistant-chatbot/coral-springs-ia-existing_top-level.png)
+![A mind map with a parent of "coralsprings.org" and the following children: "Home", "Living", "Visiting", "Doing Business", "Government", and "How Do I?"](/assets/portfolio/watson-assistant-chatbot/coral-springs-ia-existing_top-level.png)
 
 Because coralsprings.org has so much information, for the purposes of this project, let's focus on the "How Do I?" section of the site, since that will likely include the most common questions asked:
 
-![A mind map of the "How Do I?" section of the site map](assets/watson-assistant-chatbot/coral-springs-ia-existing_how-do-i.png)
+![A mind map of the "How Do I?" section of the site map](/assets/portfolio/watson-assistant-chatbot/coral-springs-ia-existing_how-do-i.png)
 
 After review, I decide that this is a pretty good starting point for building the chatbot.  Before digging in, let's step back to discuss conversational design and a few foundational principles for building a chatbot with the Watson Assistant.
 
@@ -180,7 +180,7 @@ In our first 'peak', let's look at a relatively simple dialog: "Who do I call?"
 
 #### Who Do I Call?: Creating the Intent
 
-![A screenshot of the intent, "Who Do I Call?"](assets/watson-assistant-chatbot/screenshot_intents_created_who-do-i-call.png)
+![A screenshot of the intent, "Who Do I Call?"](/assets/portfolio/watson-assistant-chatbot/screenshot_intents_created_who-do-i-call.png)
 
 #### Who Do I Call?: Creating the Dialog
 
@@ -197,23 +197,23 @@ Each node is built with the following logic:
 3. **Assistant responds** with one or more `text`, `option`, `pause`, `image`, or `connect to human agent`,
 4. **Then** the **assistant should** `wait for reply`, `skip user input` (and evaluate child nodes) or `jump to` another node.
 
-![A screenshot of the options available in a dialog node's condition](assets/watson-assistant-chatbot/screenshot_dialog_if-assistant-recognizes.png)
+![A screenshot of the options available in a dialog node's condition](/assets/portfolio/watson-assistant-chatbot/screenshot_dialog_if-assistant-recognizes.png)
 
-![A screenshot of the details of the node "Who Do I Call?"](assets/watson-assistant-chatbot/screenshot_dialog_who-do-i-call_response.png)
+![A screenshot of the details of the node "Who Do I Call?"](/assets/portfolio/watson-assistant-chatbot/screenshot_dialog_who-do-i-call_response.png)
 
 #### Who Do I Call?: Trying it Out
 
-![A screenshot of the 'Try it Out' Panel.  The user inputs "I need to call someone".  The Assistant is confident the question relates to the "Who Do I Call?" intent.  The assistant then responds with response documented in the node's details.](assets/watson-assistant-chatbot/screenshot_try-it-out_who-do-i-call.png)
+![A screenshot of the 'Try it Out' Panel.  The user inputs "I need to call someone".  The Assistant is confident the question relates to the "Who Do I Call?" intent.  The assistant then responds with response documented in the node's details.](/assets/portfolio/watson-assistant-chatbot/screenshot_try-it-out_who-do-i-call.png)
 
 #### Who Do I Call?: No Entities?
 
 #### Apply For: Creating the Intent
 
-![](assets/watson-assistant-chatbot/screenshot_entire-screen_apply-for.png)
+![](/assets/portfolio/watson-assistant-chatbot/screenshot_entire-screen_apply-for.png)
 
 ### Apply For: Creating Dialog, 'Anything Else'
 
-![](assets/watson-assistant-chatbot/screenshot_dialog_apply-for_if-assistant-recognizes_response_01.png)
+![](/assets/portfolio/watson-assistant-chatbot/screenshot_dialog_apply-for_if-assistant-recognizes_response_01.png)
 
 ## Web Preview
 
