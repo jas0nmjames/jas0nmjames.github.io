@@ -95,6 +95,8 @@ I wrote about this project in [markdown](https://www.markdownguide.org/).  For m
 
 <!-- Insert content here. -->
 
+<!-- This is where project-specific content begins. -->
+
 ### Reviewing the Existing Site
 
 ![A screenshot of the Coral Springs website](/assets/portfolio/watson-assistant-chatbot/screen-shot_coral-springs-home-page.png "coralsprings.org")
@@ -120,6 +122,8 @@ Because coralsprings.org has so much information, for the purposes of this proje
 ![A mind map of the "How Do I?" section of the site map](/assets/portfolio/watson-assistant-chatbot/coral-springs-ia-existing_how-do-i.png)
 
 After review, I decide that this is a pretty good starting point for building the chatbot.  Before digging in, let's step back to discuss conversational design and a few foundational principles for building a chatbot with the Watson Assistant.
+
+<!-- This is where project-specific content ends, as of 2021-04-04. -->
 
 ## Building the Foundation
 

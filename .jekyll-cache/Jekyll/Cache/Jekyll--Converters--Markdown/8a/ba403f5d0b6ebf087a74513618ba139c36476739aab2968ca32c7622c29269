@@ -1,4 +1,4 @@
-I"NB<ul>
+I"ÐB<ul>
   <li><strong>Processes:</strong></li>
   <li><strong>Tools:</strong> iA Writer, MindNode,</li>
   <li><strong>Technologies:</strong> <a href="https://www.markdownguide.org/">Markdown</a>,</li>
@@ -91,6 +91,8 @@
 
 <!-- Insert content here. -->
 
+<!-- This is where project-specific content begins. -->
+
 <h3 id="reviewing-the-existing-site">Reviewing the Existing Site</h3>
 
 <p><img src="/assets/portfolio/watson-assistant-chatbot/screen-shot_coral-springs-home-page.png" alt="A screenshot of the Coral Springs website" title="coralsprings.org" /></p>
@@ -116,6 +118,8 @@
 <p><img src="/assets/portfolio/watson-assistant-chatbot/coral-springs-ia-existing_how-do-i.png" alt="A mind map of the &quot;How Do I?&quot; section of the site map" /></p>
 
 <p>After review, I decide that this is a pretty good starting point for building the chatbot.  Before digging in, letâ€™s step back to discuss conversational design and a few foundational principles for building a chatbot with the Watson Assistant.</p>
+
+<!-- This is where project-specific content ends, as of 2021-04-04. -->
 
 <h2 id="building-the-foundation">Building the Foundation</h2>
 
