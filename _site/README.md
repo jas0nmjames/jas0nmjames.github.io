@@ -73,8 +73,20 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 - [ ] Ensure accessibility for assets is robust.
 - [ ] Map this repo to the [https://jasonmjam.es](https://jasonmjam.es) wordpress domain.  (Create a subdomain.)  See [Custom Domains and Github Pages](https://docs.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages)
 - [ ] Look into version control in Jekyll.  See [Just Write Click](https://github.com/justwriteclick/versions-jekyll) and [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
-- [ ] Fix asset directory duplicate issue in the portfolio.  In markdown, when linking to an image, I put the image in a folder with the same name as the markdown file and then reference that image in that folder.  i.e. The markdown file is called `portfolio-one.md` and the image is `![img](portfolio-one/image-one)`.  When built, Jekyll ends up looking for the image in `portfolio-one/portfolio-one`.  *(Added 2021-02-11)*
-- [ ] When served locally, the order of portfolio pieces are newest to oldest.  When built on Github, they're seemingly oldest to newest. *(Added 2021-02-11)*
+- [x] Fix asset directory duplicate issue in the portfolio.  In markdown, when linking to an image, I put the image in a folder with the same name as the markdown file and then reference that image in that folder.  i.e. The markdown file is called `portfolio-one.md` and the image is `![img](portfolio-one/image-one)`.  When built, Jekyll ends up looking for the image in `portfolio-one/portfolio-one`.  *(Added 2021-02-11)*
+    - Fixed with `/assets` folder in repo.
+- [x] When served locally, the order of portfolio pieces are newest to oldest.  When built on Github, they're seemingly oldest to newest. *(Added 2021-02-11)*
+    - Fixed with `date` front matter.
+
+## Overhaul To Do's - Spring/Summer 2021
+
+- [ ] Site IA & Website Theme
+    - [ ] T shaped designer
+    - [ ] My processes
+    - [ ] Index: Conversational design (category), Safrapay (company/project), 2021 (time period), Firefox (tool), Watson Assistant (tool), "How to", could all be indexed
+    - [ ] Split projects into subcategories: "IRL" (things I've built that were/are being used by real people), Concepts
+
+*Last Updated 2021-05-24*
 
 ## Milestones
 
