@@ -1,0 +1,172 @@
+I"�<!--
+- **Processes:**
+- **Tools:**
+- **Technologies:**
+- **Designed For:**
+-->
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Although officially an “Assistant Vice President of Customer Service Operations”, I like to think of myself as a service designer in a fintech startup.</p>
+
+<p>I live somewhere between business operations, design, and technology, working cross-functionally to build great services for our customers.</p>
+
+<p>I’ve worn lots of hats:</p>
+
+<ul>
+  <li>Chatbot Product Owner, Technical Curator &amp; Designer</li>
+  <li>Communications Service Designer &amp; Developer</li>
+  <li>Customer service workflow and procedure development</li>
+  <li>Integration project manager</li>
+</ul>
+
+<h2 id="projects--areas-of-responsibility">Projects &amp; Areas of Responsibility</h2>
+
+<h3 id="saffie-the-chatbot">‘Saffie’ the Chatbot</h3>
+
+<h4 id="role">Role</h4>
+
+<p>My role as product owner grew to include technical curator and conversation designer.</p>
+
+<h4 id="what-does-this-role-actually-look-like">What does this role actually look like?</h4>
+
+<ul>
+  <li>Collaborate in a design sprint with stakeholders and our vendor design &amp; development team to identify and prioritize features</li>
+  <li>Create new entities to support a new dialog flow in an existing intent.</li>
+  <li>Work with an infrastructure colleague to prioritize and then release a react (web) analytics dashboard.</li>
+  <li>Test, debug and document a bug with frontend and backend dev teams in various environments.</li>
+  <li>Re-train the machine learning (ML) model after adding nuance to the Watson Assistant dialog to provide a more precise answer for a specific user input.</li>
+  <li>Collaborate with design, development &amp; business stakeholders to integrate the chatbot with third party platforms</li>
+</ul>
+
+<h4 id="outcomes">Outcomes</h4>
+
+<p>I can’t show you how Saffie works under the hood, but the recordings below highlight some of the key features of this Watson Assistant:</p>
+
+<ul>
+  <li>Front-end integration with React Native App, including custom UI</li>
+  <li>Integration with Salesforce Live Chat, allowing seamless handoff from chatbot to live customer support</li>
+  <li>Data integration with wider product infrastructure and security</li>
+  <li>Watson Assistant configuration deployed to and paired with Development (DEV), User Acceptance Testing (UAT), and Production (PRD) environments.</li>
+</ul>
+
+<p>Saffie can respond to a wide variety of questions and responses:</p>
+
+<ul>
+  <li>Leveraging Watson’s capabilities, misspelled words (within reason) are still recognized.  Type “bsketball” and Saffie will recognize you meant “basketball”.</li>
+  <li>Based on the conversation design and curation, there are numerous ways to ask the same question.
+    <ul>
+      <li>Not only can you ask “Talk to someone” and “Can I talk to someone?” to get the same response</li>
+      <li>You can also ask “Chat with someone” or “Call an agent” to get a similar response.  In this case, although chatting and calling are different, the customer may not know what means of communication are available to them.  So we provide them a number of options no matter what type of communication they ask for.</li>
+    </ul>
+  </li>
+  <li>Provide answers to specific questions about a particular subject, such as “Tell me about your debit card” or more specifically, “Where are ATMs for my debit card?”.</li>
+  <li>Ask clarifying questions in response to a general question, such as “What cards do you have?”  In this case, Saffie would respond with a menu of the applicable product(s).</li>
+  <li>Integration with the <strong>tone analyzer</strong> detects user sentiment, and can take action if necessary.  In addition to the tone analyzer, user pain statements like “This app sucks” connects the customer with a live agent immediately.</li>
+</ul>
+
+<!-- Insert Screen Recording Here -->
+
+<h5 id="part-1--greeting-saffie--asking-about-products">Part 1 | Greeting Saffie &amp; Asking About Products</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>![Saffie Demo - Part 1</td>
+      <td>Greeting Saffie &amp; Asking About Products](/assets/portfolio/safrapay/saffie_2021-05-31_part-01.gif)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="part-2--asking-about-a-specific-product-and-a-general-how-to-change-question">Part 2 | Asking about a Specific Product and a General ‘How to Change’ Question</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>![Saffie Demo - Part 2</td>
+      <td>Asking about a Specific Product and a General ‘How to Change’ Question](/assets/portfolio/safrapay/saffie_2021-05-31_part-02.gif)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="part-3--telling-saffie-im-having-trouble-and-chatting-with-a-live-agent">Part 3 | Telling Saffie ‘I’m Having Trouble’ and Chatting with a Live Agent</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>![Saffie Demo - Part 3</td>
+      <td>Telling Saffie ‘I’m Having Trouble’ and Chatting with a Live Agent](/assets/portfolio/safrapay/saffie_2021-05-31_part-03.gif)</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
+Demo Script
+
+1. Customer Service screen in App
+2. Saffie Welcome
+3. "How, how are you?"
+4. "What products do you have?" -> Clover Go
+5. "Do you have the PAX A920?"
+6. "I want to change something" -> How to update my Banking Account Information -> No -> Positive Feedback
+7. "I'm having trouble" -> I'm lost in the app -> Chat live
+8. Chat "Hi!, This is a demo of salesforce live chat.  I'm typing this live right now."
+8b. Chat: "I see the avatar has changed.  It's an S now instead of a robot."
+8c. Chat: "Yes, that's because you're not talking to Saffie anymore.  You're talking to me!.'
+8d. Chat: "Great, can you please close Salesforce live chat?  I want to talk to Saffie again."
+8e.  Chat: Sure!  Goodbye.
+9. Chat: "Tell me about Safrapay"
+-->
+
+<h4 id="further-reading">Further Reading</h4>
+
+<p>To read how I approach building a chatbot with IBM’s Watson’s Assistant, see my (forthcoming) post <em>How to Build a Chatbot with IBM’s Watson Assistant</em>.</p>
+
+<h3 id="notification-service-designer--html-developer">Notification Service Designer &amp; HTML developer</h3>
+
+<ul>
+  <li>Content Review &amp; Management, including:
+    <ul>
+      <li>requirements and copy review with stakeholders</li>
+      <li>copy writing and editing (collaborated with ux copywriter)</li>
+      <li>facilitate copy reviews with legal, compliance &amp; risk teams</li>
+    </ul>
+  </li>
+  <li>Project Management, including:
+    <ul>
+      <li>Create, prioritize and escalate Product Backlog Items (PBIs) via <a href="https://azure.microsoft.com/">Azure DevOps</a></li>
+      <li>Work with stakeholders to escalate development needs</li>
+    </ul>
+  </li>
+  <li>HTML/CSS e-mail template development, including:
+    <ul>
+      <li>Write HTML/CSS from scratch  (Email development is a <a href="https://www.caniemail.com/">tricky</a> little sub-domain of front-end development!)</li>
+      <li>Deploy to Salesforce Service Cloud</li>
+      <li>In some cases, adapt template for Microsoft Word / Outlook mail merge (use what you’ve got!)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="customer-service-operations-integration-management">Customer Service Operations Integration Management</h3>
+
+<ul>
+  <li>Vendor vetting, scope discussion, contract review &amp; kickoff</li>
+  <li>Work with IT Security lead to define how to handle Personally Identifiable Information (PII)</li>
+  <li>Vendor/integration project management.</li>
+</ul>
+
+<h3 id="product-designer">Product Designer</h3>
+
+<p>Before transitioning to fill a design-business-technologist need in the operations team, I joined Safrapay as a consultant on the design team.</p>
+
+<p><strong>As a product designer, I performed the first accessibility audit of the Safrapay design system, focusing on contrast and typography.</strong></p>
+
+<h4 id="my-roles">My roles</h4>
+
+<ul>
+  <li>Accessibility Audit: type contrast, iOS dev practice recommendations</li>
+  <li>Feature meetings</li>
+  <li>Packaging design</li>
+  <li>Design sprints</li>
+</ul>
+:ET
