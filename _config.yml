@@ -1,7 +1,8 @@
 collections:
   portfolio:
     output: true
-    order: 
+#    order: 
+#      - safrapay.md
 #      - 2020-02-11-jekyllrb.md
 #      - 2020-02-11-recyclaide.md
 #      - 2020-02-11-containerco.md
@@ -13,7 +14,7 @@ collections:
 #      - 2017-12-28-miami-schools.md
 #      - 2017-12-28-wellness.md
 #      - 2017-12-28-bloombox.md
-      - 2017-12-29-before-ux.md
+#      - 2017-12-29-before-ux.md
   notes:
     output: true
     order:
