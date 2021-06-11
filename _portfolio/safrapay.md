@@ -2,12 +2,12 @@
 layout: portfolio
 title: Conversation & Service Design at Safrapay
 summary:
-categories:
+categories: [conversation design, service design]
 created: 
 updated: 2021-05-31
 date: 2021-05-31
-tags: conversation design, service design, start ups, fintech, watson assistant, ibm cloud, integration
-image: /assets/portfolio/safrapay/saffie_2021-05-31_part-01.gif
+tags: [conversation-design, service-design, start-ups, fintech, watson-assistant, ibm-cloud, integration]
+image: /IMG_4731.PNG
 ---
 
 <!--
@@ -71,7 +71,7 @@ Saffie can respond to a wide variety of questions and responses:
 
 ##### Part 1 | Greeting Saffie & Asking About Products
 
-![Saffie Demo - Part 1 | Greeting Saffie & Asking About Products](/assets/portfolio/safrapay/saffie_2021-05-31_part-01.gif)
+![Saffie Demo - Part 1 | Greeting Saffie & Asking About Products]({{site.baseurl}}/assets/portfolio/safrapay/saffie_2021-05-31_part-01.gif)
 
 ##### Part 2 | Asking about a Specific Product and a General 'How to Change' Question
 
