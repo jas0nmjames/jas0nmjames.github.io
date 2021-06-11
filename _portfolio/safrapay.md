@@ -71,7 +71,7 @@ Saffie can respond to a wide variety of questions and responses:
 
 ##### Part 1 | Greeting Saffie & Asking About Products
 
-![Saffie Demo - Part 1 | Greeting Saffie & Asking About Products]({{site.baseurl}}/assets/portfolio/safrapay/saffie_2021-05-31_part-01.gif)
+![Saffie Demo - Part 1 | Greeting Saffie & Asking About Products](/saffie_2021-05-31_part-01.gif)
 
 ##### Part 2 | Asking about a Specific Product and a General 'How to Change' Question
 
