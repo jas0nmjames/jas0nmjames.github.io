@@ -4,8 +4,8 @@ title: résumé
 permalink: /résumé/
 ---
 
-<!-- ![PNG image of Résumé](assets/resume/jasonjames_resume_2020-02-11@2x.png) -->
+<!-- ![PNG image of Résumé](assets/resume/jjames_resume_2021-06.png) -->
 
-![SVG image of Résumé](/assets/resume/jjames_resume_2020-04-08.svg)
+![SVG image of Résumé](/assets/resume/jjames_resume_2021-06.svg)
 
-[Click here to download my résumé as a PDF](/assets/resume/jjames_resume_2020-04-08.pdf)
+[Click here to download my résumé as a PDF](assets/resume/jjames_resume_2021-06.pdf)

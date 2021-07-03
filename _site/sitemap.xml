@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/notes/test-two/</loc>
-<lastmod>2021-06-11T12:44:37-04:00</lastmod>
+<lastmod>2021-07-02T21:48:45-04:00</lastmod>
 </url>
 <url>
 <loc>/notes/2020-06-26/</loc>
@@ -10,7 +10,7 @@
 </url>
 <url>
 <loc>/notes/test-three/</loc>
-<lastmod>2021-06-11T12:44:37-04:00</lastmod>
+<lastmod>2021-07-02T21:48:45-04:00</lastmod>
 </url>
 <url>
 <loc>/portfolio/2018-10-09-thinkrite/</loc>
@@ -107,15 +107,15 @@
 <lastmod>2020-06-18T11:24:21-04:00</lastmod>
 </url>
 <url>
-<loc>/assets/resume/jjames_resume_2020-04-08.pdf</loc>
+<loc>/assets/resume/archive/jjames_resume_2020-04-08.pdf</loc>
 <lastmod>2020-06-18T11:24:21-04:00</lastmod>
 </url>
 <url>
-<loc>/assets/resume/jjames_resume_2020-04-08_safrapay.pdf</loc>
+<loc>/assets/resume/archive/jjames_resume_2020-04-08_safrapay.pdf</loc>
 <lastmod>2020-06-18T11:24:21-04:00</lastmod>
 </url>
 <url>
-<loc>/assets/resume/resume/jasonjames_resume_2020-02-28.pdf</loc>
-<lastmod>2020-06-18T11:24:21-04:00</lastmod>
+<loc>/assets/resume/jjames_resume_2021-06.pdf</loc>
+<lastmod>2021-07-02T08:38:32-04:00</lastmod>
 </url>
 </urlset>
