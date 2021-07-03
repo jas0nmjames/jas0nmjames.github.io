@@ -30,6 +30,10 @@ Design systems skills are somewhat of a sub-domain of product design.  But could
 
 So at the top level are 'categories' like Product Management, UX design, UI design, etc.
 
+### More about Where I'm going
+
+I'm on the non-Javascript side of [The Great Divide](https://css-tricks.com/the-great-divide/)
+
 ### Link Skills to Projects and Projects to Processes
 
 More to come on this.  I need to sketch it out.
@@ -46,11 +50,52 @@ More to come on this.  I need to sketch it out.
 
 ## Deploy
 
-- [ ] Create domain github.jasonmjames.com for [https://jas0nmjames.github.io/](https://jas0nmjames.github.io/)
+- [ ] Create domain github.jasonmjames.com for [https://jas0nmjames.github.io/](https://jas0nmjames.github.io/).  See [Managing a custom domain for your Github Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) and [How to set up Multiple Github Pages websites with custom domains](https://deanattali.com/blog/multiple-github-pages-domains/)
+- [ ] Fix github pages local/deployed assets issue.  See [Project Page URL Structure](https://jekyllrb.com/docs/github-pages/#project-page-url-structure) with URL filters
+
+  ```
+  <!-- For styles with static names... -->
+  <link href="{{ 'assets/css/style.css' | relative_url }}" rel="stylesheet">
+  <!-- For documents/pages whose URLs can change... -->
+  [{{ page.title }}]("{{ page.url | relative_url }}")
+  ```
+
+- [ ] Add [CSS Box Sizing](https://www.w3schools.com/css/css3_box-sizing.asp)
 
 ### Deploy: Future
 
 - Decide whether to keep [https://jasonmjam.es/](https://jasonmjam.es/) at wordpress or to move to fully self-hosting.
+
+## Resources and References
+
+### Podcasts
+
+- [Design Details](https://designdetails.fm/)
+- [Design Matters](https://www.designmattersmedia.com/)
+- [User Defenders](https://userdefenders.com/)
+- 
+
+### Books
+
+### Conferences
+
+- [WWDC21](https://developer.apple.com/wwdc21/)
+- Figma: [Config](https://config.figma.com/)
+
+### Articles
+
+- Smashing Magazine: [How to Learn CSS](https://www.smashingmagazine.com/2019/01/how-to-learn-css/) by Rachel Andrew
+- https://brucelawson.co.uk/2018/the-practical-value-of-semantic-html/
+
+### Resources
+
+- https://www.dailyui.co/
+
+## Project Upgrades
+
+### Chatbot
+
+- [ ] Host Watson Assistant skill in Github?
 
 ## V 2.0 (Old)
 
