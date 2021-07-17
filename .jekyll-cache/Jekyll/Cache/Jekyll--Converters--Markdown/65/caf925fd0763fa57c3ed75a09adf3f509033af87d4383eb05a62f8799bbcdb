@@ -1,4 +1,4 @@
-I"v<!--
+I"2 <!--
 - **Processes:**
 - **Tools:**
 - **Technologies:**
@@ -124,27 +124,28 @@ Demo Script
 
 <h3 id="notification-service-designer--html-developer">Notification Service Designer &amp; HTML developer</h3>
 
+<h4 id="content-review--management">Content Review &amp; Management</h4>
+
 <ul>
-  <li>Content Review &amp; Management, including:
-    <ul>
-      <li>requirements and copy review with stakeholders</li>
-      <li>copy writing and editing (collaborated with ux copywriter)</li>
-      <li>facilitate copy reviews with legal, compliance &amp; risk teams</li>
-    </ul>
-  </li>
-  <li>Project Management, including:
-    <ul>
-      <li>Create, prioritize and escalate Product Backlog Items (PBIs) via <a href="https://azure.microsoft.com/">Azure DevOps</a></li>
-      <li>Work with stakeholders to escalate development needs</li>
-    </ul>
-  </li>
-  <li>HTML/CSS e-mail template development, including:
-    <ul>
-      <li>Write HTML/CSS from scratch  (Email development is a <a href="https://www.caniemail.com/">tricky</a> little sub-domain of front-end development!)</li>
-      <li>Deploy to Salesforce Service Cloud</li>
-      <li>In some cases, adapt template for Microsoft Word / Outlook mail merge (use what you’ve got!)</li>
-    </ul>
-  </li>
+  <li>requirements and copy review with stakeholders</li>
+  <li>copy writing and editing (collaborated with ux copywriter)</li>
+  <li>facilitate copy reviews with legal, compliance &amp; risk teams</li>
+</ul>
+
+<h4 id="htmlcss-e-mail-template-development">HTML/CSS e-mail template development</h4>
+
+<ul>
+  <li>Write HTML/CSS from scratch  (Email development is a <a href="https://www.caniemail.com/">tricky</a> little sub-domain of front-end development!)</li>
+  <li>Deploy to Salesforce Service Cloud</li>
+  <li>In some cases, adapt template for Microsoft Word / Outlook mail merge (use what you’ve got!)</li>
+</ul>
+
+<h4 id="project-management--user-acceptance-testing-uat">Project Management &amp; User Acceptance Testing (UAT)</h4>
+
+<ul>
+  <li>Create, prioritize and escalate Product Backlog Items (PBIs) via <a href="https://azure.microsoft.com/">Azure DevOps</a></li>
+  <li>Work with stakeholders to escalate development needs</li>
+  <li>Work with developers and business analysts to deploy and test emails in development, testing (UAT) and production environments.</li>
 </ul>
 
 <h3 id="customer-service-operations-integration-management">Customer Service Operations Integration Management</h3>

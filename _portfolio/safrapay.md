@@ -105,19 +105,23 @@ To read how I approach building a chatbot with IBM's Watson's Assistant, see my 
 
 ### Notification Service Designer & HTML developer
 
-- Content Review & Management, including:
-  - requirements and copy review with stakeholders
-  - copy writing and editing (collaborated with ux copywriter)
-  - facilitate copy reviews with legal, compliance & risk teams
+#### Content Review & Management
 
-- Project Management, including:
-  - Create, prioritize and escalate Product Backlog Items (PBIs) via [Azure DevOps](https://azure.microsoft.com/)
-  - Work with stakeholders to escalate development needs
+- requirements and copy review with stakeholders
+- copy writing and editing (collaborated with ux copywriter)
+- facilitate copy reviews with legal, compliance & risk teams
 
-- HTML/CSS e-mail template development, including:
-  - Write HTML/CSS from scratch  (Email development is a [tricky](https://www.caniemail.com/) little sub-domain of front-end development!)
-  - Deploy to Salesforce Service Cloud
-  - In some cases, adapt template for Microsoft Word / Outlook mail merge (use what you've got!)
+#### HTML/CSS e-mail template development
+
+- Write HTML/CSS from scratch  (Email development is a [tricky](https://www.caniemail.com/) little sub-domain of front-end development!)
+- Deploy to Salesforce Service Cloud
+- In some cases, adapt template for Microsoft Word / Outlook mail merge (use what you've got!)
+
+#### Project Management & User Acceptance Testing (UAT)
+
+- Create, prioritize and escalate Product Backlog Items (PBIs) via [Azure DevOps](https://azure.microsoft.com/)
+- Work with stakeholders to escalate development needs
+- Work with developers and business analysts to deploy and test emails in development, testing (UAT) and production environments.
 
 ### Customer Service Operations Integration Management
 
