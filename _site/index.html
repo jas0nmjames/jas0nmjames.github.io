@@ -65,5 +65,24 @@
       <a href="https://github.com/jas0nmjames/jas0nmjames.github.io">Designed, built and maintained by Jason James.  <a href="https://github.com/jas0nmjames"><i class="fab fa-github" id="icon" label="Navigate to my Github Profile"></i></a></a>
     </div>
   </footer>
+
+  <!-- Inserting the script for the Watson Assistant integration below. -->
+
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "9160902f-a1f1-4b25-bd6d-b9f943c44f2d", // The ID of this integration.
+        region: "us-east", // The region your integration is hosted in.
+        serviceInstanceID: "06af7442-e85c-4210-8783-3c7612bf25e9", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+        (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+        "/WatsonAssistantChatEntry.js"
+      document.head.appendChild(t);
+    });
+  </script>
+
 </body>
 </html>
