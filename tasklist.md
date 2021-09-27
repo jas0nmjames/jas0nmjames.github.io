@@ -95,7 +95,21 @@ More to come on this.  I need to sketch it out.
 
 ### Chatbot
 
-- [ ] Host Watson Assistant skill in Github?
+- [ ] ~~Host Watson Assistant skill in Github?~~
+- [ ] Watson Assistant training
+- [ ] Botsociety certification
+- [ ] Add Watson Assistant to site
+
+### Santander
+
+- [ ] Secondary Market Analysis
+- [ ] Utterance Analysis & Recommendations (Virtual Assistant)
+- [ ] UI Branding Analysis (Figma)
+- [ ] Conversation Flows (FigJam)
+
+Future
+
+- [ ] Create Santander Conversation Design Guidelines
 
 ## V 2.0 (Old)
 
