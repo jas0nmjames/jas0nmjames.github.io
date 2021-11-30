@@ -1,10 +1,10 @@
 ---
 layout: portfolio
 title: Conversation & Service Design at Safrapay
-summary:
+summary: Multiple hat wearing conversation designer/technical curator, product owner, project manager, and communications designer/developer for a fintech startup.
 categories: [conversation design, service design]
 created: 
-updated: 2021-05-31
+updated: 2021-11-30
 date: 2021-05-31
 tags: [conversation-design, service-design, start-ups, fintech, watson-assistant, ibm-cloud, integration]
 image: /IMG_4731.PNG
@@ -19,11 +19,11 @@ image: /IMG_4731.PNG
 
 ## Introduction
 
-Although officially an "Assistant Vice President of Customer Service Operations", I like to think of myself as a service designer in a fintech startup.
+Although officially an "Assistant Vice President of Customer Service Operations", I liked to think of myself as a service designer in a fintech startup.
 
-I live somewhere between business operations, design, and technology, working cross-functionally to build great services for our customers.
+I lived somewhere between business operations, design, and technology, working cross-functionally to build great services for our customers.
 
-I've worn lots of hats:
+I wore lots of hats:
 
 - Chatbot Product Owner, Technical Curator & Designer
 - Communications Service Designer & Developer
