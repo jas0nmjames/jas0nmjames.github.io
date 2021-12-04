@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/notes/test-two/</loc>
-<lastmod>2021-11-29T15:49:31-05:00</lastmod>
+<lastmod>2021-12-04T16:58:21-05:00</lastmod>
 </url>
 <url>
 <loc>/notes/2020-06-26/</loc>
@@ -10,7 +10,7 @@
 </url>
 <url>
 <loc>/notes/test-three/</loc>
-<lastmod>2021-11-29T15:49:31-05:00</lastmod>
+<lastmod>2021-12-04T16:58:21-05:00</lastmod>
 </url>
 <url>
 <loc>/portfolio/2018-10-09-thinkrite/</loc>
@@ -63,6 +63,10 @@
 <url>
 <loc>/portfolio/safrapay/</loc>
 <lastmod>2021-05-31T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/portfolio/santander/</loc>
+<lastmod>2021-12-04T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>/where-im-from/</loc>
