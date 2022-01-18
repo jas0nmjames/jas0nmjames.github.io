@@ -1,0 +1,36 @@
+I"�<h2 id="background">Background</h2>
+
+<p>Believe it or not, sometimes we need to send styled e-mails without a fancy service.</p>
+
+<p>E-mail development is actually <a href="https://www.caniemail.com/">pretty tricky</a>.</p>
+
+<p>For example, when developing e-mails for Safrapay, I had to revert to using an html <code class="language-plaintext highlighter-rouge">&lt;table&gt;</code> layout instead of a modern layout like <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">css-grid</a>.</p>
+
+<p>Between how the html was handled in the Salesforce tool we were using at the time (we didn’t have access to their more modern marketing suite) and how different e-mail clients (Outlook only reads inline styling.  No stylesheets or even <code class="language-plaintext highlighter-rouge">id</code>s!) display html, I had to creatively go backwards.</p>
+
+<h2 id="the-e-mails">The E-mails</h2>
+
+<p>Select an item below to view examples of e-mail templates I’ve developed from scratch with vanilla html &amp; css.</p>
+
+<h3 id="a-marketing-campaign-e-mail-example">A Marketing Campaign E-mail Example</h3>
+
+<p>Github: <a href="https://jas0nmjames.github.io/html-email-sandbox/safrapay/template_f-and-f_150-offer_app-store-links_nudge.html">A Marketing Campaign E-mail Example</a> (Safrapay)</p>
+
+<p><img src="/email-safrapay-screenshot-03.png" alt="Screenshot of marketing campaign e-mail portion" title="A Marketing Campaign E-mail Example" /></p>
+
+<h3 id="a-customer-communication-e-mail-example">A Customer Communication E-mail Example</h3>
+
+<p>Github: <a href="https://jas0nmjames.github.io/html-email-sandbox/safrapay/template_mca_approval.html">A Customer Communication E-mail Example</a> (Safrapay)</p>
+
+<p><img src="/email-safrapay-screenshot-01.png" alt="Screenshot of a mostly-text customer communication e-mail" title="Customer Communication E-mail Example" /></p>
+
+<h3 id="coming-soon">Coming Soon</h3>
+
+<p>The e-mail they send you when a comet is about to hit Earth. ☄️</p>
+
+<h2 id="github">Github</h2>
+
+<p>Examples <a href="https://jas0nmjames.github.io/html-email-sandbox/">deployed</a> with Github Pages.</p>
+
+<p>View the <a href="https://github.com/jas0nmjames/html-email-sandbox">repository</a> on Github.</p>
+:ET

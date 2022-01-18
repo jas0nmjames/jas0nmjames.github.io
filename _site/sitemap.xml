@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/notes/test-two/</loc>
-<lastmod>2021-12-04T16:58:21-05:00</lastmod>
+<lastmod>2022-01-18T16:06:18-05:00</lastmod>
 </url>
 <url>
 <loc>/notes/2020-06-26/</loc>
@@ -10,7 +10,7 @@
 </url>
 <url>
 <loc>/notes/test-three/</loc>
-<lastmod>2021-12-04T16:58:21-05:00</lastmod>
+<lastmod>2022-01-18T16:06:18-05:00</lastmod>
 </url>
 <url>
 <loc>/portfolio/2018-10-09-thinkrite/</loc>
@@ -65,8 +65,12 @@
 <lastmod>2021-05-31T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>/portfolio/html-email-design-and-dev/</loc>
+<lastmod>2022-01-17T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>/portfolio/santander/</loc>
-<lastmod>2021-12-04T00:00:00-05:00</lastmod>
+<lastmod>2022-01-18T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>/where-im-from/</loc>
@@ -121,5 +125,9 @@
 <url>
 <loc>/assets/resume/jjames_resume_2021-06.pdf</loc>
 <lastmod>2021-07-02T08:38:32-04:00</lastmod>
+</url>
+<url>
+<loc>/assets/resume/jjames_resume_2022-01-18.pdf</loc>
+<lastmod>2022-01-18T13:11:46-05:00</lastmod>
 </url>
 </urlset>
