@@ -19,7 +19,7 @@ Currently, I’m a Senior User Experience Designer at Santander Bank, leading co
 
 ***
 
-I enjoy spending time with my family, [getting outside](https://www.strava.com/athletes/22708041), and building community.  My interests are pretty wide.  History, Markdown, Triathlons, Design Systems, [Saxsquatch](https://www.youtube.com/watch?v=NLB4Fcxh1iU), The Triple Bottom Line, Accessibility, Theology...
+I enjoy spending time with my family, [getting outside](https://www.strava.com/athletes/22708041), and building community.  My interests are pretty wide.  History, Markdown, Triathlons, Design Systems, Synthwave, The Triple Bottom Line, Accessibility, Theology...
 
 I built this site [from scratch with Jekyll](https://jas0nmjames.github.io/), hosted on [Github](https://github.com/jas0nmjames/jas0nmjames.github.io).  It's a playground of sorts where I'm teaching myself the JAMstack among other things.  I told you I like Markdown.  I built [another version of this site](https://jasonmjam.es/) with Wordpress.
 

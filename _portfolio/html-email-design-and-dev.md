@@ -26,13 +26,13 @@ Select an item below to view examples of e-mail templates I've developed from sc
 
 ### A Marketing Campaign E-mail Example
 
-Safrapay: [A Marketing Campaign E-mail Example](https://jas0nmjames.github.io/html-email-sandbox/safrapay/template_f-and-f_150-offer_app-store-links_nudge.html)
+Github: [A Marketing Campaign E-mail Example](https://jas0nmjames.github.io/html-email-sandbox/safrapay/template_f-and-f_150-offer_app-store-links_nudge.html) (Safrapay)
 
 ![Screenshot of marketing campaign e-mail portion](/email-safrapay-screenshot-03.png "A Marketing Campaign E-mail Example")
 
 ### A Customer Communication E-mail Example
 
-Safrapay: [A Customer Communication E-mail Example](https://jas0nmjames.github.io/html-email-sandbox/safrapay/template_mca_approval.html)
+Github: [A Customer Communication E-mail Example](https://jas0nmjames.github.io/html-email-sandbox/safrapay/template_mca_approval.html) (Safrapay)
 
 ![Screenshot of a mostly-text customer communication e-mail](/email-safrapay-screenshot-01.png "Customer Communication E-mail Example")
 
