@@ -52,7 +52,7 @@ In this case, setting image widths to 100% not only keeps them within the viewpo
 img { width: 100%; height: auto; }
 
 /* I still had a problem with screenshots being too tall. */
-#article-image img { width: auto; height: 100%; }
+#article-image img { width: auto; max-height: 100%; /*max-width: 100%;*/ }
 
 /*----------------------- Typography classes --------------------------*/
 /* I use classes to apply styles across elements.  This way, html elements can be used to arrange content across the CSS grid and I can control styling separately. */

@@ -1,8 +1,0 @@
-I"�<!-- ![PNG image of Résumé](/assets/resume/jjames_resume_2021-06.png) -->
-
-<p><img src="/assets/resume/jjames_resume_2021-06.svg" alt="SVG image of Résumé" /></p>
-
-<!-- On this page, "/assets..." works.  But "assets" doesn't.  So assets/resume/jjames_resume_2021-06.pdf doesn't work locally or deployed, but "assets/resume/jjames_resume_2021-06.pdf" should.-->
-
-<p><a href="/assets/resume/jjames_resume_2021-06.pdf">Click here to download my résumé as a PDF</a></p>
-:ET
