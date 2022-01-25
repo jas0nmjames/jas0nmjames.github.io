@@ -172,4 +172,4 @@ For this project, I found the following links helpful:
 
 Source code [is licensed](/license.md) under the MIT license.
 
-Contents of this site are © Copyright 2019-2021 Jason M. James. All rights reserved.
+Contents of this site are © Copyright 2019-2022 Jason M. James. All rights reserved.
