@@ -1,121 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-01-18T16:06:18-05:00</updated><id>/feed.xml</id><entry><title type="html">My Thoughts on Framer</title><link href="/framerx/" rel="alternate" type="text/html" title="My Thoughts on Framer" /><published>2019-12-17T00:00:00-05:00</published><updated>2019-12-17T00:00:00-05:00</updated><id>/framerx</id><content type="html" xml:base="/framerx/">&lt;p&gt;At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with &lt;strong&gt;Framer X&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-03-23T10:03:38-04:00</updated><id>/feed.xml</id><entry><title type="html">My Thoughts on Framer</title><link href="/framerx/" rel="alternate" type="text/html" title="My Thoughts on Framer" /><published>2019-12-17T00:00:00-05:00</published><updated>2019-12-17T00:00:00-05:00</updated><id>/framerx</id><content type="html" xml:base="/framerx/"><![CDATA[<p>At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with <strong>Framer X</strong></p>
 
-&lt;h2 id=&quot;best-use-interaction-design-ixd&quot;&gt;Best Use: Interaction Design (IxD)&lt;/h2&gt;
+<h2 id="best-use-interaction-design-ixd">Best Use: Interaction Design (IxD)</h2>
 
-&lt;p&gt;Transitions, micro-interactions, etc. all can be tweaked with real react code, plus react props can be added as custom properties to the FramerUI based on the component you’re working in.&lt;/p&gt;
+<p>Transitions, micro-interactions, etc. all can be tweaked with real react code, plus react props can be added as custom properties to the FramerUI based on the component you’re working in.</p>
 
-&lt;p&gt;So if you’re not comfortable with code you can still tweak interactions.&lt;/p&gt;
+<p>So if you’re not comfortable with code you can still tweak interactions.</p>
 
-&lt;h2 id=&quot;second-best-use-advanced-prototyping&quot;&gt;Second-Best Use: Advanced Prototyping&lt;/h2&gt;
+<h2 id="second-best-use-advanced-prototyping">Second-Best Use: Advanced Prototyping</h2>
 
-&lt;p&gt;For example, I created a prototype with a live, can-be-interacted-with map using a Mapbox API component.  You can also, for example, pass data from an input field on one screen, to a text field in another screen of the prototype.&lt;/p&gt;
+<p>For example, I created a prototype with a live, can-be-interacted-with map using a Mapbox API component.  You can also, for example, pass data from an input field on one screen, to a text field in another screen of the prototype.</p>
 
-&lt;h2 id=&quot;something-unexpected-positive&quot;&gt;Something Unexpected, Positive&lt;/h2&gt;
+<h2 id="something-unexpected-positive">Something Unexpected, Positive</h2>
 
-&lt;p&gt;Objects in the canvas are automatically nested if they’re placed in another object.  Makes layer organization much easier as it’s mostly automatic.  Just need to maintain naming.&lt;/p&gt;
+<p>Objects in the canvas are automatically nested if they’re placed in another object.  Makes layer organization much easier as it’s mostly automatic.  Just need to maintain naming.</p>
 
-&lt;h2 id=&quot;something-unexpected-negative&quot;&gt;Something Unexpected, Negative&lt;/h2&gt;
+<h2 id="something-unexpected-negative">Something Unexpected, Negative</h2>
 
-&lt;p&gt;I spent several hours over a weekend trying to import both material and other react components and couldn’t get it to work.  I’ll keep working at it in my free time.  It has a lot of promise: I should be able to just drag and drop react components as if they were design components.&lt;/p&gt;
+<p>I spent several hours over a weekend trying to import both material and other react components and couldn’t get it to work.  I’ll keep working at it in my free time.  It has a lot of promise: I should be able to just drag and drop react components as if they were design components.</p>
 
-&lt;h2 id=&quot;other-points&quot;&gt;Other Points&lt;/h2&gt;
+<h2 id="other-points">Other Points</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;You can import designs from sketch into Figma.&lt;/li&gt;
-  &lt;li&gt;As my colleague Richard Novoa has rightly hyped, &lt;a href=&quot;https://www.framer.com/blog/posts/announcing-framer-bridge/&quot;&gt;framer bridge&lt;/a&gt; holds a lot of promise.  With it implemented, we could basically use Framer like storybook where we could view and update components with version control!  It would allow designers to interact with single source of truth components more directly.  However it will take some better understanding of React to use effectively.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>You can import designs from sketch into Figma.</li>
+  <li>As my colleague Richard Novoa has rightly hyped, <a href="https://www.framer.com/blog/posts/announcing-framer-bridge/">framer bridge</a> holds a lot of promise.  With it implemented, we could basically use Framer like storybook where we could view and update components with version control!  It would allow designers to interact with single source of truth components more directly.  However it will take some better understanding of React to use effectively.</li>
+</ul>
 
-&lt;h2 id=&quot;key-takeaways&quot;&gt;Key Takeaways&lt;/h2&gt;
+<h2 id="key-takeaways">Key Takeaways</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;This can be a very powerful tool for our team, but to use effectively, designers will need to know at least React basics.  There’s a steep learning curve with it comes to working with real react components.&lt;/li&gt;
-  &lt;li&gt;I’d rather prototype in FramerX than any other tools I’ve used.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jason M. James</name></author><category term="Tools" /><summary type="html">At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with Framer X</summary></entry><entry><title type="html">Cross Sections</title><link href="/cross-sections/" rel="alternate" type="text/html" title="Cross Sections" /><published>2018-01-03T00:00:00-05:00</published><updated>2018-01-03T00:00:00-05:00</updated><id>/cross-sections</id><content type="html" xml:base="/cross-sections/">&lt;p&gt;&lt;img src=&quot;/assets/images/stephenbiesty_bigrescuehelicopter.jpg&quot; alt=&quot;img&quot; /&gt;&lt;!--{:class=&quot;img-responsive&quot;}--&gt;&lt;/p&gt;
+<ul>
+  <li>This can be a very powerful tool for our team, but to use effectively, designers will need to know at least React basics.  There’s a steep learning curve with it comes to working with real react components.</li>
+  <li>I’d rather prototype in FramerX than any other tools I’ve used.</li>
+</ul>]]></content><author><name>Jason M. James</name></author><category term="Tools" /><summary type="html"><![CDATA[At the end of December 2019, I put a few notes together for my colleagues after having a week or two to really play around with Framer X]]></summary></entry><entry><title type="html">Cross Sections</title><link href="/cross-sections/" rel="alternate" type="text/html" title="Cross Sections" /><published>2018-01-03T00:00:00-05:00</published><updated>2018-01-03T00:00:00-05:00</updated><id>/cross-sections</id><content type="html" xml:base="/cross-sections/"><![CDATA[<p><img src="/assets/images/stephenbiesty_bigrescuehelicopter.jpg" alt="img" /><!--{:class="img-responsive"}--></p>
 
-&lt;p&gt;&lt;a href=&quot;http://www.stephenbiesty.co.uk/work.html&quot;&gt;Stephen Biesty&lt;/a&gt; drew the helicopter cross-section above in a book called &lt;a href=&quot;https://www.amazon.com/Stephen-Biestys-Incredible-Cross-Sections-Richard/dp/0679814116&quot;&gt;Incredible Cross Sections&lt;/a&gt; that I loved as a kid.&lt;/p&gt;
+<p><a href="http://www.stephenbiesty.co.uk/work.html">Stephen Biesty</a> drew the helicopter cross-section above in a book called <a href="https://www.amazon.com/Stephen-Biestys-Incredible-Cross-Sections-Richard/dp/0679814116">Incredible Cross Sections</a> that I loved as a kid.</p>
 
-&lt;p&gt;It not only showed the inner workings of buildings and machines, but the purposes of people that used them. I’ve still never ridden in a helicopter, but even as a child I was able to appreciate that although complex, a machine or system that might seem magical is still just made with parts put together.&lt;/p&gt;
+<p>It not only showed the inner workings of buildings and machines, but the purposes of people that used them. I’ve still never ridden in a helicopter, but even as a child I was able to appreciate that although complex, a machine or system that might seem magical is still just made with parts put together.</p>
 
-&lt;p&gt;Looking back, I also appreciate that each of Stephen’s drawings were not just about the object, but about the purposes people were able to achieve through them, such as rescuing an injured person in the drawing above.&lt;/p&gt;
+<p>Looking back, I also appreciate that each of Stephen’s drawings were not just about the object, but about the purposes people were able to achieve through them, such as rescuing an injured person in the drawing above.</p>
 
-&lt;p&gt;I transitioned into UX (User Experience) Design because it brings out so much of what makes me tick:&lt;/p&gt;
+<p>I transitioned into UX (User Experience) Design because it brings out so much of what makes me tick:</p>
 
-&lt;h2 id=&quot;curiosity&quot;&gt;Curiosity&lt;/h2&gt;
+<h2 id="curiosity">Curiosity</h2>
 
-&lt;p&gt;&lt;strong&gt;I’m curious about how the world works.&lt;/strong&gt;&lt;/p&gt;
+<p><strong>I’m curious about how the world works.</strong></p>
 
-&lt;p&gt;In 2011 I earned a &lt;strong&gt;BA in History&lt;/strong&gt; from the &lt;a href=&quot;http://www.virginia.edu/&quot;&gt;University of Virginia&lt;/a&gt;. Good history tells a captivating story by truthfully piecing together details.&lt;/p&gt;
+<p>In 2011 I earned a <strong>BA in History</strong> from the <a href="http://www.virginia.edu/">University of Virginia</a>. Good history tells a captivating story by truthfully piecing together details.</p>
 
-&lt;p&gt;I wanted to understand how the world around me came to be what it is today in hopes of making it better and in the process learned to really read, think and write for myself.&lt;/p&gt;
+<p>I wanted to understand how the world around me came to be what it is today in hopes of making it better and in the process learned to really read, think and write for myself.</p>
 
-&lt;p&gt;&lt;em&gt;Good UX is well-researched and my humanities background provides a solid foundation.&lt;/em&gt;&lt;/p&gt;
+<p><em>Good UX is well-researched and my humanities background provides a solid foundation.</em></p>
 
-&lt;p&gt;In 2017 I earned a &lt;strong&gt;Master’s Degree in Business&lt;/strong&gt; from &lt;a href=&quot;http://collaborativemba.org/&quot;&gt;Eastern Mennonite University&lt;/a&gt;.&lt;/p&gt;
+<p>In 2017 I earned a <strong>Master’s Degree in Business</strong> from <a href="http://collaborativemba.org/">Eastern Mennonite University</a>.</p>
 
-&lt;p&gt;Like technology, money is a tool, and to really understand how things work, I’d recommend learning how to read a financial statement. Seriously. I also learned how to increase my capacity to serve others through courses like Leadership and Organizational Behavior and perhaps benefitted most from training in sustainability, which at the root is &lt;a href=&quot;http://wtf.tw/ref/meadows.pdf&quot;&gt;systems thinking&lt;/a&gt;.&lt;/p&gt;
+<p>Like technology, money is a tool, and to really understand how things work, I’d recommend learning how to read a financial statement. Seriously. I also learned how to increase my capacity to serve others through courses like Leadership and Organizational Behavior and perhaps benefitted most from training in sustainability, which at the root is <a href="http://wtf.tw/ref/meadows.pdf">systems thinking</a>.</p>
 
-&lt;p&gt;Experiences in the communities I’m a part of and as a professional taught me that there are ample opportunities to attack root problems through business and why I chose a program that not was not only anchored by the &lt;a href=&quot;http://www.economist.com/node/14301663&quot;&gt;triple bottom line&lt;/a&gt; of people, planet, and profit, but took me &lt;a href=&quot;http://www.coopeatenas.com/&quot;&gt;outside of the United States&lt;/a&gt; to study cooperative business models.&lt;/p&gt;
+<p>Experiences in the communities I’m a part of and as a professional taught me that there are ample opportunities to attack root problems through business and why I chose a program that not was not only anchored by the <a href="http://www.economist.com/node/14301663">triple bottom line</a> of people, planet, and profit, but took me <a href="http://www.coopeatenas.com/">outside of the United States</a> to study cooperative business models.</p>
 
-&lt;p&gt;&lt;em&gt;Good UX looks at business needs, strategy and information architecture systematically.&lt;/em&gt;&lt;/p&gt;
+<p><em>Good UX looks at business needs, strategy and information architecture systematically.</em></p>
 
-&lt;p&gt;I love the fact that design deals with both pixel-perfect detail and grand vision.&lt;/p&gt;
+<p>I love the fact that design deals with both pixel-perfect detail and grand vision.</p>
 
-&lt;h2 id=&quot;connecting&quot;&gt;Connecting&lt;/h2&gt;
+<h2 id="connecting">Connecting</h2>
 
-&lt;p&gt;&lt;strong&gt;I like connecting with and helping others to connect with people.&lt;/strong&gt;&lt;/p&gt;
+<p><strong>I like connecting with and helping others to connect with people.</strong></p>
 
-&lt;p&gt;You might now be asking, why is this guy not a business analyst or operations manager or maybe even a non-profit program manager?&lt;/p&gt;
+<p>You might now be asking, why is this guy not a business analyst or operations manager or maybe even a non-profit program manager?</p>
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Right now technology is perhaps the greatest shaper of society, culture, and increasingly, the economy. UX design is an avenue for shaping the tools we create for the better.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Over the past few years I’ve loved working with and &lt;a href=&quot;https://www.greenleaf.org/what-is-servant-leadership/&quot;&gt;helping to lead&lt;/a&gt; my colleagues, but I’ve never wanted to just ‘manage’ or ‘analyze’. What is that anyway? I want to create. I want to change how things are done. I want to leave a legacy.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you pair all of the design tools and all of the frameworks away, UX Design is really about empathy. I love that. I can’t believe you can make a living understanding and responding to people’s needs. Sign me up.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>
+    <p>Right now technology is perhaps the greatest shaper of society, culture, and increasingly, the economy. UX design is an avenue for shaping the tools we create for the better.</p>
+  </li>
+  <li>
+    <p>Over the past few years I’ve loved working with and <a href="https://www.greenleaf.org/what-is-servant-leadership/">helping to lead</a> my colleagues, but I’ve never wanted to just ‘manage’ or ‘analyze’. What is that anyway? I want to create. I want to change how things are done. I want to leave a legacy.</p>
+  </li>
+  <li>
+    <p>If you pair all of the design tools and all of the frameworks away, UX Design is really about empathy. I love that. I can’t believe you can make a living understanding and responding to people’s needs. Sign me up.</p>
+  </li>
+</ol>
 
-&lt;h2 id=&quot;life-is-short&quot;&gt;Life is Short&lt;/h2&gt;
+<h2 id="life-is-short">Life is Short</h2>
 
-&lt;p&gt;&lt;strong&gt;I don’t want to waste my time on earth.&lt;/strong&gt;&lt;/p&gt;
+<p><strong>I don’t want to waste my time on earth.</strong></p>
 
-&lt;p&gt;I want to leave a positive legacy.&lt;/p&gt;
+<p>I want to leave a positive legacy.</p>
 
-&lt;p&gt;I want to &lt;a href=&quot;https://ssir.org/articles/entry/wicked_problems_problems_worth_solving&quot;&gt;solve problems&lt;/a&gt;.&lt;/p&gt;
+<p>I want to <a href="https://ssir.org/articles/entry/wicked_problems_problems_worth_solving">solve problems</a>.</p>
 
-&lt;p&gt;If systems thinking taught me &lt;a href=&quot;https://medium.com/disruptive-design/problem-solving-desperately-needs-systems-thinking-607d34e4fc80&quot;&gt;‘solutions’&lt;/a&gt; you think up can have serious &lt;a href=&quot;https://www.futurelearn.com/courses/systems-thinking-complexity/0/steps/20396&quot;&gt;unintended consequences&lt;/a&gt;, design thinking showed me a path to begin tackling problems big and small in a creative, pragmatic way that responds to reality.&lt;/p&gt;
+<p>If systems thinking taught me <a href="https://medium.com/disruptive-design/problem-solving-desperately-needs-systems-thinking-607d34e4fc80">‘solutions’</a> you think up can have serious <a href="https://www.futurelearn.com/courses/systems-thinking-complexity/0/steps/20396">unintended consequences</a>, design thinking showed me a path to begin tackling problems big and small in a creative, pragmatic way that responds to reality.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;After working with wireless engineering teams in Spain, Taiwan, and the US as a sales associate and spending four years as project manager &lt;a href=&quot;http://jasonmjam.es/portfolio-2/my-work-before-ux/&quot;&gt;building buildings&lt;/a&gt;, I now build for the web.&lt;/p&gt;
+<p>After working with wireless engineering teams in Spain, Taiwan, and the US as a sales associate and spending four years as project manager <a href="http://jasonmjam.es/portfolio-2/my-work-before-ux/">building buildings</a>, I now build for the web.</p>
 
-&lt;p&gt;I enjoy spending time with the people I love, riding my bicycle, discovering new music, cooking, wrestling with ideas.&lt;/p&gt;
+<p>I enjoy spending time with the people I love, riding my bicycle, discovering new music, cooking, wrestling with ideas.</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/jas0nmjames/&quot;&gt;Connect with me on LinkedIn&lt;/a&gt;&lt;/p&gt;
+<p><a href="https://www.linkedin.com/in/jas0nmjames/">Connect with me on LinkedIn</a></p>
 
-&lt;p&gt;&lt;em&gt;P.S. Many thanks to &lt;a href=&quot;https://www.linkedin.com/in/steve-nunez/&quot;&gt;Steve Nunez&lt;/a&gt; for the photos of me on this page.&lt;/em&gt;&lt;/p&gt;</content><author><name>Jason M. James</name></author><category term="personal" /><category term="systems thinking" /><summary type="html"></summary></entry><entry><title type="html">Where I’m From</title><link href="/where-im-from/" rel="alternate" type="text/html" title="Where I’m From" /><published>2017-09-16T00:00:00-04:00</published><updated>2017-09-16T00:00:00-04:00</updated><id>/where-im-from</id><content type="html" xml:base="/where-im-from/">&lt;p&gt;&lt;img src=&quot;2017-09-16-where-im-from.assets/20170810_194359.jpg&quot; alt=&quot;20170810_194359&quot; /&gt;&lt;/p&gt;
+<p><em>P.S. Many thanks to <a href="https://www.linkedin.com/in/steve-nunez/">Steve Nunez</a> for the photos of me on this page.</em></p>]]></content><author><name>Jason M. James</name></author><category term="personal" /><category term="systems thinking" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Where I’m From</title><link href="/where-im-from/" rel="alternate" type="text/html" title="Where I’m From" /><published>2017-09-16T00:00:00-04:00</published><updated>2017-09-16T00:00:00-04:00</updated><id>/where-im-from</id><content type="html" xml:base="/where-im-from/"><![CDATA[<p><img src="2017-09-16-where-im-from.assets/20170810_194359.jpg" alt="20170810_194359" /></p>
 
-&lt;p&gt;Welcome to my little corner of the Internet.&lt;/p&gt;
+<p>Welcome to my little corner of the Internet.</p>
 
-&lt;p&gt;I shot the picture above with my Galaxy Note 4 smartphone on August 10, 2017.  I was in the middle of a Thursday evening run, looking towards the Washington Monument from the foot of the U.S. Capitol.  It’s amazing how well this shot came out; other than being in ‘HDR’ mode, I didn’t edit the image at all.  (Shot: 1/640 sec. f/2.2 4.8mm ISO: 40)&lt;/p&gt;
+<p>I shot the picture above with my Galaxy Note 4 smartphone on August 10, 2017.  I was in the middle of a Thursday evening run, looking towards the Washington Monument from the foot of the U.S. Capitol.  It’s amazing how well this shot came out; other than being in ‘HDR’ mode, I didn’t edit the image at all.  (Shot: 1/640 sec. f/2.2 4.8mm ISO: 40)</p>
 
-&lt;p&gt;I was born in and have lived in the Washington, D.C. region all of my life.  You might think politics would play a larger role in the lives of those around here, but government contracting - however separate from politics it can be - is the real king.  To those who ask, I jokingly and irreverently refer to my place of birth as a ‘suburban wasteland’.  My childhood trips to New York City gave me the perspective that D.C. and especially its suburbs were often insulated from the economic fates of the rest of the country.  I’m grateful for the blessings of youth that came from that prosperity; most importantly the experience of daily growing in a world without threat of physical violence.  The cosmopolitan nature of the region also meant that if my friends weren’t white, there was a good chance their parents were first generation immigrants, working in government or technology or research.  But it also meant that there was a sort of rootlessness in how things were held together.  Not by the bonds of community or memory or land, but by status.  And money.  No, not money, that’s not the word I’m looking for.  Success.  Yes, that’s it, ‘success’.&lt;/p&gt;
+<p>I was born in and have lived in the Washington, D.C. region all of my life.  You might think politics would play a larger role in the lives of those around here, but government contracting - however separate from politics it can be - is the real king.  To those who ask, I jokingly and irreverently refer to my place of birth as a ‘suburban wasteland’.  My childhood trips to New York City gave me the perspective that D.C. and especially its suburbs were often insulated from the economic fates of the rest of the country.  I’m grateful for the blessings of youth that came from that prosperity; most importantly the experience of daily growing in a world without threat of physical violence.  The cosmopolitan nature of the region also meant that if my friends weren’t white, there was a good chance their parents were first generation immigrants, working in government or technology or research.  But it also meant that there was a sort of rootlessness in how things were held together.  Not by the bonds of community or memory or land, but by status.  And money.  No, not money, that’s not the word I’m looking for.  Success.  Yes, that’s it, ‘success’.</p>
 
-&lt;p&gt;One of my most poignant memories of high school involved packing up my book bag after the end of - I think it was 10th grade history.  Picture thirty or so odd plywood colored desks, the ones that adults don’t really fit in.  And I had this red rolling backpack because at some point in elementary school my Mom wanted to make sure I wasn’t developing scoliosis or some other unnecessary suffering from the weight of all that Grade-A education textbook workload.  And I thought the rolling backpack was a good idea and nobody made fun of me for it.  I digress - So I’m packing up my book bag and I notice everyone else literally jumping out of their seats, like in an airplane as soon as the seat belt sign is taken off.  We had a 15 minute break period after the first class so there was nowhere to really rush to.  And I noticed that people - kids - my friends - were in this sort of auto-controlled frenzy of impatience or of ‘progress’ or of ‘success’.  And it was peculiar to me then, as it is now.&lt;/p&gt;
+<p>One of my most poignant memories of high school involved packing up my book bag after the end of - I think it was 10th grade history.  Picture thirty or so odd plywood colored desks, the ones that adults don’t really fit in.  And I had this red rolling backpack because at some point in elementary school my Mom wanted to make sure I wasn’t developing scoliosis or some other unnecessary suffering from the weight of all that Grade-A education textbook workload.  And I thought the rolling backpack was a good idea and nobody made fun of me for it.  I digress - So I’m packing up my book bag and I notice everyone else literally jumping out of their seats, like in an airplane as soon as the seat belt sign is taken off.  We had a 15 minute break period after the first class so there was nowhere to really rush to.  And I noticed that people - kids - my friends - were in this sort of auto-controlled frenzy of impatience or of ‘progress’ or of ‘success’.  And it was peculiar to me then, as it is now.</p>
 
-&lt;p&gt;As I write this first &lt;del&gt;essay&lt;/del&gt; blog post, I’ve turned 30, a little less than a month ago.  I’m establishing this personal homepage on the web as I begin a new direction in both my professional and personal life.  Not discarding the past, just building on it.  Moving forward.&lt;/p&gt;
+<p>As I write this first <del>essay</del> blog post, I’ve turned 30, a little less than a month ago.  I’m establishing this personal homepage on the web as I begin a new direction in both my professional and personal life.  Not discarding the past, just building on it.  Moving forward.</p>
 
-&lt;p&gt;Like the picture above, the purpose of this site is to show you how I see the world.  I’m an observer of landscapes.  Landscapes of people, cultures, nature, information, systems.&lt;/p&gt;
+<p>Like the picture above, the purpose of this site is to show you how I see the world.  I’m an observer of landscapes.  Landscapes of people, cultures, nature, information, systems.</p>
 
-&lt;p&gt;While completing my MBA I discovered there was a name for the way I like to process the world: “systems thinking”.  Collecting and organizing information (thanks History degree) in process flows rather than simple if -&amp;gt; then statements that attempt to find root causes and holistic solutions.  I’ll write more about my ‘why’, my purpose, later.&lt;/p&gt;
+<p>While completing my MBA I discovered there was a name for the way I like to process the world: “systems thinking”.  Collecting and organizing information (thanks History degree) in process flows rather than simple if -&gt; then statements that attempt to find root causes and holistic solutions.  I’ll write more about my ‘why’, my purpose, later.</p>
 
-&lt;p&gt;I will say that if my ‘what’ is systems thinking, my ‘how’ is empathy in the pursuit of community.  I’ve always loved when people get along, and I’ve used authentic leadership towards that end for as long as I can remember.  As I’ve grown older, I’ve grown in clarity that it’s more than just ‘being nice’, but a desire for real peace and understanding between people.  Call it efficient patience.  Something like that.  Maybe that’ll be a book title someday.&lt;/p&gt;
+<p>I will say that if my ‘what’ is systems thinking, my ‘how’ is empathy in the pursuit of community.  I’ve always loved when people get along, and I’ve used authentic leadership towards that end for as long as I can remember.  As I’ve grown older, I’ve grown in clarity that it’s more than just ‘being nice’, but a desire for real peace and understanding between people.  Call it efficient patience.  Something like that.  Maybe that’ll be a book title someday.</p>
 
-&lt;p&gt;Half-way through my MBA I also discovered User Experience Design or UX Design.  And it appealed to so much of who I am that I had to bring those skills to this craft.  And so I’m learning and growing and hope you’ll walk with me on this journey.&lt;/p&gt;
+<p>Half-way through my MBA I also discovered User Experience Design or UX Design.  And it appealed to so much of who I am that I had to bring those skills to this craft.  And so I’m learning and growing and hope you’ll walk with me on this journey.</p>
 
-&lt;p&gt;Until next time,&lt;/p&gt;
+<p>Until next time,</p>
 
-&lt;p&gt;Peace&lt;/p&gt;</content><author><name>Jason M. James</name></author><category term="personal" /><summary type="html"></summary></entry></feed>
+<p>Peace</p>]]></content><author><name>Jason M. James</name></author><category term="personal" /><summary type="html"><![CDATA[]]></summary></entry></feed>

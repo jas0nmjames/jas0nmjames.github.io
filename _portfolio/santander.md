@@ -24,8 +24,33 @@ I'm part of a small, but growing design team supporting the larger digital trans
 - Sandi, the Virtual Assistant: Entry point UI design for mobile
 - Report Your Card Lost or Stolen: UX/UI design for web
 - Dispute Tracking: research and UX/UI design for web and mobile
+- Transaction Enrichment: research, collaboration, and UX/UI design for web and mobile.
 
 I'll provide more details as each project is released to production.
+
+<!-- 
+
+### Finding UX Debt & Navigating Across the Organization
+
+#### Bottom Sheet Component
+
+- Android, iOS Touch ID & iOS Face ID
+- Creating a Base Component
+- Thinking through box models and various layouts in Figma to help define requirements documentation.
+
+-->
+
+### Transaction Enrichment: Giving Clarity to Customers about their Transactions
+
+*Feature not yet deployed to production.*
+
+<!-- 
+
+On Component Construction
+- Autolayout: and multiline text fields + packed w/ horizontal autolayout but filled width and autoheight text boxes
+- Box model in your design
+
+-->
 
 ### Dispute Tracking: Research and UX/UI Design for Web and Mobile
 
