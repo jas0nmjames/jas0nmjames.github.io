@@ -9,6 +9,24 @@
   --color-dark: #FFFFFF;
 }
 
+/* Adding CSS for simple light mode / dark mode switch. */
+
+input[type="checkbox"]#toggle:checked ~ * {
+  :root {
+    background-color: var(--bg-color-dark);
+    color: var(--color-dark);
+  }
+  a:link {
+    color: var(--color-dark);
+  }
+  a:visited {
+    color: var(--color-dark);
+  }
+  #icon {
+    color: var(--color-dark)
+  }
+}
+
 :root {
   background-color: var(--bg-color-light);
   color: var(--color-light);

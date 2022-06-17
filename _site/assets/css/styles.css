@@ -2,6 +2,15 @@
 /* Defining light mode and dark mode colors in CSS variables. */
 :root { --bg-color-light: #FFFFFF; --color-light: #000000; --bg-color-dark: #000000; --color-dark: #FFFFFF; }
 
+/* Adding CSS for simple light mode / dark mode switch. */
+input#toggle[type="checkbox"]:checked ~ * :root { background-color: var(--bg-color-dark); color: var(--color-dark); }
+
+input#toggle[type="checkbox"]:checked ~ * a:link { color: var(--color-dark); }
+
+input#toggle[type="checkbox"]:checked ~ * a:visited { color: var(--color-dark); }
+
+input#toggle[type="checkbox"]:checked ~ * #icon { color: var(--color-dark); }
+
 :root { background-color: var(--bg-color-light); color: var(--color-light); font-family: 'Lato', sans-serif; /* I'm using `rem` for font sizes, with `px` sizes noted for each in case a browser doesn't render `em`. (If there are duplicate styles, CSS will apply the style furthest down - closest to the bottom of - the cascading style sheet.)*/ font-size: 10px; font-size: 62.5%; }
 
 /*----------------------- The Body --------------------------*/
