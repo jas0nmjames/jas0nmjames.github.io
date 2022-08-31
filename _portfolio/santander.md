@@ -16,6 +16,36 @@ Day to day, this looks like solely supporting three development teams with UX re
 
 I'm part of a small, but growing design team supporting the larger digital transformation effort for the bank's 2 million + customers in the US.  We collaborate and support each other on a weekly basis and are part of a larger global design consortium for the global bank.
 
+## Day to Day / Day in the Life
+
+### Interface Design in Figma
+
+- Global design system -> US design system
+- Mobile & Web
+- Investigating APIs when appropriate
+
+### UX Debt
+
+### Cross Functional Collaboration
+
+- PMs, POs, Developers, QA, Legal/Compliance, Business Control, CX, Marketing/Branding
+- Product Grooming
+- Cross-cultural: collaborating with Global in Spain & the UK
+
+### Agile in JIRA
+
+- Backlog management
+
+### Conversation Design & Expert Review
+
+### Organizational & Systems/Process
+
+- Copy project
+- HCST
+- Moving towards more and more user flows
+
+See projects below.
+
 <!-- Projects -->
 
 ## Projects
@@ -39,6 +69,33 @@ I'll provide more details as each project is released to production.
 - Thinking through box models and various layouts in Figma to help define requirements documentation.
 
 -->
+
+### Performing an Initial Accessibility Audit of the Virtual Assistant
+
+*Coming Soon*
+
+- High Level Remediation Plan
+- Sharing manual testing best practices with the QA team after initial automated testing (with axe DevTools) missed key accessibility violations (innaccessible buttons were divs)
+- Communicating virtual assistant architecture to business stakeholders which allowed better clarity for discussing accessibility violation impacts.  Creating a high level user journey to show how accessibility impacts the current experience of the Virtual Assistant.
+<!-- Insert sanitized architecture model here -->
+- Performing a detailed manual accessibility review using WCAG guidelines as success criteria
+- Performing detailed manual accessibility reviews using browser developer tools
+- Automated accessibility reviews with free tools: WAVE chrome plugin, axe DevTools
+- Communicating accessibility basics
+  - "Design/UI issues", "Functional/code issues", "Content issues"
+  - New EU requirements to bolster Accessibility important with our European partners.
+  - Various accessibility resources and basic principles
+
+### Creating an Accessibility Dashboard with Open Source Tools
+
+*Coming soon.*
+
+<!-- Insert link to post about pa11y -->
+
+### Copy Organization Project
+
+- Utilizing confluence macros and page labels to create a repository with the tools available
+- Defining the intake process
 
 ### Transaction Enrichment: Giving Clarity to Customers about their Transactions
 

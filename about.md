@@ -18,11 +18,23 @@ Head to [jasonmjam.es](https://jasonmjam.es/) for the latest grown-up version of
 
 I'm a tinkering designer and observer of systems.
 
+**I come to UX** with a wide interest in design, business and tech/engineering.  I was a history major in college, but taught computer classes in the summer.  I was a commercial construction manager for five years and earned an MBA at night.  UX helps me stay curious and build things.
+
 I'm a designer because I want to be at the center of people, processes and beauty.  I'm in tech because of its outsized influence on society.  I'm in for-profit spaces because C.R.E.A.M. ("Cash rules everything around me.")
+
+Born and raised in Virginia, my wife and I just celebrated ~~seven~~ eight years of marriage and live in South Florida with our two sons.
 
 I prioritize spending time with my family in beloved spaces.
 
+<!--
+Most recently I designed, developed and curated a fintech startup's chatbot.  Before that, I was the lead designer & PM for a small agency with work including redesign of a Fortune 500's global trading platform.
+-->
+
 Currently, I’m a Senior User Experience Designer at Santander Bank, leading conversation design of our virtual assistant 'Sandi' for the US team and UX design for the self-service value stream on web and mobile.
+
+I am made to build belonging and community, even in the middle of - or especially in the middle of - complex technical endeavors.  My *sixth man* skill is bringing systems thinking and organization to information and processes.
+
+I love music and played in my university's drumline.  In my freetime you can find me cooking, training for triathlons or exploring nature by kayak.
 
 ## I Get Excited About
 
