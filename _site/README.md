@@ -68,6 +68,7 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 
 ## Project To Do's
 
+- [ ] Implement [Git Large File Storage](https://git-lfs.github.com).  From what I can tell, it won't work with Github Pages sites (like this one).  *2022-07-30*
 - [x] Copy markdown text to Wordpress in full.  
 - [ ] Rename markdown assets to be more descriptive.  Ensure originals are used where appropriate.
 - [ ] Ensure accessibility for assets is robust.
@@ -78,7 +79,7 @@ I'd like to learn to design with React, but I want a stepping stone to truly und
 - [x] When served locally, the order of portfolio pieces are newest to oldest.  When built on Github, they're seemingly oldest to newest. *(Added 2021-02-11)*
   - Fixed with `date` front matter.
 
-## Overhaul To Do's - Spring/Summer 2021
+### Overhaul To Do's - Spring/Summer 2021
 
 - [ ] Site IA & Website Theme
   - [ ] T shaped designer

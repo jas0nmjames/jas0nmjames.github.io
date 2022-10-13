@@ -1,0 +1,198 @@
+I"D$<p>Currently, I’m a (Contract) Senior User Experience Designer at <a href="https://www.santanderbank.com/">Santander Bank</a>, leading conversation design of our virtual assistant “Sandi” for the US team and UX design for the self-service value stream on web and mobile.</p>
+
+<p>Day to day, this looks like solely supporting three development teams with UX research, UX/UI design, and conversation design for web, iOS and Android.</p>
+
+<p>I’m part of a small, but growing design team supporting the larger digital transformation effort for the bank’s 2 million + customers in the US.  We collaborate and support each other on a weekly basis and are part of a larger global design consortium for the global bank.</p>
+
+<h2 id="day-to-day--day-in-the-life">Day to Day / Day in the Life</h2>
+
+<h3 id="interface-design-in-figma">Interface Design in Figma</h3>
+
+<ul>
+  <li>Global design system -&gt; US design system</li>
+  <li>Mobile &amp; Web</li>
+  <li>Investigating APIs when appropriate</li>
+</ul>
+
+<h3 id="ux-debt">UX Debt</h3>
+
+<h3 id="cross-functional-collaboration">Cross Functional Collaboration</h3>
+
+<ul>
+  <li>PMs, POs, Developers, QA, Legal/Compliance, Business Control, CX, Marketing/Branding</li>
+  <li>Product Grooming</li>
+  <li>Cross-cultural: collaborating with Global in Spain &amp; the UK</li>
+</ul>
+
+<h3 id="agile-in-jira">Agile in JIRA</h3>
+
+<ul>
+  <li>Backlog management</li>
+</ul>
+
+<h3 id="conversation-design--expert-review">Conversation Design &amp; Expert Review</h3>
+
+<h3 id="organizational--systemsprocess">Organizational &amp; Systems/Process</h3>
+
+<ul>
+  <li>Copy project</li>
+  <li>HCST</li>
+  <li>Moving towards more and more user flows</li>
+</ul>
+
+<p>See projects below.</p>
+
+<!-- Projects -->
+
+<h2 id="projects">Projects</h2>
+
+<ul>
+  <li>Sandi, the Virtual Assistant: research, conversation design maintenance, improvements and additions</li>
+  <li>Sandi, the Virtual Assistant: Entry point UI design for mobile</li>
+  <li>Report Your Card Lost or Stolen: UX/UI design for web</li>
+  <li>Dispute Tracking: research and UX/UI design for web and mobile</li>
+  <li>Transaction Enrichment: research, collaboration, and UX/UI design for web and mobile.</li>
+</ul>
+
+<p>I’ll provide more details as each project is released to production.</p>
+
+<!-- 
+
+### Finding UX Debt & Navigating Across the Organization
+
+#### Bottom Sheet Component
+
+- Android, iOS Touch ID & iOS Face ID
+- Creating a Base Component
+- Thinking through box models and various layouts in Figma to help define requirements documentation.
+
+-->
+
+<h3 id="performing-an-initial-accessibility-audit-of-the-virtual-assistant">Performing an Initial Accessibility Audit of the Virtual Assistant</h3>
+
+<p><em>Coming Soon</em></p>
+
+<ul>
+  <li>High Level Remediation Plan</li>
+  <li>Sharing manual testing best practices with the QA team after initial automated testing (with axe DevTools) missed key accessibility violations (innaccessible buttons were divs)</li>
+  <li>Communicating virtual assistant architecture to business stakeholders which allowed better clarity for discussing accessibility violation impacts.  Creating a high level user journey to show how accessibility impacts the current experience of the Virtual Assistant.
+<!-- Insert sanitized architecture model here --></li>
+  <li>Performing a detailed manual accessibility review using WCAG guidelines as success criteria</li>
+  <li>Performing detailed manual accessibility reviews using browser developer tools</li>
+  <li>Automated accessibility reviews with free tools: WAVE chrome plugin, axe DevTools</li>
+  <li>Communicating accessibility basics
+    <ul>
+      <li>“Design/UI issues”, “Functional/code issues”, “Content issues”</li>
+      <li>New EU requirements to bolster Accessibility important with our European partners.</li>
+      <li>Various accessibility resources and basic principles</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="creating-an-accessibility-dashboard-with-open-source-tools">Creating an Accessibility Dashboard with Open Source Tools</h3>
+
+<p><em>Coming soon.</em></p>
+
+<!-- Insert link to post about pa11y -->
+
+<h3 id="copy-organization-project">Copy Organization Project</h3>
+
+<ul>
+  <li>Utilizing confluence macros and page labels to create a repository with the tools available</li>
+  <li>Defining the intake process</li>
+</ul>
+
+<h3 id="transaction-enrichment-giving-clarity-to-customers-about-their-transactions">Transaction Enrichment: Giving Clarity to Customers about their Transactions</h3>
+
+<p><em>Feature not yet deployed to production.</em></p>
+
+<!-- 
+
+On Component Construction
+- Autolayout: and multiline text fields + packed w/ horizontal autolayout but filled width and autoheight text boxes
+- Box model in your design
+
+-->
+
+<h3 id="dispute-tracking-research-and-uxui-design-for-web-and-mobile">Dispute Tracking: Research and UX/UI Design for Web and Mobile</h3>
+
+<p><em>Feature not yet deployed to production.</em></p>
+
+<p>I’m particularly excited to show you how I adapted components in the existing global design system for the US design context and specific project needs.</p>
+
+<p>Stay tuned!</p>
+
+<h3 id="report-your-card-lost-or-stolen-uxui-design-for-web">Report Your Card Lost or Stolen: UX/UI Design for Web</h3>
+
+<p><em>Feature not yet deployed to production.</em></p>
+
+<p>Coming soon!</p>
+
+<h3 id="virtual-assistant-entry-point-ui-design-for-mobile">Virtual Assistant Entry Point UI Design for Mobile</h3>
+
+<p>The screenshots below are taken from the production iOS application.</p>
+
+<p>A key win for the user experience in this project was <em>not</em> placing an entry point for Sandi, our Virtual Assistant, on the login screen, which was already filled with a call-to-action and several secondary buttons.</p>
+
+<p>With the support of the Head of UX and using supporting secondary market research and my analysis of user utterances in Sandi (inputted user text), I worked with developers, the product owner, and the product manager, to not add an unneeded entry point.</p>
+
+<p>Sometimes the biggest UX outcomes are about what <em>doesn’t</em> show up in the UI.</p>
+
+<h4 id="login">Login</h4>
+
+<p><img src="/IMG_8551.png" alt="screenshot, login" /> <!-- viewable in github deployed build, image in folder inside of _portfolio with same name as markdown portfolio page --></p>
+
+<p><img src="IMG_8551.png" alt="screenshot, login" /> <!-- viewable in local jekyll build, image in folder inside of _portfolio with same name as markdown portfolio page --></p>
+
+<p><img src="santander/IMG_8551.png" alt="screenshot, login" /> <!-- viewable directly in markdown --></p>
+
+<!-- End of Projects Section -->
+
+<h4 id="contact-us-overlay">Contact Us, Overlay</h4>
+
+<!-- Displaying images with fallbacks using the object html tag.  Thanks Alberto!  (See https://dev.to/albertodeago88/html-only-image-fallback-19im) -->
+
+<object data="/IMG_8549.png">
+  <img src="IMG_8549.png" />
+  <img src="santander/IMG_8549.png" />
+</object>
+
+<h4 id="contact-us">Contact Us</h4>
+
+<p><img src="/IMG_8550.png" alt="screenshot, contact us" /></p>
+
+<h4 id="account-overview-entry-point">Account Overview Entry Point</h4>
+
+<p><img src="/IMG_8547.png" alt="screenshot, account overview entry point" /></p>
+
+<h4 id="sandi-opened">Sandi Opened</h4>
+
+<p><img src="/IMG_8548.png" alt="screenshot, sandi opened" /></p>
+
+<h3 id="creating-design-system-ui-components-for-sandi">Creating Design System UI Components for Sandi</h3>
+
+<p>With Figma’s Auto Layout, Components and Variants, I created UI components for our design system that are adaptable for a variety of design needs:</p>
+
+<ul>
+  <li>Components that automatically resize horizontally to accommodate mocked text</li>
+  <li>Components that automatically resize vertically to accommodate longer strings of mocked text</li>
+  <li>Placing components within variants that have multiple properties to accommodate theming.  For example, the same component might be vertically growing and light themed, with a variant that is horizontally growing and dark themed.</li>
+</ul>
+
+<p>Feel free to explore below how these components are put together.</p>
+
+<p><em>I’m hosting the components below in a personal Figma instance for security:</em></p>
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fz7NkGZe84Mo55xnN6pUdVn%2FSantander-Portfolio-Pieces%3Fnode-id%3D2%253A24" allowfullscreen=""></iframe>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li>Santander: <a href="https://www.santander.com/en/stories/santander-design-manifesto-the-nine-principles-that-guide-our-designers-work">Santander Design Manifesto: the nine principles that guide our designers’ work</a></li>
+  <li>YouTube: <a href="https://www.youtube.com/watch?v=Fig7C4tWrK8">DESIGN MANIFESTO, Santander Bank</a></li>
+  <li>Santander: <a href="https://www.santander.com/en/stories/santander-releases-documentation-about-new-design-system-flame">Santander releases documentation about new design system Flame</a></li>
+  <li>YouTube: <a href="https://www.youtube.com/watch?v=GHTAIz4Ie14">FLAME: Santander’s NEW DESIGN SYSTEM, Santander Bank</a></li>
+  <li>Santander: <a href="https://www.santander.com/en/about-us/our-brand">Our Brand</a></li>
+</ul>
+
+:ET
