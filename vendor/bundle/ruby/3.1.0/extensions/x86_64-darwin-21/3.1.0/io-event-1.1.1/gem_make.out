@@ -1,0 +1,31 @@
+current directory: /Users/jasonjames/repositories/jas0nmjames/jas0nmjames.github.io/vendor/bundle/ruby/3.1.0/gems/io-event-1.1.1/ext
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0 -r ./siteconf20221017-7031-vmj7pu.rb extconf.rb
+checking for rb_ext_ractor_safe()... yes
+checking for &rb_fiber_transfer()... yes
+checking for -luring... no
+checking for sys/epoll.h... no
+checking for sys/event.h... yes
+checking for sys/eventfd.h... no
+checking for rb_io_descriptor()... yes
+checking for &rb_process_status_wait()... no
+checking for rb_fiber_current()... yes
+checking for &rb_fiber_raise()... yes
+checking for ruby/io/buffer.h... yes
+creating extconf.h
+creating Makefile
+
+current directory: /Users/jasonjames/repositories/jas0nmjames/jas0nmjames.github.io/vendor/bundle/ruby/3.1.0/gems/io-event-1.1.1/ext
+make DESTDIR\= clean
+
+current directory: /Users/jasonjames/repositories/jas0nmjames/jas0nmjames.github.io/vendor/bundle/ruby/3.1.0/gems/io-event-1.1.1/ext
+make DESTDIR\=
+compiling ./io/event/event.c
+compiling ./io/event/selector/selector.c
+compiling ./io/event/selector/kqueue.c
+compiling ./io/event/interrupt.c
+linking shared-object IO_Event.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/jasonjames/repositories/jas0nmjames/jas0nmjames.github.io/vendor/bundle/ruby/3.1.0/gems/io-event-1.1.1/ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 IO_Event.bundle ./.gem.20221017-7031-fcjc83

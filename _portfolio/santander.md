@@ -24,7 +24,7 @@ I'm part of a small, but growing design team supporting the larger digital trans
 - Mobile & Web
 - Investigating APIs when appropriate
 
-### UX Debt
+### UX Expert Reviews & UX Debt Creation
 
 ### Cross Functional Collaboration
 
