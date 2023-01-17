@@ -1,0 +1,290 @@
+have_func: checking for rb_ext_ractor_safe()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_ext_ractor_safe; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for &rb_fiber_transfer()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { const volatile void *volatile p; p = (const volatile void *)&rb_fiber_transfer; return !p; }
+/* end */
+
+--------------------
+
+have_library: checking for -luring... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2 -luring  -lpthread  "
+ld: library not found for -luring
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: 
+15: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for sys/epoll.h... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99   -c conftest.c"
+conftest.c:3:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sys/epoll.h>
+/* end */
+
+--------------------
+
+have_const: checking for EV_UDATA_SPECIFIC in sys/event.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sys/event.h>
+4: 
+5: /*top*/
+6: typedef int conftest_type;
+7: conftest_type conftestval = (int)EV_UDATA_SPECIFIC;
+/* end */
+
+--------------------
+
+have_header: checking for sys/event.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sys/event.h>
+/* end */
+
+--------------------
+
+have_header: checking for sys/eventfd.h... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99   -c conftest.c"
+conftest.c:3:10: fatal error: 'sys/eventfd.h' file not found
+#include <sys/eventfd.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sys/eventfd.h>
+/* end */
+
+--------------------
+
+have_func: checking for rb_io_descriptor()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+conftest.c:14:57: error: use of undeclared identifier 'rb_io_descriptor'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_io_descriptor; return !p; }
+                                                        ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_io_descriptor; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void rb_io_descriptor();
+15: int t(void) { rb_io_descriptor(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for &rb_process_status_wait()... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+conftest.c:14:76: error: use of undeclared identifier 'rb_process_status_wait'
+int t(void) { const volatile void *volatile p; p = (const volatile void *)&rb_process_status_wait; return !p; }
+                                                                           ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { const volatile void *volatile p; p = (const volatile void *)&rb_process_status_wait; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_fiber_current()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_fiber_current; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for &rb_fiber_raise()... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -o conftest -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99 conftest.c  -L. -L/usr/local/Cellar/ruby/3.2.0/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -L. -fstack-protector-strong -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib     -lruby.3.2  -lpthread  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { const volatile void *volatile p; p = (const volatile void *)&rb_fiber_raise; return !p; }
+/* end */
+
+--------------------
+
+have_header: checking for ruby/io/buffer.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/usr/local/Cellar/ruby/3.2.0/lib "clang -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/x86_64-darwin21 -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0/ruby/backward -I/usr/local/Cellar/ruby/3.2.0/include/ruby-3.2.0 -I. -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe -Wall -std=c99   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby/io/buffer.h>
+/* end */
+
+--------------------
+
+extconf.h is:
+/* begin */
+ 1: #ifndef EXTCONF_H
+ 2: #define EXTCONF_H
+ 3: #define HAVE_RB_EXT_RACTOR_SAFE 1
+ 4: #define HAVE__RB_FIBER_TRANSFER 1
+ 5: #define HAVE_CONST_EV_UDATA_SPECIFIC 1
+ 6: #define HAVE_SYS_EVENT_H 1
+ 7: #define HAVE_RB_IO_DESCRIPTOR 1
+ 8: #define HAVE_RB_FIBER_CURRENT 1
+ 9: #define HAVE__RB_FIBER_RAISE 1
+10: #define HAVE_RUBY_IO_BUFFER_H 1
+11: #endif
+/* end */
+
