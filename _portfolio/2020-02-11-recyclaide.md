@@ -218,7 +218,7 @@ Once completed, you can interact with the chat bot prototype.  Here's the result
 
 <!-- I'm including html img tags here to control the height for this image. -->
 
-<img src="2020-02-11-recyclaide/recyclaide-chat-bot.gif" alt="GIF of Prototype" style="height:50vw;width:auto;">
+<img src="2020-02-11-recyclaide/recyclaide-chat-bot.gif" alt="GIF of Prototype">
 
 In addition to the GIF above, you can [download the MOV here](2020-02-11-recyclaide/recyclaide-chat-bot.mov).
 
@@ -381,7 +381,7 @@ The resulting prototype is the resulting design as of February 11, 2020.
 
 <!-- I'm including html img tags here to control the height for this image. -->
 
-<img src="2020-02-11-recyclaide/recyclaide-v4-24fps.gif" alt="GIF of Prototype" style="height:50vw;width:auto;">
+<img src="2020-02-11-recyclaide/recyclaide-v4-24fps.gif" alt="GIF of Prototype">
 
 In addition to the GIF above, you can [download the MOV here](2020-02-11-recyclaide/recyclaide-v4.mov).
 

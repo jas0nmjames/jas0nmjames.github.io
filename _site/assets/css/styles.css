@@ -1,126 +1,343 @@
 /*----------------------- The Root --------------------------*/
 /* Defining light mode and dark mode colors in CSS variables. */
-:root { --bg-color-light: #FFFFFF; --color-light: #000000; --bg-color-dark: #000000; --color-dark: #FFFFFF; }
+:root {
+  --bg-color-light: #FFFFFF;
+  --color-light: #000000;
+  --bg-color-dark: #000000;
+  --color-dark: #FFFFFF;
+}
 
 /* Adding CSS for simple light mode / dark mode switch. */
-input#toggle[type="checkbox"]:checked ~ * :root { background-color: var(--bg-color-dark); color: var(--color-dark); }
+input[type=checkbox]#toggle:checked ~ * :root {
+  background-color: var(--bg-color-dark);
+  color: var(--color-dark);
+}
+input[type=checkbox]#toggle:checked ~ * a:link {
+  color: var(--color-dark);
+}
+input[type=checkbox]#toggle:checked ~ * a:visited {
+  color: var(--color-dark);
+}
+input[type=checkbox]#toggle:checked ~ * #icon {
+  color: var(--color-dark);
+}
 
-input#toggle[type="checkbox"]:checked ~ * a:link { color: var(--color-dark); }
-
-input#toggle[type="checkbox"]:checked ~ * a:visited { color: var(--color-dark); }
-
-input#toggle[type="checkbox"]:checked ~ * #icon { color: var(--color-dark); }
-
-:root { background-color: var(--bg-color-light); color: var(--color-light); font-family: 'Lato', sans-serif; /* I'm using `rem` for font sizes, with `px` sizes noted for each in case a browser doesn't render `em`. (If there are duplicate styles, CSS will apply the style furthest down - closest to the bottom of - the cascading style sheet.)*/ font-size: 10px; font-size: 62.5%; }
+:root {
+  background-color: var(--bg-color-light);
+  color: var(--color-light);
+  font-family: "Lato", sans-serif;
+  /* I'm using `rem` for font sizes, with `px` sizes noted for each in case a browser doesn't render `em`. (If there are duplicate styles, CSS will apply the style furthest down - closest to the bottom of - the cascading style sheet.)*/
+  font-size: 10px;
+  font-size: 62.5%;
+}
 
 /*----------------------- The Body --------------------------*/
 /* The body is the container for the CSS grid. */
-body { display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: auto; grid-column-gap: 16px; grid-column-gap: 1em; grid-row-gap: 16px; grid-row-gap: 1em; padding: 16px; padding: 1em; font-size: 16px; font-size: 1.6rem; line-height: 1.5; }
+body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  grid-column-gap: 1em;
+  grid-row-gap: 16px;
+  grid-row-gap: 1em;
+  padding: 16px;
+  padding: 1em;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
 
 /*----------------------- CSS for HTML elements --------------------------*/
 /* I prefer using html elements as the containers inside of the grid, rather than a bunch of divs with classes, as the html elements are more descriptive without classes or ids. */
-header { grid-column: 1 / 12; grid-row: 1; }
+header {
+  grid-column: 1/12;
+  grid-row: 1;
+}
 
-nav { grid-column: 2 / 12; grid-row: 2; display: grid; grid-template-rows: auto; }
+nav {
+  grid-column: 2/12;
+  grid-row: 2;
+  display: grid;
+  grid-template-rows: auto;
+}
 
-#nav-nav { grid-row: 1; }
+#nav-nav {
+  grid-row: 1;
+}
 
-#nav-breadcrumb { grid-row: 2; }
+#nav-breadcrumb {
+  grid-row: 2;
+}
 
-main { grid-column: 1 / 12; grid-row: 3; display: grid; grid-template-rows: auto; grid-row-gap: 16px; grid-row-gap: 1em; }
+main {
+  grid-column: 1/12;
+  grid-row: 3;
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 16px;
+  grid-row-gap: 1em;
+}
 
-article { display: grid; grid-template-rows: auto; grid-template-columns: 8fr 4fr; align-items: center; }
+article {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 8fr 4fr;
+  align-items: center;
+}
 
-#article-excerpt-title { grid-row: 1; grid-column: 1; }
+#article-excerpt-title {
+  grid-row: 1;
+  grid-column: 1;
+}
 
-#article-title { grid-row: 1; grid-column: 1 / 3; }
+#article-title {
+  grid-row: 1;
+  grid-column: 1/3;
+}
 
-#article-date { grid-row: 1; grid-column: 2; text-align: right; }
+#article-date {
+  grid-row: 1;
+  grid-column: 2;
+  text-align: right;
+}
 
-#article-content { grid-row: 3; grid-column: 1 / 3; }
+#article-content {
+  grid-row: 3;
+  grid-column: 1/3;
+}
 
-#article-summary { grid-row: 3; grid-column: 1 / 3; }
+#article-summary {
+  grid-row: 3;
+  grid-column: 1/3;
+}
 
 /* I'm not satisfied with the 'article-image' solution below, but it get's me close for now. */
-#article-image { grid-row: 4; width: 25rem; height: 25rem; }
+#article-image {
+  grid-row: 4;
+  grid-column: 1/3;
+  /*
+  width: 100%;
+  height: auto;
+  */
+}
 
-#article-tags { grid-row: 2; grid-column: 1 / 3; }
+#article-tags {
+  grid-row: 2;
+  grid-column: 1/3;
+}
 
-footer { grid-column: 1 / 12; grid-row: 5; display: grid; grid-template-rows: auto; grid-row-gap: 16px; grid-row-gap: 1em; }
+footer {
+  grid-column: 1/12;
+  grid-row: 5;
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 16px;
+  grid-row-gap: 1em;
+}
 
-#social { grid-row: 1; }
+#social {
+  grid-row: 1;
+}
 
-#copyright { grid-row: 2; }
+#copyright {
+  grid-row: 2;
+}
 
-footer #icon { padding-right: 0.5em; }
+footer #icon {
+  padding-right: 0.5em;
+}
 
 /*----------------------- Responsive Images --------------------------*/
 /* Images embedded in markdown posts directly - such as ![img](path) - were not being scaled in anyway.
 With the tag `img` I can control all images across the site.
 In this case, setting image widths to 100% not only keeps them within the viewport across screen sizes, but within the parent css grid container(s) as applicable.  */
-img { width: 100%; height: auto; }
+img {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 /* I still had a problem with screenshots being too tall. */
-#article-image img { width: auto; max-height: 100%; /*max-width: 100%;*/ }
-
+/* Update February 2023.  I saw that the issue above was actually caused by an error in how I set the CSS Grid for the #article-image container (div).  I added the width to span grid columns 1 / 3.  Solved many issues. */
+/*
+#article-image img {
+  width: auto;
+  max-height: 100%;
+}
+*/
 /*----------------------- Typography classes --------------------------*/
 /* I use classes to apply styles across elements.  This way, html elements can be used to arrange content across the CSS grid and I can control styling separately. */
-.h1 { font-family: 'Patua One', cursive; font-size: 32px; font-size: 3.2rem; }
+.h1 {
+  font-family: "Patua One", cursive;
+  font-size: 32px;
+  font-size: 3.2rem;
+}
 
-.h2 { font-family: 'Patua One', cursive; font-size: 24px; font-size: 2.4rem; }
+.h2 {
+  font-family: "Patua One", cursive;
+  font-size: 24px;
+  font-size: 2.4rem;
+}
 
-.h3 { font-family: 'Patua One', cursive; font-size: 20px; font-size: 2rem; }
+.h3 {
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  font-size: 2rem;
+}
 
-.small { font-family: 'Lato', sans-serif; font-size: 14px; font-size: 1.4rem; }
+.small {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
 
-span { opacity: 0.0; }
+span {
+  opacity: 0;
+}
 
 /*----------------------- Customizing Links --------------------------*/
-a:link { color: var(--color-light); text-decoration: none; }
+a:link {
+  color: var(--color-light);
+  text-decoration: none;
+}
 
-a:hover { text-decoration: underline; }
+a:hover {
+  text-decoration: underline;
+}
 
-a:visited { color: var(--color-light); }
+a:visited {
+  color: var(--color-light);
+}
 
-a:active { background-image: linear-gradient(0deg, rgba(244, 208, 111, 0.5) 50%, transparent 50%); }
+a:active {
+  background-image: linear-gradient(0deg, rgba(244, 208, 111, 0.5) 50%, transparent 50%);
+}
 
-.current { background-image: linear-gradient(0deg, rgba(244, 208, 111, 0.5) 50%, transparent 50%); }
+.current {
+  background-image: linear-gradient(0deg, rgba(244, 208, 111, 0.5) 50%, transparent 50%);
+}
 
-main a:link { text-decoration: underline; }
+main a:link {
+  text-decoration: underline;
+}
 
-#tagline a:link { text-decoration: none; }
+#tagline a:link {
+  text-decoration: none;
+}
 
-main a:hover { text-decoration: none; }
+main a:hover {
+  text-decoration: none;
+}
 
-#tagline a:hover { text-decoration: underline; }
+#tagline a:hover {
+  text-decoration: underline;
+}
 
 /*----------------------- Font awesome icons --------------------------*/
-.fa-strava { color: #fc4c02; }
+.fa-strava {
+  color: #fc4c02;
+}
 
-.fa-linkedin { color: #0077b5; }
+.fa-linkedin {
+  color: #0077b5;
+}
 
-.fa-medium { color: #12100e; }
+.fa-medium {
+  color: #12100e;
+}
 
-.fa-twitter { color: #1da1f2; }
+.fa-twitter {
+  color: #1da1f2;
+}
 
-.fa-github { color: #24292e; }
+.fa-github {
+  color: #24292e;
+}
 
-.fa-behance { color: #1769ff; }
+.fa-behance {
+  color: #1769ff;
+}
 
-.fa-dribbble { color: #ea4c89; }
+.fa-dribbble {
+  color: #ea4c89;
+}
 
 /* Making all icons black. */
-#icon { font-size: 20px; font-size: 1.25rem; color: var(--color-light); }
+#icon {
+  font-size: 20px;
+  font-size: 1.25rem;
+  color: var(--color-light);
+}
 
 /*----------------------- Responsive typography via media queries. --------------------------*/
 /* I'm designing and coding with a mobile-first approach, which means the baseline styles are for mobile.  (i.e. I scale up for desktop rather than scale down for mobile.)  I wanted to scale certain text a bit larger.  For example, on the desktop, I wanted the body text to be 2x larger than on mobile, but I wanted the tagline to be 3x as large.  Because I'm using em font sizes, changing the body font-size will change font sizes everywhere.  Additional font size changes like "h1" and "icon" below are to scale text differently than the body.*/
 /* I'm still having issues with *some* high resolution (high pixel density) mobile displays. */
-@media screen and (min-width: 768px) { :root { font-size: 0.85rem; } /* body { font-size: 2rem; } */ #tagline { font-size: 3rem; } header, main, footer { grid-column: 2 / 11; } #tagline { grid-column: 2 / 12; } nav { grid-column: 3 / 12; } }
-
-@media screen and (min-width: 1440px) { :root { font-size: .85rem; } #tagline { font-size: 3rem; } header, main, footer { grid-column: 2 / 9; } #tagline { grid-column: 2 / 12; } nav { grid-column: 3 / 12; } }
-
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 0.85rem;
+  }
+  /*
+    body {
+      font-size: 2rem;
+    }
+  */
+  #tagline {
+    font-size: 3rem;
+  }
+  header, main, footer {
+    grid-column: 2/11;
+  }
+  #tagline {
+    grid-column: 2/12;
+  }
+  nav {
+    grid-column: 3/12;
+  }
+}
+@media screen and (min-width: 1440px) {
+  :root {
+    font-size: 0.85rem;
+  }
+  #tagline {
+    font-size: 3rem;
+  }
+  header, main, footer {
+    grid-column: 2/9;
+  }
+  #tagline {
+    grid-column: 2/12;
+  }
+  nav {
+    grid-column: 3/12;
+  }
+}
 /*----------------------- Dark Mode via media queries. --------------------------*/
 /* Now adding a simple dark mode (with no toggle) via media query. */
-@media (prefers-color-scheme: dark) { :root { background-color: var(--bg-color-dark); color: var(--color-dark); } a:link { color: var(--color-dark); } a:visited { color: var(--color-dark); } #icon { color: var(--color-dark); } /* I found a complementary blue high color through coolors.co to my yellow highlight color in light mode. */ /* I eye-balled the color via VS Code color picker to make it a bit lighter. */ a:active { background-image: linear-gradient(0deg, rgba(111, 173, 227, 0.5) 50%, transparent 50%); } .current { background-image: linear-gradient(0deg, rgba(111, 173, 227, 0.5) 50%, transparent 50%); } }
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: var(--bg-color-dark);
+    color: var(--color-dark);
+  }
+  a:link {
+    color: var(--color-dark);
+  }
+  a:visited {
+    color: var(--color-dark);
+  }
+  #icon {
+    color: var(--color-dark);
+  }
+  /* I found a complementary blue high color through coolors.co to my yellow highlight color in light mode. */
+  /* I eye-balled the color via VS Code color picker to make it a bit lighter. */
+  a:active {
+    background-image: linear-gradient(0deg, rgba(111, 173, 227, 0.5) 50%, transparent 50%);
+  }
+  .current {
+    background-image: linear-gradient(0deg, rgba(111, 173, 227, 0.5) 50%, transparent 50%);
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
