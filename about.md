@@ -36,6 +36,24 @@ I am made to build belonging and community, even in the middle of - or especiall
 
 I love music and played in my university's drumline.  In my freetime you can find me cooking, training for triathlons or exploring nature by kayak.
 
+<!-- 
+👋 Hi! I’m a designer of conversations (CxD), user experiences (UX) and services (SD). 
+
+I made my way to design after asking “How?” and “Why?” of society (BA, History) and business (MBA, Sustainability).
+
+User-centered design (UCD) is an opportunity to solve problems for people, especially in the industries, institutions and systems that shape our lives, like banking and tech.
+
+I find joy in tinkering.  I learn best when building from scratch, which often yields better questions and deeper understanding.
+
+I find joy in community.  I believe that *how* you build with others is as important as the end result.  My best lessons about pragmatic collaboration come from my previous life as a commercial construction manager.  Actually, no.  Probably my marriage.  Yeah.  Definately my marriage.
+
+I prioritize spending time and energy with my brilliant wife and two boys.  In the time left over, you can find me on my bicycle or kayaking on South Florida’s waterways.
+
+I’m currently a Sr. User Experience Designer at Santander Bank in Miami.  
+
+- Jason James, February 2023
+-->
+
 ## I Get Excited About
 
 - Systems Design
@@ -64,7 +82,7 @@ Robert F. Kennedy
 
 > The important thing is not to stop questioning. Curiosity has its own reason for existence. One cannot help but be in awe when he contemplates the mysteries of eternity, of life, of the marvelous structure of reality. It is enough if one tries merely to comprehend a little of this mystery each day.
 >
-> Never lose a holy curiosity. Try not to become a man of success but rather try to become a man of value. He is considered successful in our day who gets more out of life than he puts in. But a man of value will give more than he receives.
+> Never lose a holy curiosity. **Try not to become a man of success but rather try to become a man of value.** He is considered successful in our day who gets more out of life than he puts in. But a man of value will give more than he receives.
 
 Albert Einstein
 
@@ -86,3 +104,7 @@ Mark 9:23-24 ESV
 > Buy the ticket.  Take the ride.
 
 Hunter Thompson
+
+> Don’t ask yourself what the world needs. Ask yourself what makes you come alive, and go do that, because what the world needs is people who have come alive.
+
+[Howard Thurman](https://www.bu.edu/thurman/about-us/who-is-howard-thurman/)
