@@ -15,6 +15,20 @@ Personal and Portfolio Site written in HTML, CSS, Markdown and Ruby (mostly Liqu
 
 -->
 
+## How to build this site locally
+
+This is a Jekyll site. To get started, see jekyll's [quickstart docs](https://jekyllrb.com/docs/).
+
+
+To get going and build the site locally:
+  - `gem install bundler`, then
+  - `bundle install`, then
+  - `bundle exec jekyll build`
+
+To serve the site locally
+`bundle exec jekyll serve`
+
+
 ## Takeaways
 
 As I write this in February of 2021 after wrestling with Jekyll for probably 12 hours over the course of a month, here's what I learned:
