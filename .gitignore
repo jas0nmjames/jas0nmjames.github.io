@@ -1,5 +1,8 @@
 # untracked files
 
+# Claude Code tooling
+.claude/
+
 # MacOS Desktop Services Store
 .DS_Store
 
